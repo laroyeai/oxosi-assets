@@ -1,0 +1,72 @@
+{
+  "incident_id": "MALI-2023-TIMISSA-TOWN-U495959",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    13.822136,
+    -4.207056
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    -4.216307,
+    13.813092,
+    -4.197805,
+    13.83118
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2023-07-16",
+      "cloud": 36.14,
+      "file": "2023-07-16.jpg",
+      "layers": {
+        "nir": "2023-07-16_nir.jpg",
+        "swir": "2023-07-16_swir.jpg",
+        "ndvi": "2023-07-16_ndvi.jpg",
+        "nbr": "2023-07-16_nbr.jpg"
+      }
+    },
+    {
+      "date": "2023-07-21",
+      "cloud": 5.69,
+      "file": "2023-07-21.jpg",
+      "layers": {
+        "nir": "2023-07-21_nir.jpg",
+        "swir": "2023-07-21_swir.jpg",
+        "ndvi": "2023-07-21_ndvi.jpg",
+        "nbr": "2023-07-21_nbr.jpg"
+      }
+    },
+    {
+      "date": "2023-07-26",
+      "cloud": 0.98,
+      "file": "2023-07-26.jpg",
+      "layers": {
+        "nir": "2023-07-26_nir.jpg",
+        "swir": "2023-07-26_swir.jpg",
+        "ndvi": "2023-07-26_ndvi.jpg",
+        "nbr": "2023-07-26_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2023-06-21",
+      "2023-07-20"
+    ],
+    "post": [
+      "2023-07-22",
+      "2023-08-20"
+    ]
+  }
+}

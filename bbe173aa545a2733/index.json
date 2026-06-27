@@ -1,0 +1,80 @@
+{
+  "incident_id": "NIGER-2021-DAREY-DEY-TINNI-VILL-U413899",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    15.130845,
+    2.996078
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    2.986772,
+    15.121801,
+    3.005384,
+    15.139889
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2021-08-11",
+      "cloud": 42.7,
+      "file": "2021-08-11.jpg",
+      "layers": {
+        "nir": "2021-08-11_nir.jpg",
+        "swir": "2021-08-11_swir.jpg",
+        "ndvi": "2021-08-11_ndvi.jpg",
+        "nbr": "2021-08-11_nbr.jpg"
+      }
+    },
+    {
+      "date": "2021-08-16",
+      "cloud": 99.87,
+      "file": "2021-08-16.jpg",
+      "layers": {
+        "nir": "2021-08-16_nir.jpg",
+        "swir": "2021-08-16_swir.jpg",
+        "ndvi": "2021-08-16_ndvi.jpg",
+        "nbr": "2021-08-16_nbr.jpg"
+      }
+    },
+    {
+      "date": "2021-08-21",
+      "cloud": 38.34,
+      "file": "2021-08-21.jpg",
+      "layers": {
+        "nir": "2021-08-21_nir.jpg",
+        "swir": "2021-08-21_swir.jpg",
+        "ndvi": "2021-08-21_ndvi.jpg",
+        "nbr": "2021-08-21_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2021-07-17",
+      "2021-08-15"
+    ],
+    "post": [
+      "2021-08-17",
+      "2021-09-15"
+    ]
+  },
+  "hls_attempted": true,
+  "hls": {
+    "file": "hls.jpg",
+    "date": "2021-08-21",
+    "scene_id": "HLS.S30.T31PDS.2021233T101031.v2.0",
+    "collection": "HLSS30_2.0",
+    "cloud_pct": 21
+  }
+}

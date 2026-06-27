@@ -1,0 +1,72 @@
+{
+  "incident_id": "DR-CON-2022-KISIMA-VILLAGE-U441900",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    0.355515,
+    29.631225
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    29.622242,
+    0.346471,
+    29.640208,
+    0.364559
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2022-06-21",
+      "cloud": 36.720759,
+      "file": "2022-06-21.jpg",
+      "layers": {
+        "nir": "2022-06-21_nir.jpg",
+        "swir": "2022-06-21_swir.jpg",
+        "ndvi": "2022-06-21_ndvi.jpg",
+        "nbr": "2022-06-21_nbr.jpg"
+      }
+    },
+    {
+      "date": "2022-06-26",
+      "cloud": 9.36869,
+      "file": "2022-06-26.jpg",
+      "layers": {
+        "nir": "2022-06-26_nir.jpg",
+        "swir": "2022-06-26_swir.jpg",
+        "ndvi": "2022-06-26_ndvi.jpg",
+        "nbr": "2022-06-26_nbr.jpg"
+      }
+    },
+    {
+      "date": "2022-07-01",
+      "cloud": 28.729028,
+      "file": "2022-07-01.jpg",
+      "layers": {
+        "nir": "2022-07-01_nir.jpg",
+        "swir": "2022-07-01_swir.jpg",
+        "ndvi": "2022-07-01_ndvi.jpg",
+        "nbr": "2022-07-01_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2022-05-26",
+      "2022-06-24"
+    ],
+    "post": [
+      "2022-06-26",
+      "2022-07-25"
+    ]
+  }
+}

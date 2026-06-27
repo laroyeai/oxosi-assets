@@ -1,0 +1,72 @@
+{
+  "incident_id": "NC-2025-KIMAKPA-WARD-U577225",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    9.767443,
+    8.681125
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    8.67201,
+    9.758399,
+    8.69024,
+    9.776487
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2025-04-08",
+      "cloud": 21.45047,
+      "file": "2025-04-08.jpg",
+      "layers": {
+        "nir": "2025-04-08_nir.jpg",
+        "swir": "2025-04-08_swir.jpg",
+        "ndvi": "2025-04-08_ndvi.jpg",
+        "nbr": "2025-04-08_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-04-13",
+      "cloud": 1.497954,
+      "file": "2025-04-13.jpg",
+      "layers": {
+        "nir": "2025-04-13_nir.jpg",
+        "swir": "2025-04-13_swir.jpg",
+        "ndvi": "2025-04-13_ndvi.jpg",
+        "nbr": "2025-04-13_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-04-18",
+      "cloud": 14.287694,
+      "file": "2025-04-18.jpg",
+      "layers": {
+        "nir": "2025-04-18_nir.jpg",
+        "swir": "2025-04-18_swir.jpg",
+        "ndvi": "2025-04-18_ndvi.jpg",
+        "nbr": "2025-04-18_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2025-03-14",
+      "2025-04-12"
+    ],
+    "post": [
+      "2025-04-14",
+      "2025-05-13"
+    ]
+  }
+}

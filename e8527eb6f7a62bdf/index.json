@@ -1,0 +1,72 @@
+{
+  "incident_id": "BURKIN-2019-HOUB-VILLAGE-U285419",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    13.85684,
+    -0.93668
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    -0.945932,
+    13.847796,
+    -0.927428,
+    13.865884
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2018-12-26",
+      "cloud": 0.05,
+      "file": "2018-12-26.jpg",
+      "layers": {
+        "nir": "2018-12-26_nir.jpg",
+        "swir": "2018-12-26_swir.jpg",
+        "ndvi": "2018-12-26_ndvi.jpg",
+        "nbr": "2018-12-26_nbr.jpg"
+      }
+    },
+    {
+      "date": "2018-12-28",
+      "cloud": 0.55,
+      "file": "2018-12-28.jpg",
+      "layers": {
+        "nir": "2018-12-28_nir.jpg",
+        "swir": "2018-12-28_swir.jpg",
+        "ndvi": "2018-12-28_ndvi.jpg",
+        "nbr": "2018-12-28_nbr.jpg"
+      }
+    },
+    {
+      "date": "2019-01-07",
+      "cloud": 25.17,
+      "file": "2019-01-07.jpg",
+      "layers": {
+        "nir": "2019-01-07_nir.jpg",
+        "swir": "2019-01-07_swir.jpg",
+        "ndvi": "2019-01-07_ndvi.jpg",
+        "nbr": "2019-01-07_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2018-12-02",
+      "2018-12-31"
+    ],
+    "post": [
+      "2019-01-02",
+      "2019-01-31"
+    ]
+  }
+}

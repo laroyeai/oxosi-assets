@@ -1,0 +1,72 @@
+{
+  "incident_id": "NC-2021-KAGARA",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    10.1745,
+    6.2359
+  ],
+  "precise": true,
+  "bbox_west_south_east_north": [
+    6.226773,
+    10.165456,
+    6.245027,
+    10.183544
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2021-02-11",
+      "cloud": 14.2,
+      "file": "2021-02-11.jpg",
+      "layers": {
+        "nir": "2021-02-11_nir.jpg",
+        "swir": "2021-02-11_swir.jpg",
+        "ndvi": "2021-02-11_ndvi.jpg",
+        "nbr": "2021-02-11_nbr.jpg"
+      }
+    },
+    {
+      "date": "2021-02-16",
+      "cloud": 8.13,
+      "file": "2021-02-16.jpg",
+      "layers": {
+        "nir": "2021-02-16_nir.jpg",
+        "swir": "2021-02-16_swir.jpg",
+        "ndvi": "2021-02-16_ndvi.jpg",
+        "nbr": "2021-02-16_nbr.jpg"
+      }
+    },
+    {
+      "date": "2021-02-21",
+      "cloud": 75.09,
+      "file": "2021-02-21.jpg",
+      "layers": {
+        "nir": "2021-02-21_nir.jpg",
+        "swir": "2021-02-21_swir.jpg",
+        "ndvi": "2021-02-21_ndvi.jpg",
+        "nbr": "2021-02-21_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2021-01-18",
+      "2021-02-16"
+    ],
+    "post": [
+      "2021-02-18",
+      "2021-03-19"
+    ]
+  }
+}

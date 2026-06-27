@@ -1,0 +1,72 @@
+{
+  "incident_id": "DR-CON-2024-BASISALE-VILLAGE-U521909",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    0.77747,
+    29.44421
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    29.435226,
+    0.768426,
+    29.453194,
+    0.786514
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2024-04-26",
+      "cloud": 99.62,
+      "file": "2024-04-26.jpg",
+      "layers": {
+        "nir": "2024-04-26_nir.jpg",
+        "swir": "2024-04-26_swir.jpg",
+        "ndvi": "2024-04-26_ndvi.jpg",
+        "nbr": "2024-04-26_nbr.jpg"
+      }
+    },
+    {
+      "date": "2024-05-01",
+      "cloud": 71.39,
+      "file": "2024-05-01.jpg",
+      "layers": {
+        "nir": "2024-05-01_nir.jpg",
+        "swir": "2024-05-01_swir.jpg",
+        "ndvi": "2024-05-01_ndvi.jpg",
+        "nbr": "2024-05-01_nbr.jpg"
+      }
+    },
+    {
+      "date": "2024-05-06",
+      "cloud": 36.15,
+      "file": "2024-05-06.jpg",
+      "layers": {
+        "nir": "2024-05-06_nir.jpg",
+        "swir": "2024-05-06_swir.jpg",
+        "ndvi": "2024-05-06_ndvi.jpg",
+        "nbr": "2024-05-06_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2024-03-31",
+      "2024-04-29"
+    ],
+    "post": [
+      "2024-05-01",
+      "2024-05-30"
+    ]
+  }
+}

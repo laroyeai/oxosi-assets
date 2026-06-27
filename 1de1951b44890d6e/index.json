@@ -1,0 +1,72 @@
+{
+  "incident_id": "NC-2022-ODUGBO-TOWN-U441061",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    7.804488,
+    6.975275
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    6.966208,
+    7.795444,
+    6.984342,
+    7.813532
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2022-05-27",
+      "cloud": 72.11,
+      "file": "2022-05-27.jpg",
+      "layers": {
+        "nir": "2022-05-27_nir.jpg",
+        "swir": "2022-05-27_swir.jpg",
+        "ndvi": "2022-05-27_ndvi.jpg",
+        "nbr": "2022-05-27_nbr.jpg"
+      }
+    },
+    {
+      "date": "2022-06-01",
+      "cloud": 69.805968,
+      "file": "2022-06-01.jpg",
+      "layers": {
+        "nir": "2022-06-01_nir.jpg",
+        "swir": "2022-06-01_swir.jpg",
+        "ndvi": "2022-06-01_ndvi.jpg",
+        "nbr": "2022-06-01_nbr.jpg"
+      }
+    },
+    {
+      "date": "2022-06-06",
+      "cloud": 99.704462,
+      "file": "2022-06-06.jpg",
+      "layers": {
+        "nir": "2022-06-06_nir.jpg",
+        "swir": "2022-06-06_swir.jpg",
+        "ndvi": "2022-06-06_ndvi.jpg",
+        "nbr": "2022-06-06_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2022-05-04",
+      "2022-06-02"
+    ],
+    "post": [
+      "2022-06-04",
+      "2022-07-03"
+    ]
+  }
+}

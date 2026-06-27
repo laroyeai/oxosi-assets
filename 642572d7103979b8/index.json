@@ -1,0 +1,72 @@
+{
+  "incident_id": "NC-2018-OMUSU-VILLAGE-U254972",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    6.97437,
+    7.977584
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    7.968534,
+    6.965326,
+    7.986634,
+    6.983414
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2018-03-01",
+      "cloud": 99.99,
+      "file": "2018-03-01.jpg",
+      "layers": {
+        "nir": "2018-03-01_nir.jpg",
+        "swir": "2018-03-01_swir.jpg",
+        "ndvi": "2018-03-01_ndvi.jpg",
+        "nbr": "2018-03-01_nbr.jpg"
+      }
+    },
+    {
+      "date": "2018-03-06",
+      "cloud": 12.95,
+      "file": "2018-03-06.jpg",
+      "layers": {
+        "nir": "2018-03-06_nir.jpg",
+        "swir": "2018-03-06_swir.jpg",
+        "ndvi": "2018-03-06_ndvi.jpg",
+        "nbr": "2018-03-06_nbr.jpg"
+      }
+    },
+    {
+      "date": "2018-03-11",
+      "cloud": 91.96,
+      "file": "2018-03-11.jpg",
+      "layers": {
+        "nir": "2018-03-11_nir.jpg",
+        "swir": "2018-03-11_swir.jpg",
+        "ndvi": "2018-03-11_ndvi.jpg",
+        "nbr": "2018-03-11_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2018-02-03",
+      "2018-03-04"
+    ],
+    "post": [
+      "2018-03-06",
+      "2018-04-04"
+    ]
+  }
+}

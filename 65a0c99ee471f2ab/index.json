@@ -1,0 +1,72 @@
+{
+  "incident_id": "DR-CON-2026-MAMBASA-TERRITORY-U630066",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    1.3595321,
+    29.0285355
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    29.01955,
+    1.350488,
+    29.037521,
+    1.368576
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2026-05-14",
+      "cloud": 0.23,
+      "file": "2026-05-14.jpg",
+      "layers": {
+        "nir": "2026-05-14_nir.jpg",
+        "swir": "2026-05-14_swir.jpg",
+        "ndvi": "2026-05-14_ndvi.jpg",
+        "nbr": "2026-05-14_nbr.jpg"
+      }
+    },
+    {
+      "date": "2026-05-23",
+      "cloud": 52.43,
+      "file": "2026-05-23.jpg",
+      "layers": {
+        "nir": "2026-05-23_nir.jpg",
+        "swir": "2026-05-23_swir.jpg",
+        "ndvi": "2026-05-23_ndvi.jpg",
+        "nbr": "2026-05-23_nbr.jpg"
+      }
+    },
+    {
+      "date": "2026-05-24",
+      "cloud": 2.08,
+      "file": "2026-05-24.jpg",
+      "layers": {
+        "nir": "2026-05-24_nir.jpg",
+        "swir": "2026-05-24_swir.jpg",
+        "ndvi": "2026-05-24_ndvi.jpg",
+        "nbr": "2026-05-24_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2026-04-19",
+      "2026-05-18"
+    ],
+    "post": [
+      "2026-05-20",
+      "2026-06-18"
+    ]
+  }
+}

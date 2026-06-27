@@ -1,0 +1,72 @@
+{
+  "incident_id": "NIGER-2024-LIBIRI-VILLAGE-U557335",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    13.4264,
+    1.243
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    1.233764,
+    13.417356,
+    1.252236,
+    13.435444
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2024-12-06",
+      "cloud": 8.17,
+      "file": "2024-12-06.jpg",
+      "layers": {
+        "nir": "2024-12-06_nir.jpg",
+        "swir": "2024-12-06_swir.jpg",
+        "ndvi": "2024-12-06_ndvi.jpg",
+        "nbr": "2024-12-06_nbr.jpg"
+      }
+    },
+    {
+      "date": "2024-12-11",
+      "cloud": 2.32,
+      "file": "2024-12-11.jpg",
+      "layers": {
+        "nir": "2024-12-11_nir.jpg",
+        "swir": "2024-12-11_swir.jpg",
+        "ndvi": "2024-12-11_ndvi.jpg",
+        "nbr": "2024-12-11_nbr.jpg"
+      }
+    },
+    {
+      "date": "2024-12-16",
+      "cloud": 0.0,
+      "file": "2024-12-16.jpg",
+      "layers": {
+        "nir": "2024-12-16_nir.jpg",
+        "swir": "2024-12-16_swir.jpg",
+        "ndvi": "2024-12-16_ndvi.jpg",
+        "nbr": "2024-12-16_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2024-11-11",
+      "2024-12-10"
+    ],
+    "post": [
+      "2024-12-12",
+      "2025-01-10"
+    ]
+  }
+}

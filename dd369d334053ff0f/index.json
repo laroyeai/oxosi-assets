@@ -1,0 +1,72 @@
+{
+  "incident_id": "DR-CON-2025-BAYEYI-VILLAGE-U588461",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    0.86526,
+    29.48186
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    29.472876,
+    0.856216,
+    29.490844,
+    0.874304
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2025-07-05",
+      "cloud": 48.589781,
+      "file": "2025-07-05.jpg",
+      "layers": {
+        "nir": "2025-07-05_nir.jpg",
+        "swir": "2025-07-05_swir.jpg",
+        "ndvi": "2025-07-05_ndvi.jpg",
+        "nbr": "2025-07-05_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-07-07",
+      "cloud": 53.937924,
+      "file": "2025-07-07.jpg",
+      "layers": {
+        "nir": "2025-07-07_nir.jpg",
+        "swir": "2025-07-07_swir.jpg",
+        "ndvi": "2025-07-07_ndvi.jpg",
+        "nbr": "2025-07-07_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-07-15",
+      "cloud": 97.202057,
+      "file": "2025-07-15.jpg",
+      "layers": {
+        "nir": "2025-07-15_nir.jpg",
+        "swir": "2025-07-15_swir.jpg",
+        "ndvi": "2025-07-15_ndvi.jpg",
+        "nbr": "2025-07-15_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2025-06-09",
+      "2025-07-08"
+    ],
+    "post": [
+      "2025-07-10",
+      "2025-08-08"
+    ]
+  }
+}

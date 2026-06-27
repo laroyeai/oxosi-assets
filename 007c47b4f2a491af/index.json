@@ -1,0 +1,72 @@
+{
+  "incident_id": "DR-CON-2025-KAFURU-VILLAGE-U591391",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    -0.83225,
+    29.40737
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    29.398386,
+    -0.841294,
+    29.416354,
+    -0.823206
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2025-07-05",
+      "cloud": 35.626423,
+      "file": "2025-07-05.jpg",
+      "layers": {
+        "nir": "2025-07-05_nir.jpg",
+        "swir": "2025-07-05_swir.jpg",
+        "ndvi": "2025-07-05_ndvi.jpg",
+        "nbr": "2025-07-05_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-07-07",
+      "cloud": 80.262375,
+      "file": "2025-07-07.jpg",
+      "layers": {
+        "nir": "2025-07-07_nir.jpg",
+        "swir": "2025-07-07_swir.jpg",
+        "ndvi": "2025-07-07_ndvi.jpg",
+        "nbr": "2025-07-07_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-07-17",
+      "cloud": 52.485311,
+      "file": "2025-07-17.jpg",
+      "layers": {
+        "nir": "2025-07-17_nir.jpg",
+        "swir": "2025-07-17_swir.jpg",
+        "ndvi": "2025-07-17_ndvi.jpg",
+        "nbr": "2025-07-17_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2025-06-11",
+      "2025-07-10"
+    ],
+    "post": [
+      "2025-07-12",
+      "2025-08-10"
+    ]
+  }
+}

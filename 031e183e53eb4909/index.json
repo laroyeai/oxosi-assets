@@ -1,0 +1,72 @@
+{
+  "incident_id": "NW-2020-WURMA-VILLAGE-U364782",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    12.577308,
+    7.434082
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    7.424878,
+    12.568264,
+    7.443286,
+    12.586352
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2020-10-09",
+      "cloud": 33.3,
+      "file": "2020-10-09.jpg",
+      "layers": {
+        "nir": "2020-10-09_nir.jpg",
+        "swir": "2020-10-09_swir.jpg",
+        "ndvi": "2020-10-09_ndvi.jpg",
+        "nbr": "2020-10-09_nbr.jpg"
+      }
+    },
+    {
+      "date": "2020-10-14",
+      "cloud": 10.95,
+      "file": "2020-10-14.jpg",
+      "layers": {
+        "nir": "2020-10-14_nir.jpg",
+        "swir": "2020-10-14_swir.jpg",
+        "ndvi": "2020-10-14_ndvi.jpg",
+        "nbr": "2020-10-14_nbr.jpg"
+      }
+    },
+    {
+      "date": "2020-10-19",
+      "cloud": 0.04,
+      "file": "2020-10-19.jpg",
+      "layers": {
+        "nir": "2020-10-19_nir.jpg",
+        "swir": "2020-10-19_swir.jpg",
+        "ndvi": "2020-10-19_ndvi.jpg",
+        "nbr": "2020-10-19_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2020-09-12",
+      "2020-10-11"
+    ],
+    "post": [
+      "2020-10-13",
+      "2020-11-11"
+    ]
+  }
+}

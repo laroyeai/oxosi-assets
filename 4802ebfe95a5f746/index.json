@@ -1,0 +1,93 @@
+{
+  "incident_id": "DR-CON-2021-MAYALIBO-VILLAGE-BAN-U391006",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    1.06087,
+    29.58465
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    29.575665,
+    1.051826,
+    29.593635,
+    1.069914
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2021-03-13",
+      "cloud": 100.0,
+      "file": "2021-03-13.jpg",
+      "layers": {
+        "nir": "2021-03-13_nir.jpg",
+        "swir": "2021-03-13_swir.jpg",
+        "ndvi": "2021-03-13_ndvi.jpg",
+        "nbr": "2021-03-13_nbr.jpg"
+      }
+    },
+    {
+      "date": "2021-03-18",
+      "cloud": 96.56,
+      "file": "2021-03-18.jpg",
+      "layers": {
+        "nir": "2021-03-18_nir.jpg",
+        "swir": "2021-03-18_swir.jpg",
+        "ndvi": "2021-03-18_ndvi.jpg",
+        "nbr": "2021-03-18_nbr.jpg"
+      }
+    },
+    {
+      "date": "2021-03-23",
+      "cloud": 36.91,
+      "file": "2021-03-23.jpg",
+      "layers": {
+        "nir": "2021-03-23_nir.jpg",
+        "swir": "2021-03-23_swir.jpg",
+        "ndvi": "2021-03-23_ndvi.jpg",
+        "nbr": "2021-03-23_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2021-02-18",
+      "2021-03-19"
+    ],
+    "post": [
+      "2021-03-21",
+      "2021-04-19"
+    ]
+  },
+  "hls": {
+    "file": "hls.jpg",
+    "date": "2021-03-23",
+    "scene_id": "HLS.S30.T35NQB.2021082T080609.v2.0",
+    "collection": "HLSS30_2.0",
+    "cloud_pct": 16
+  },
+  "superres": {
+    "file": "superres.jpg",
+    "frames": 6,
+    "scale": 3,
+    "eff_m_px": 3.3,
+    "dates": [
+      "2021-02-26",
+      "2021-02-06",
+      "2021-04-17",
+      "2021-04-27",
+      "2021-04-07",
+      "2021-01-27"
+    ]
+  }
+}

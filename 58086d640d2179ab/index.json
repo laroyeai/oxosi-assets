@@ -1,0 +1,72 @@
+{
+  "incident_id": "NIGER-2018-AGAY-VILLAGE-U256663",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    14.9575,
+    3.7864
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    3.777102,
+    14.948456,
+    3.795698,
+    14.966544
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2018-05-14",
+      "cloud": 10.49,
+      "file": "2018-05-14.jpg",
+      "layers": {
+        "nir": "2018-05-14_nir.jpg",
+        "swir": "2018-05-14_swir.jpg",
+        "ndvi": "2018-05-14_ndvi.jpg",
+        "nbr": "2018-05-14_nbr.jpg"
+      }
+    },
+    {
+      "date": "2018-05-19",
+      "cloud": 5.44,
+      "file": "2018-05-19.jpg",
+      "layers": {
+        "nir": "2018-05-19_nir.jpg",
+        "swir": "2018-05-19_swir.jpg",
+        "ndvi": "2018-05-19_ndvi.jpg",
+        "nbr": "2018-05-19_nbr.jpg"
+      }
+    },
+    {
+      "date": "2018-05-24",
+      "cloud": 70.87,
+      "file": "2018-05-24.jpg",
+      "layers": {
+        "nir": "2018-05-24_nir.jpg",
+        "swir": "2018-05-24_swir.jpg",
+        "ndvi": "2018-05-24_ndvi.jpg",
+        "nbr": "2018-05-24_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2018-04-18",
+      "2018-05-17"
+    ],
+    "post": [
+      "2018-05-19",
+      "2018-06-17"
+    ]
+  }
+}

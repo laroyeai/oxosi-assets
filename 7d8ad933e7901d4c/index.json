@@ -1,0 +1,72 @@
+{
+  "incident_id": "NE-2021-KILANGAR-VILLAGE-U425841",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    10.705622,
+    12.761878
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    12.752736,
+    10.696578,
+    12.77102,
+    10.714666
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2021-12-12",
+      "cloud": 43.79,
+      "file": "2021-12-12.jpg",
+      "layers": {
+        "nir": "2021-12-12_nir.jpg",
+        "swir": "2021-12-12_swir.jpg",
+        "ndvi": "2021-12-12_ndvi.jpg",
+        "nbr": "2021-12-12_nbr.jpg"
+      }
+    },
+    {
+      "date": "2021-12-17",
+      "cloud": 2.04,
+      "file": "2021-12-17.jpg",
+      "layers": {
+        "nir": "2021-12-17_nir.jpg",
+        "swir": "2021-12-17_swir.jpg",
+        "ndvi": "2021-12-17_ndvi.jpg",
+        "nbr": "2021-12-17_nbr.jpg"
+      }
+    },
+    {
+      "date": "2021-12-22",
+      "cloud": 0.0,
+      "file": "2021-12-22.jpg",
+      "layers": {
+        "nir": "2021-12-22_nir.jpg",
+        "swir": "2021-12-22_swir.jpg",
+        "ndvi": "2021-12-22_ndvi.jpg",
+        "nbr": "2021-12-22_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2021-11-19",
+      "2021-12-18"
+    ],
+    "post": [
+      "2021-12-20",
+      "2022-01-18"
+    ]
+  }
+}

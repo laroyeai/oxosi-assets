@@ -1,0 +1,79 @@
+{
+  "incident_id": "DR-CON-2026-ALIMA-VILLAGE-U630378",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    1.00424,
+    29.16763
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    29.158646,
+    0.995196,
+    29.176614,
+    1.013284
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2026-05-16",
+      "cloud": 60.11,
+      "file": "2026-05-16.jpg",
+      "layers": {
+        "nir": "2026-05-16_nir.jpg",
+        "swir": "2026-05-16_swir.jpg",
+        "ndvi": "2026-05-16_ndvi.jpg",
+        "nbr": "2026-05-16_nbr.jpg"
+      }
+    },
+    {
+      "date": "2026-05-23",
+      "cloud": 52.43,
+      "file": "2026-05-23.jpg",
+      "layers": {
+        "nir": "2026-05-23_nir.jpg",
+        "swir": "2026-05-23_swir.jpg",
+        "ndvi": "2026-05-23_ndvi.jpg",
+        "nbr": "2026-05-23_nbr.jpg"
+      }
+    },
+    {
+      "date": "2026-05-26",
+      "cloud": 84.76,
+      "file": "2026-05-26.jpg",
+      "layers": {
+        "nir": "2026-05-26_nir.jpg",
+        "swir": "2026-05-26_swir.jpg",
+        "ndvi": "2026-05-26_ndvi.jpg",
+        "nbr": "2026-05-26_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2026-04-22",
+      "2026-05-21"
+    ],
+    "post": [
+      "2026-05-23",
+      "2026-06-21"
+    ]
+  },
+  "hls": {
+    "file": "hls.jpg",
+    "date": "2026-05-22",
+    "scene_id": "HLS.L30.T35NQB.2026142T081236.v2.0",
+    "collection": "HLSL30_2.0",
+    "cloud_pct": 7
+  }
+}

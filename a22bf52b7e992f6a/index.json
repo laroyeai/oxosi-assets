@@ -1,0 +1,72 @@
+{
+  "incident_id": "MALI-2022-N-DAKI-VILLAGE-U456408",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    15.3761,
+    -0.9017
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    -0.911017,
+    15.367056,
+    -0.892383,
+    15.385144
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2022-11-10",
+      "cloud": 0.004635,
+      "file": "2022-11-10.jpg",
+      "layers": {
+        "nir": "2022-11-10_nir.jpg",
+        "swir": "2022-11-10_swir.jpg",
+        "ndvi": "2022-11-10_ndvi.jpg",
+        "nbr": "2022-11-10_nbr.jpg"
+      }
+    },
+    {
+      "date": "2022-11-15",
+      "cloud": 99.719465,
+      "file": "2022-11-15.jpg",
+      "layers": {
+        "nir": "2022-11-15_nir.jpg",
+        "swir": "2022-11-15_swir.jpg",
+        "ndvi": "2022-11-15_ndvi.jpg",
+        "nbr": "2022-11-15_nbr.jpg"
+      }
+    },
+    {
+      "date": "2022-11-20",
+      "cloud": 72.297275,
+      "file": "2022-11-20.jpg",
+      "layers": {
+        "nir": "2022-11-20_nir.jpg",
+        "swir": "2022-11-20_swir.jpg",
+        "ndvi": "2022-11-20_ndvi.jpg",
+        "nbr": "2022-11-20_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2022-10-14",
+      "2022-11-12"
+    ],
+    "post": [
+      "2022-11-14",
+      "2022-12-13"
+    ]
+  }
+}

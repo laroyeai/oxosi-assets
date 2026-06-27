@@ -1,0 +1,72 @@
+{
+  "incident_id": "MALI-2018-AWAKASSA-VILLAGE-U255738",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    15.588995,
+    2.562358
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    2.553032,
+    15.579951,
+    2.571684,
+    15.598039
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2018-04-24",
+      "cloud": 10.23,
+      "file": "2018-04-24.jpg",
+      "layers": {
+        "nir": "2018-04-24_nir.jpg",
+        "swir": "2018-04-24_swir.jpg",
+        "ndvi": "2018-04-24_ndvi.jpg",
+        "nbr": "2018-04-24_nbr.jpg"
+      }
+    },
+    {
+      "date": "2018-04-29",
+      "cloud": 0.23,
+      "file": "2018-04-29.jpg",
+      "layers": {
+        "nir": "2018-04-29_nir.jpg",
+        "swir": "2018-04-29_swir.jpg",
+        "ndvi": "2018-04-29_ndvi.jpg",
+        "nbr": "2018-04-29_nbr.jpg"
+      }
+    },
+    {
+      "date": "2018-05-04",
+      "cloud": 91.54,
+      "file": "2018-05-04.jpg",
+      "layers": {
+        "nir": "2018-05-04_nir.jpg",
+        "swir": "2018-05-04_swir.jpg",
+        "ndvi": "2018-05-04_ndvi.jpg",
+        "nbr": "2018-05-04_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2018-03-28",
+      "2018-04-26"
+    ],
+    "post": [
+      "2018-04-28",
+      "2018-05-27"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "incident_id": "NIGER-2021-GUEGOROU-VILLAGE-U396555",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    14.58284,
+    1.12068
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    1.111398,
+    14.573796,
+    1.129962,
+    14.591884
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2021-04-11",
+      "cloud": 4.93,
+      "file": "2021-04-11.jpg",
+      "layers": {
+        "nir": "2021-04-11_nir.jpg",
+        "swir": "2021-04-11_swir.jpg",
+        "ndvi": "2021-04-11_ndvi.jpg",
+        "nbr": "2021-04-11_nbr.jpg"
+      }
+    },
+    {
+      "date": "2021-04-16",
+      "cloud": 6.22,
+      "file": "2021-04-16.jpg",
+      "layers": {
+        "nir": "2021-04-16_nir.jpg",
+        "swir": "2021-04-16_swir.jpg",
+        "ndvi": "2021-04-16_ndvi.jpg",
+        "nbr": "2021-04-16_nbr.jpg"
+      }
+    },
+    {
+      "date": "2021-04-21",
+      "cloud": 48.5,
+      "file": "2021-04-21.jpg",
+      "layers": {
+        "nir": "2021-04-21_nir.jpg",
+        "swir": "2021-04-21_swir.jpg",
+        "ndvi": "2021-04-21_ndvi.jpg",
+        "nbr": "2021-04-21_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2021-03-18",
+      "2021-04-16"
+    ],
+    "post": [
+      "2021-04-18",
+      "2021-05-17"
+    ]
+  }
+}

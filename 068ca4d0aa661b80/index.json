@@ -1,0 +1,73 @@
+{
+  "incident_id": "DR-CON-2021-KALUNGUTA-VILLAGE-U413426",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    0.326831,
+    29.354462
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    29.345479,
+    0.317787,
+    29.363445,
+    0.335875
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2021-08-20",
+      "cloud": 85.15,
+      "file": "2021-08-20.jpg",
+      "layers": {
+        "nir": "2021-08-20_nir.jpg",
+        "swir": "2021-08-20_swir.jpg",
+        "ndvi": "2021-08-20_ndvi.jpg",
+        "nbr": "2021-08-20_nbr.jpg"
+      }
+    },
+    {
+      "date": "2021-08-25",
+      "cloud": 28.0,
+      "file": "2021-08-25.jpg",
+      "layers": {
+        "nir": "2021-08-25_nir.jpg",
+        "swir": "2021-08-25_swir.jpg",
+        "ndvi": "2021-08-25_ndvi.jpg",
+        "nbr": "2021-08-25_nbr.jpg"
+      }
+    },
+    {
+      "date": "2021-08-30",
+      "cloud": 50.65,
+      "file": "2021-08-30.jpg",
+      "layers": {
+        "nir": "2021-08-30_nir.jpg",
+        "swir": "2021-08-30_swir.jpg",
+        "ndvi": "2021-08-30_ndvi.jpg",
+        "nbr": "2021-08-30_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2021-07-28",
+      "2021-08-26"
+    ],
+    "post": [
+      "2021-08-28",
+      "2021-09-26"
+    ]
+  },
+  "hls_attempted": true
+}

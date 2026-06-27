@@ -1,0 +1,72 @@
+{
+  "incident_id": "MALI-2024-DOREY-VILLAGE-U515848",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    15.81908,
+    -0.413032
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    -0.422369,
+    15.810036,
+    -0.403695,
+    15.828124
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2024-03-06",
+      "cloud": 0.0,
+      "file": "2024-03-06.jpg",
+      "layers": {
+        "nir": "2024-03-06_nir.jpg",
+        "swir": "2024-03-06_swir.jpg",
+        "ndvi": "2024-03-06_ndvi.jpg",
+        "nbr": "2024-03-06_nbr.jpg"
+      }
+    },
+    {
+      "date": "2024-03-14",
+      "cloud": 0.03,
+      "file": "2024-03-14.jpg",
+      "layers": {
+        "nir": "2024-03-14_nir.jpg",
+        "swir": "2024-03-14_swir.jpg",
+        "ndvi": "2024-03-14_ndvi.jpg",
+        "nbr": "2024-03-14_nbr.jpg"
+      }
+    },
+    {
+      "date": "2024-03-16",
+      "cloud": 0.0,
+      "file": "2024-03-16.jpg",
+      "layers": {
+        "nir": "2024-03-16_nir.jpg",
+        "swir": "2024-03-16_swir.jpg",
+        "ndvi": "2024-03-16_ndvi.jpg",
+        "nbr": "2024-03-16_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2024-02-08",
+      "2024-03-08"
+    ],
+    "post": [
+      "2024-03-10",
+      "2024-04-08"
+    ]
+  }
+}

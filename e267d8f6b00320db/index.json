@@ -1,0 +1,80 @@
+{
+  "incident_id": "DR-CON-2022-MAKOFI-VILLAGE-U428118",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    2.292778,
+    30.115278
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    30.106288,
+    2.283734,
+    30.124268,
+    2.301822
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2022-01-02",
+      "cloud": 30.09699,
+      "file": "2022-01-02.jpg",
+      "layers": {
+        "nir": "2022-01-02_nir.jpg",
+        "swir": "2022-01-02_swir.jpg",
+        "ndvi": "2022-01-02_ndvi.jpg",
+        "nbr": "2022-01-02_nbr.jpg"
+      }
+    },
+    {
+      "date": "2022-01-07",
+      "cloud": 31.907207,
+      "file": "2022-01-07.jpg",
+      "layers": {
+        "nir": "2022-01-07_nir.jpg",
+        "swir": "2022-01-07_swir.jpg",
+        "ndvi": "2022-01-07_ndvi.jpg",
+        "nbr": "2022-01-07_nbr.jpg"
+      }
+    },
+    {
+      "date": "2022-01-12",
+      "cloud": 20.169833,
+      "file": "2022-01-12.jpg",
+      "layers": {
+        "nir": "2022-01-12_nir.jpg",
+        "swir": "2022-01-12_swir.jpg",
+        "ndvi": "2022-01-12_ndvi.jpg",
+        "nbr": "2022-01-12_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2021-12-06",
+      "2022-01-04"
+    ],
+    "post": [
+      "2022-01-06",
+      "2022-02-04"
+    ]
+  },
+  "hls_attempted": true,
+  "hls": {
+    "file": "hls.jpg",
+    "date": "2021-12-28",
+    "scene_id": "HLS.S30.T35NRC.2021362T081239.v2.0",
+    "collection": "HLSS30_2.0",
+    "cloud_pct": 15
+  }
+}

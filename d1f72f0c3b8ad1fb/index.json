@@ -1,0 +1,72 @@
+{
+  "incident_id": "MALI-2025-LERE-TOWN-U606822",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    15.7118,
+    -4.9118
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    -4.921132,
+    15.702756,
+    -4.902468,
+    15.720844
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2025-10-28",
+      "cloud": 0.0,
+      "file": "2025-10-28.jpg",
+      "layers": {
+        "nir": "2025-10-28_nir.jpg",
+        "swir": "2025-10-28_swir.jpg",
+        "ndvi": "2025-10-28_ndvi.jpg",
+        "nbr": "2025-10-28_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-11-02",
+      "cloud": 0.0,
+      "file": "2025-11-02.jpg",
+      "layers": {
+        "nir": "2025-11-02_nir.jpg",
+        "swir": "2025-11-02_swir.jpg",
+        "ndvi": "2025-11-02_ndvi.jpg",
+        "nbr": "2025-11-02_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-11-09",
+      "cloud": 0.02,
+      "file": "2025-11-09.jpg",
+      "layers": {
+        "nir": "2025-11-09_nir.jpg",
+        "swir": "2025-11-09_swir.jpg",
+        "ndvi": "2025-11-09_ndvi.jpg",
+        "nbr": "2025-11-09_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2025-10-04",
+      "2025-11-02"
+    ],
+    "post": [
+      "2025-11-04",
+      "2025-12-03"
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "incident_id": "NC-2018-ARIRI-VILLAGE-U266585",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    9.830947,
+    8.73745
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    8.728333,
+    9.821903,
+    8.746567,
+    9.839991
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2018-09-27",
+      "cloud": 81.36,
+      "file": "2018-09-27.jpg",
+      "layers": {
+        "nir": "2018-09-27_nir.jpg",
+        "swir": "2018-09-27_swir.jpg",
+        "ndvi": "2018-09-27_ndvi.jpg",
+        "nbr": "2018-09-27_nbr.jpg"
+      }
+    },
+    {
+      "date": "2018-10-02",
+      "cloud": 99.36,
+      "file": "2018-10-02.jpg",
+      "layers": {
+        "nir": "2018-10-02_nir.jpg",
+        "swir": "2018-10-02_swir.jpg",
+        "ndvi": "2018-10-02_ndvi.jpg",
+        "nbr": "2018-10-02_nbr.jpg"
+      }
+    },
+    {
+      "date": "2018-10-07",
+      "cloud": 44.92,
+      "file": "2018-10-07.jpg",
+      "layers": {
+        "nir": "2018-10-07_nir.jpg",
+        "swir": "2018-10-07_swir.jpg",
+        "ndvi": "2018-10-07_ndvi.jpg",
+        "nbr": "2018-10-07_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2018-09-03",
+      "2018-10-02"
+    ],
+    "post": [
+      "2018-10-04",
+      "2018-11-02"
+    ]
+  },
+  "hls_attempted": true,
+  "hls": {
+    "file": "hls.jpg",
+    "date": "2018-10-12",
+    "scene_id": "HLS.S30.T32PMR.2018285T094029.v2.0",
+    "collection": "HLSS30_2.0",
+    "cloud_pct": 21
+  }
+}

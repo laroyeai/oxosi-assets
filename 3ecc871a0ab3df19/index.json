@@ -1,0 +1,72 @@
+{
+  "incident_id": "MALI-2024-TOUGOUM-VILLAGE-U550185",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    14.465,
+    -3.70399
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    -3.713267,
+    14.455956,
+    -3.694713,
+    14.474044
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2024-10-28",
+      "cloud": 10.94,
+      "file": "2024-10-28.jpg",
+      "layers": {
+        "nir": "2024-10-28_nir.jpg",
+        "swir": "2024-10-28_swir.jpg",
+        "ndvi": "2024-10-28_ndvi.jpg",
+        "nbr": "2024-10-28_nbr.jpg"
+      }
+    },
+    {
+      "date": "2024-11-02",
+      "cloud": 9.23,
+      "file": "2024-11-02.jpg",
+      "layers": {
+        "nir": "2024-11-02_nir.jpg",
+        "swir": "2024-11-02_swir.jpg",
+        "ndvi": "2024-11-02_ndvi.jpg",
+        "nbr": "2024-11-02_nbr.jpg"
+      }
+    },
+    {
+      "date": "2024-11-07",
+      "cloud": 0.0,
+      "file": "2024-11-07.jpg",
+      "layers": {
+        "nir": "2024-11-07_nir.jpg",
+        "swir": "2024-11-07_swir.jpg",
+        "ndvi": "2024-11-07_ndvi.jpg",
+        "nbr": "2024-11-07_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2024-10-03",
+      "2024-11-01"
+    ],
+    "post": [
+      "2024-11-03",
+      "2024-12-02"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "incident_id": "DR-CON-2024-OMBOLE-VILLAGE-U534078",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    0.238504,
+    28.637851
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    28.628868,
+    0.22946,
+    28.646834,
+    0.247548
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2024-07-18",
+      "cloud": 84.43,
+      "file": "2024-07-18.jpg",
+      "layers": {
+        "nir": "2024-07-18_nir.jpg",
+        "swir": "2024-07-18_swir.jpg",
+        "ndvi": "2024-07-18_ndvi.jpg",
+        "nbr": "2024-07-18_nbr.jpg"
+      }
+    },
+    {
+      "date": "2024-07-23",
+      "cloud": 78.77,
+      "file": "2024-07-23.jpg",
+      "layers": {
+        "nir": "2024-07-23_nir.jpg",
+        "swir": "2024-07-23_swir.jpg",
+        "ndvi": "2024-07-23_ndvi.jpg",
+        "nbr": "2024-07-23_nbr.jpg"
+      }
+    },
+    {
+      "date": "2024-07-28",
+      "cloud": 34.19,
+      "file": "2024-07-28.jpg",
+      "layers": {
+        "nir": "2024-07-28_nir.jpg",
+        "swir": "2024-07-28_swir.jpg",
+        "ndvi": "2024-07-28_ndvi.jpg",
+        "nbr": "2024-07-28_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2024-06-22",
+      "2024-07-21"
+    ],
+    "post": [
+      "2024-07-23",
+      "2024-08-21"
+    ]
+  }
+}

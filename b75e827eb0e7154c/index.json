@@ -1,0 +1,79 @@
+{
+  "incident_id": "DR-CON-2022-TULABO-VILLAGE-U444288",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    1.39626,
+    30.07667
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    30.067684,
+    1.387216,
+    30.085656,
+    1.405304
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2022-07-16",
+      "cloud": 56.194556,
+      "file": "2022-07-16.jpg",
+      "layers": {
+        "nir": "2022-07-16_nir.jpg",
+        "swir": "2022-07-16_swir.jpg",
+        "ndvi": "2022-07-16_ndvi.jpg",
+        "nbr": "2022-07-16_nbr.jpg"
+      }
+    },
+    {
+      "date": "2022-07-21",
+      "cloud": 25.062013,
+      "file": "2022-07-21.jpg",
+      "layers": {
+        "nir": "2022-07-21_nir.jpg",
+        "swir": "2022-07-21_swir.jpg",
+        "ndvi": "2022-07-21_ndvi.jpg",
+        "nbr": "2022-07-21_nbr.jpg"
+      }
+    },
+    {
+      "date": "2022-07-26",
+      "cloud": 50.52,
+      "file": "2022-07-26.jpg",
+      "layers": {
+        "nir": "2022-07-26_nir.jpg",
+        "swir": "2022-07-26_swir.jpg",
+        "ndvi": "2022-07-26_ndvi.jpg",
+        "nbr": "2022-07-26_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2022-06-22",
+      "2022-07-21"
+    ],
+    "post": [
+      "2022-07-23",
+      "2022-08-21"
+    ]
+  },
+  "hls": {
+    "file": "hls.jpg",
+    "date": "2022-07-22",
+    "scene_id": "HLS.L30.T35NRB.2022203T081336.v2.0",
+    "collection": "HLSL30_2.0",
+    "cloud_pct": 18
+  }
+}

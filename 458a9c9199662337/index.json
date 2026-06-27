@@ -1,0 +1,80 @@
+{
+  "incident_id": "NE-2020-LAMURDE-LGA-U346145",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    9.6,
+    11.7833
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    11.774189,
+    9.590956,
+    11.792411,
+    9.609044
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2020-06-05",
+      "cloud": 52.95,
+      "file": "2020-06-05.jpg",
+      "layers": {
+        "nir": "2020-06-05_nir.jpg",
+        "swir": "2020-06-05_swir.jpg",
+        "ndvi": "2020-06-05_ndvi.jpg",
+        "nbr": "2020-06-05_nbr.jpg"
+      }
+    },
+    {
+      "date": "2020-06-10",
+      "cloud": 71.54,
+      "file": "2020-06-10.jpg",
+      "layers": {
+        "nir": "2020-06-10_nir.jpg",
+        "swir": "2020-06-10_swir.jpg",
+        "ndvi": "2020-06-10_ndvi.jpg",
+        "nbr": "2020-06-10_nbr.jpg"
+      }
+    },
+    {
+      "date": "2020-06-15",
+      "cloud": 100.0,
+      "file": "2020-06-15.jpg",
+      "layers": {
+        "nir": "2020-06-15_nir.jpg",
+        "swir": "2020-06-15_swir.jpg",
+        "ndvi": "2020-06-15_ndvi.jpg",
+        "nbr": "2020-06-15_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2020-05-09",
+      "2020-06-07"
+    ],
+    "post": [
+      "2020-06-09",
+      "2020-07-08"
+    ]
+  },
+  "hls_attempted": true,
+  "hls": {
+    "file": "hls.jpg",
+    "date": "2020-06-09",
+    "scene_id": "HLS.L30.T32PQR.2020161T093049.v2.0",
+    "collection": "HLSL30_2.0",
+    "cloud_pct": 12
+  }
+}

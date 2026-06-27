@@ -1,0 +1,72 @@
+{
+  "incident_id": "DR-CON-2022-KISIA-HEALTH-AREA-U453164",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    -3.95,
+    16.75
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    16.740995,
+    -3.959044,
+    16.759005,
+    -3.940956
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2022-10-29",
+      "cloud": 85.722739,
+      "file": "2022-10-29.jpg",
+      "layers": {
+        "nir": "2022-10-29_nir.jpg",
+        "swir": "2022-10-29_swir.jpg",
+        "ndvi": "2022-10-29_ndvi.jpg",
+        "nbr": "2022-10-29_nbr.jpg"
+      }
+    },
+    {
+      "date": "2022-11-03",
+      "cloud": 77.045238,
+      "file": "2022-11-03.jpg",
+      "layers": {
+        "nir": "2022-11-03_nir.jpg",
+        "swir": "2022-11-03_swir.jpg",
+        "ndvi": "2022-11-03_ndvi.jpg",
+        "nbr": "2022-11-03_nbr.jpg"
+      }
+    },
+    {
+      "date": "2022-11-08",
+      "cloud": 74.871725,
+      "file": "2022-11-08.jpg",
+      "layers": {
+        "nir": "2022-11-08_nir.jpg",
+        "swir": "2022-11-08_swir.jpg",
+        "ndvi": "2022-11-08_ndvi.jpg",
+        "nbr": "2022-11-08_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2022-10-03",
+      "2022-11-01"
+    ],
+    "post": [
+      "2022-11-03",
+      "2022-12-02"
+    ]
+  }
+}

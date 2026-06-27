@@ -1,0 +1,72 @@
+{
+  "incident_id": "MALI-2025-GOUNDAM-TOWN-U589578",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    16.41453,
+    -3.67075
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    -3.680115,
+    16.405486,
+    -3.661385,
+    16.423574
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2025-06-25",
+      "cloud": 3.007956,
+      "file": "2025-06-25.jpg",
+      "layers": {
+        "nir": "2025-06-25_nir.jpg",
+        "swir": "2025-06-25_swir.jpg",
+        "ndvi": "2025-06-25_ndvi.jpg",
+        "nbr": "2025-06-25_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-07-02",
+      "cloud": 27.534622,
+      "file": "2025-07-02.jpg",
+      "layers": {
+        "nir": "2025-07-02_nir.jpg",
+        "swir": "2025-07-02_swir.jpg",
+        "ndvi": "2025-07-02_ndvi.jpg",
+        "nbr": "2025-07-02_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-07-05",
+      "cloud": 29.554859,
+      "file": "2025-07-05.jpg",
+      "layers": {
+        "nir": "2025-07-05_nir.jpg",
+        "swir": "2025-07-05_swir.jpg",
+        "ndvi": "2025-07-05_ndvi.jpg",
+        "nbr": "2025-07-05_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2025-05-31",
+      "2025-06-29"
+    ],
+    "post": [
+      "2025-07-01",
+      "2025-07-30"
+    ]
+  }
+}

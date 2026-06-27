@@ -1,0 +1,72 @@
+{
+  "incident_id": "DR-CON-2023-FATUNDU-VILLAGE-U471084",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    -4.116819,
+    17.219297
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    17.210291,
+    -4.125863,
+    17.228303,
+    -4.107775
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2023-03-18",
+      "cloud": 98.61,
+      "file": "2023-03-18.jpg",
+      "layers": {
+        "nir": "2023-03-18_nir.jpg",
+        "swir": "2023-03-18_swir.jpg",
+        "ndvi": "2023-03-18_ndvi.jpg",
+        "nbr": "2023-03-18_nbr.jpg"
+      }
+    },
+    {
+      "date": "2023-03-23",
+      "cloud": 50.94,
+      "file": "2023-03-23.jpg",
+      "layers": {
+        "nir": "2023-03-23_nir.jpg",
+        "swir": "2023-03-23_swir.jpg",
+        "ndvi": "2023-03-23_ndvi.jpg",
+        "nbr": "2023-03-23_nbr.jpg"
+      }
+    },
+    {
+      "date": "2023-03-28",
+      "cloud": 17.49,
+      "file": "2023-03-28.jpg",
+      "layers": {
+        "nir": "2023-03-28_nir.jpg",
+        "swir": "2023-03-28_swir.jpg",
+        "ndvi": "2023-03-28_ndvi.jpg",
+        "nbr": "2023-03-28_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2023-02-22",
+      "2023-03-23"
+    ],
+    "post": [
+      "2023-03-25",
+      "2023-04-23"
+    ]
+  }
+}

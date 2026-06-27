@@ -1,0 +1,73 @@
+{
+  "incident_id": "DR-CON-2021-TCHANI-VILLAGE-U390605",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    0.81491,
+    29.52149
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    29.512506,
+    0.805866,
+    29.530474,
+    0.823954
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2021-03-18",
+      "cloud": 96.3,
+      "file": "2021-03-18.jpg",
+      "layers": {
+        "nir": "2021-03-18_nir.jpg",
+        "swir": "2021-03-18_swir.jpg",
+        "ndvi": "2021-03-18_ndvi.jpg",
+        "nbr": "2021-03-18_nbr.jpg"
+      }
+    },
+    {
+      "date": "2021-03-23",
+      "cloud": 63.05,
+      "file": "2021-03-23.jpg",
+      "layers": {
+        "nir": "2021-03-23_nir.jpg",
+        "swir": "2021-03-23_swir.jpg",
+        "ndvi": "2021-03-23_ndvi.jpg",
+        "nbr": "2021-03-23_nbr.jpg"
+      }
+    },
+    {
+      "date": "2021-03-28",
+      "cloud": 45.34,
+      "file": "2021-03-28.jpg",
+      "layers": {
+        "nir": "2021-03-28_nir.jpg",
+        "swir": "2021-03-28_swir.jpg",
+        "ndvi": "2021-03-28_ndvi.jpg",
+        "nbr": "2021-03-28_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2021-02-20",
+      "2021-03-21"
+    ],
+    "post": [
+      "2021-03-23",
+      "2021-04-21"
+    ]
+  },
+  "hls_attempted": true
+}

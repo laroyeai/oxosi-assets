@@ -1,0 +1,72 @@
+{
+  "incident_id": "DR-CON-2025-NIZI-TOWN-U588438",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    1.769413,
+    30.291396
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    30.282409,
+    1.760369,
+    30.300383,
+    1.778457
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2025-07-20",
+      "cloud": 39.175704,
+      "file": "2025-07-20.jpg",
+      "layers": {
+        "nir": "2025-07-20_nir.jpg",
+        "swir": "2025-07-20_swir.jpg",
+        "ndvi": "2025-07-20_ndvi.jpg",
+        "nbr": "2025-07-20_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-07-25",
+      "cloud": 28.417787,
+      "file": "2025-07-25.jpg",
+      "layers": {
+        "nir": "2025-07-25_nir.jpg",
+        "swir": "2025-07-25_swir.jpg",
+        "ndvi": "2025-07-25_ndvi.jpg",
+        "nbr": "2025-07-25_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-07-27",
+      "cloud": 32.595494,
+      "file": "2025-07-27.jpg",
+      "layers": {
+        "nir": "2025-07-27_nir.jpg",
+        "swir": "2025-07-27_swir.jpg",
+        "ndvi": "2025-07-27_ndvi.jpg",
+        "nbr": "2025-07-27_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2025-06-21",
+      "2025-07-20"
+    ],
+    "post": [
+      "2025-07-22",
+      "2025-08-20"
+    ]
+  }
+}

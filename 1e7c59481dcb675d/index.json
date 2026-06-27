@@ -1,0 +1,72 @@
+{
+  "incident_id": "DR-CON-2025-MUZINZI-VILLAGE-U584850",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    -2.742016,
+    28.56395
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    28.554957,
+    -2.75106,
+    28.572943,
+    -2.732972
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2025-06-15",
+      "cloud": 4.851724,
+      "file": "2025-06-15.jpg",
+      "layers": {
+        "nir": "2025-06-15_nir.jpg",
+        "swir": "2025-06-15_swir.jpg",
+        "ndvi": "2025-06-15_ndvi.jpg",
+        "nbr": "2025-06-15_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-06-25",
+      "cloud": 2.585788,
+      "file": "2025-06-25.jpg",
+      "layers": {
+        "nir": "2025-06-25_nir.jpg",
+        "swir": "2025-06-25_swir.jpg",
+        "ndvi": "2025-06-25_ndvi.jpg",
+        "nbr": "2025-06-25_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-06-27",
+      "cloud": 1.811383,
+      "file": "2025-06-27.jpg",
+      "layers": {
+        "nir": "2025-06-27_nir.jpg",
+        "swir": "2025-06-27_swir.jpg",
+        "ndvi": "2025-06-27_ndvi.jpg",
+        "nbr": "2025-06-27_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2025-05-23",
+      "2025-06-21"
+    ],
+    "post": [
+      "2025-06-23",
+      "2025-07-22"
+    ]
+  }
+}

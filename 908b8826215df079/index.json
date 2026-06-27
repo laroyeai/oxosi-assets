@@ -1,0 +1,72 @@
+{
+  "incident_id": "DR-CON-2019-NGADDU-VILLAGE-NGLE-U305238",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    1.87843,
+    30.59704
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    30.588052,
+    1.869386,
+    30.606028,
+    1.887474
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2019-09-10",
+      "cloud": 99.3,
+      "file": "2019-09-10.jpg",
+      "layers": {
+        "nir": "2019-09-10_nir.jpg",
+        "swir": "2019-09-10_swir.jpg",
+        "ndvi": "2019-09-10_ndvi.jpg",
+        "nbr": "2019-09-10_nbr.jpg"
+      }
+    },
+    {
+      "date": "2019-09-15",
+      "cloud": 6.53,
+      "file": "2019-09-15.jpg",
+      "layers": {
+        "nir": "2019-09-15_nir.jpg",
+        "swir": "2019-09-15_swir.jpg",
+        "ndvi": "2019-09-15_ndvi.jpg",
+        "nbr": "2019-09-15_nbr.jpg"
+      }
+    },
+    {
+      "date": "2019-09-20",
+      "cloud": 83.83,
+      "file": "2019-09-20.jpg",
+      "layers": {
+        "nir": "2019-09-20_nir.jpg",
+        "swir": "2019-09-20_swir.jpg",
+        "ndvi": "2019-09-20_ndvi.jpg",
+        "nbr": "2019-09-20_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2019-08-18",
+      "2019-09-16"
+    ],
+    "post": [
+      "2019-09-18",
+      "2019-10-17"
+    ]
+  }
+}

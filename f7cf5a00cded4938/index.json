@@ -1,0 +1,72 @@
+{
+  "incident_id": "SS-2020-BENIN-CITY-TOWN-U386337",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    6.335045,
+    5.627492
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    5.618454,
+    6.326001,
+    5.63653,
+    6.344089
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2020-11-03",
+      "cloud": 11.06,
+      "file": "2020-11-03.jpg",
+      "layers": {
+        "nir": "2020-11-03_nir.jpg",
+        "swir": "2020-11-03_swir.jpg",
+        "ndvi": "2020-11-03_ndvi.jpg",
+        "nbr": "2020-11-03_nbr.jpg"
+      }
+    },
+    {
+      "date": "2020-11-08",
+      "cloud": 43.45,
+      "file": "2020-11-08.jpg",
+      "layers": {
+        "nir": "2020-11-08_nir.jpg",
+        "swir": "2020-11-08_swir.jpg",
+        "ndvi": "2020-11-08_ndvi.jpg",
+        "nbr": "2020-11-08_nbr.jpg"
+      }
+    },
+    {
+      "date": "2020-11-13",
+      "cloud": 64.32,
+      "file": "2020-11-13.jpg",
+      "layers": {
+        "nir": "2020-11-13_nir.jpg",
+        "swir": "2020-11-13_swir.jpg",
+        "ndvi": "2020-11-13_ndvi.jpg",
+        "nbr": "2020-11-13_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2020-10-10",
+      "2020-11-08"
+    ],
+    "post": [
+      "2020-11-10",
+      "2020-12-09"
+    ]
+  }
+}

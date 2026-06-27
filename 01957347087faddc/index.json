@@ -1,0 +1,72 @@
+{
+  "incident_id": "NE-2025-MALAM-FATORI-VILLAGE-U585736",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    13.6734,
+    13.3388
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    13.329555,
+    13.664356,
+    13.348045,
+    13.682444
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2025-06-29",
+      "cloud": 55.271327,
+      "file": "2025-06-29.jpg",
+      "layers": {
+        "nir": "2025-06-29_nir.jpg",
+        "swir": "2025-06-29_swir.jpg",
+        "ndvi": "2025-06-29_ndvi.jpg",
+        "nbr": "2025-06-29_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-07-01",
+      "cloud": 14.614049,
+      "file": "2025-07-01.jpg",
+      "layers": {
+        "nir": "2025-07-01_nir.jpg",
+        "swir": "2025-07-01_swir.jpg",
+        "ndvi": "2025-07-01_ndvi.jpg",
+        "nbr": "2025-07-01_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-07-09",
+      "cloud": 3.416039,
+      "file": "2025-07-09.jpg",
+      "layers": {
+        "nir": "2025-07-09_nir.jpg",
+        "swir": "2025-07-09_swir.jpg",
+        "ndvi": "2025-07-09_ndvi.jpg",
+        "nbr": "2025-07-09_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2025-06-03",
+      "2025-07-02"
+    ],
+    "post": [
+      "2025-07-04",
+      "2025-08-02"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "incident_id": "NE-2015-ALI-DIWARI-VILLAGE-U208246",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    11.763556,
+    13.148569
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    13.139393,
+    11.754512,
+    13.157745,
+    11.7726
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2015-12-29",
+      "cloud": 0.0,
+      "file": "2015-12-29.jpg",
+      "layers": {
+        "nir": "2015-12-29_nir.jpg",
+        "swir": "2015-12-29_swir.jpg",
+        "ndvi": "2015-12-29_ndvi.jpg",
+        "nbr": "2015-12-29_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": null
+}

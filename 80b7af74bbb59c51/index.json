@@ -1,0 +1,72 @@
+{
+  "incident_id": "DR-CON-2024-KISEGURU-VILLAGE-U555473",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    -1.014056,
+    29.438654
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    29.429669,
+    -1.0231,
+    29.447639,
+    -1.005012
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2024-10-23",
+      "cloud": 37.42,
+      "file": "2024-10-23.jpg",
+      "layers": {
+        "nir": "2024-10-23_nir.jpg",
+        "swir": "2024-10-23_swir.jpg",
+        "ndvi": "2024-10-23_ndvi.jpg",
+        "nbr": "2024-10-23_nbr.jpg"
+      }
+    },
+    {
+      "date": "2024-10-28",
+      "cloud": 73.3,
+      "file": "2024-10-28.jpg",
+      "layers": {
+        "nir": "2024-10-28_nir.jpg",
+        "swir": "2024-10-28_swir.jpg",
+        "ndvi": "2024-10-28_ndvi.jpg",
+        "nbr": "2024-10-28_nbr.jpg"
+      }
+    },
+    {
+      "date": "2024-11-02",
+      "cloud": 51.72,
+      "file": "2024-11-02.jpg",
+      "layers": {
+        "nir": "2024-11-02_nir.jpg",
+        "swir": "2024-11-02_swir.jpg",
+        "ndvi": "2024-11-02_ndvi.jpg",
+        "nbr": "2024-11-02_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2024-09-28",
+      "2024-10-27"
+    ],
+    "post": [
+      "2024-10-29",
+      "2024-11-27"
+    ]
+  }
+}

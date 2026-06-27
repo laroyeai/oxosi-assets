@@ -1,0 +1,72 @@
+{
+  "incident_id": "MOZAMB-2020-MITACATA-VILLAGE-U344877",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    -11.752222,
+    40.430833
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    40.421658,
+    -11.761266,
+    40.440008,
+    -11.743178
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2020-06-06",
+      "cloud": 7.14,
+      "file": "2020-06-06.jpg",
+      "layers": {
+        "nir": "2020-06-06_nir.jpg",
+        "swir": "2020-06-06_swir.jpg",
+        "ndvi": "2020-06-06_ndvi.jpg",
+        "nbr": "2020-06-06_nbr.jpg"
+      }
+    },
+    {
+      "date": "2020-06-11",
+      "cloud": 33.87,
+      "file": "2020-06-11.jpg",
+      "layers": {
+        "nir": "2020-06-11_nir.jpg",
+        "swir": "2020-06-11_swir.jpg",
+        "ndvi": "2020-06-11_ndvi.jpg",
+        "nbr": "2020-06-11_nbr.jpg"
+      }
+    },
+    {
+      "date": "2020-06-16",
+      "cloud": 2.68,
+      "file": "2020-06-16.jpg",
+      "layers": {
+        "nir": "2020-06-16_nir.jpg",
+        "swir": "2020-06-16_swir.jpg",
+        "ndvi": "2020-06-16_ndvi.jpg",
+        "nbr": "2020-06-16_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2020-05-10",
+      "2020-06-08"
+    ],
+    "post": [
+      "2020-06-10",
+      "2020-07-09"
+    ]
+  }
+}

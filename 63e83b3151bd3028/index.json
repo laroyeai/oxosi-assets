@@ -1,0 +1,61 @@
+{
+  "incident_id": "CAMERO-2016-M-M-VILLAGE-U218906",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    10.97809,
+    14.24167
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    14.232519,
+    10.969046,
+    14.250821,
+    10.987134
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2016-02-14",
+      "cloud": 88.7,
+      "file": "2016-02-14.jpg",
+      "layers": {
+        "nir": "2016-02-14_nir.jpg",
+        "swir": "2016-02-14_swir.jpg",
+        "ndvi": "2016-02-14_ndvi.jpg",
+        "nbr": "2016-02-14_nbr.jpg"
+      }
+    },
+    {
+      "date": "2016-02-24",
+      "cloud": 0.02,
+      "file": "2016-02-24.jpg",
+      "layers": {
+        "nir": "2016-02-24_nir.jpg",
+        "swir": "2016-02-24_swir.jpg",
+        "ndvi": "2016-02-24_ndvi.jpg",
+        "nbr": "2016-02-24_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2016-01-20",
+      "2016-02-18"
+    ],
+    "post": [
+      "2016-02-20",
+      "2016-03-20"
+    ]
+  }
+}

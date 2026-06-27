@@ -1,0 +1,61 @@
+{
+  "incident_id": "DR-CON-2017-KAMAKO-VILLAGE-U241365",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    -7.241576,
+    20.852737
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    20.843682,
+    -7.25062,
+    20.861792,
+    -7.232532
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2017-02-26",
+      "cloud": 15.34,
+      "file": "2017-02-26.jpg",
+      "layers": {
+        "nir": "2017-02-26_nir.jpg",
+        "swir": "2017-02-26_swir.jpg",
+        "ndvi": "2017-02-26_ndvi.jpg",
+        "nbr": "2017-02-26_nbr.jpg"
+      }
+    },
+    {
+      "date": "2017-03-08",
+      "cloud": 99.97,
+      "file": "2017-03-08.jpg",
+      "layers": {
+        "nir": "2017-03-08_nir.jpg",
+        "swir": "2017-03-08_swir.jpg",
+        "ndvi": "2017-03-08_ndvi.jpg",
+        "nbr": "2017-03-08_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2017-01-30",
+      "2017-02-28"
+    ],
+    "post": [
+      "2017-03-02",
+      "2017-03-31"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "incident_id": "NC-2024-AYAR-MBALOM-VILLAGE-U518160",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    7.507617,
+    8.443174
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    8.434113,
+    7.498573,
+    8.452235,
+    7.516661
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2024-03-04",
+      "cloud": 9.7,
+      "file": "2024-03-04.jpg",
+      "layers": {
+        "nir": "2024-03-04_nir.jpg",
+        "swir": "2024-03-04_swir.jpg",
+        "ndvi": "2024-03-04_ndvi.jpg",
+        "nbr": "2024-03-04_nbr.jpg"
+      }
+    },
+    {
+      "date": "2024-03-09",
+      "cloud": 47.29,
+      "file": "2024-03-09.jpg",
+      "layers": {
+        "nir": "2024-03-09_nir.jpg",
+        "swir": "2024-03-09_swir.jpg",
+        "ndvi": "2024-03-09_ndvi.jpg",
+        "nbr": "2024-03-09_nbr.jpg"
+      }
+    },
+    {
+      "date": "2024-03-14",
+      "cloud": 100.0,
+      "file": "2024-03-14.jpg",
+      "layers": {
+        "nir": "2024-03-14_nir.jpg",
+        "swir": "2024-03-14_swir.jpg",
+        "ndvi": "2024-03-14_ndvi.jpg",
+        "nbr": "2024-03-14_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2024-02-06",
+      "2024-03-06"
+    ],
+    "post": [
+      "2024-03-08",
+      "2024-04-06"
+    ]
+  }
+}

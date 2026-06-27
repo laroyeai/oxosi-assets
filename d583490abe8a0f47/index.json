@@ -1,0 +1,88 @@
+{
+  "incident_id": "DR-CON-2018-MAZE-VILLAGE-U253442",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    1.789476,
+    30.561306
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    30.552319,
+    1.780432,
+    30.570293,
+    1.79852
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2018-02-22",
+      "cloud": 18.16,
+      "file": "2018-02-22.jpg",
+      "layers": {
+        "nir": "2018-02-22_nir.jpg",
+        "swir": "2018-02-22_swir.jpg",
+        "ndvi": "2018-02-22_ndvi.jpg",
+        "nbr": "2018-02-22_nbr.jpg"
+      }
+    },
+    {
+      "date": "2018-02-27",
+      "cloud": 31.33,
+      "file": "2018-02-27.jpg",
+      "layers": {
+        "nir": "2018-02-27_nir.jpg",
+        "swir": "2018-02-27_swir.jpg",
+        "ndvi": "2018-02-27_ndvi.jpg",
+        "nbr": "2018-02-27_nbr.jpg"
+      }
+    },
+    {
+      "date": "2018-03-04",
+      "cloud": 83.2,
+      "file": "2018-03-04.jpg",
+      "layers": {
+        "nir": "2018-03-04_nir.jpg",
+        "swir": "2018-03-04_swir.jpg",
+        "ndvi": "2018-03-04_ndvi.jpg",
+        "nbr": "2018-03-04_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2018-01-29",
+      "2018-02-27"
+    ],
+    "post": [
+      "2018-03-01",
+      "2018-03-30"
+    ]
+  },
+  "superres": {
+    "file": "superres.jpg",
+    "frames": 8,
+    "scale": 3,
+    "eff_m_px": 3.3,
+    "dates": [
+      "2018-01-08",
+      "2018-01-18",
+      "2018-01-13",
+      "2018-01-28",
+      "2018-01-23",
+      "2018-04-28",
+      "2018-02-22",
+      "2018-04-23"
+    ]
+  }
+}

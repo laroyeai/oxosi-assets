@@ -1,0 +1,73 @@
+{
+  "incident_id": "NC-2025-MANGOR-VILLAGE-U588664",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    9.283247,
+    8.916771
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    8.907669,
+    9.274203,
+    8.925873,
+    9.292291
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2025-07-22",
+      "cloud": 78.747141,
+      "file": "2025-07-22.jpg",
+      "layers": {
+        "nir": "2025-07-22_nir.jpg",
+        "swir": "2025-07-22_swir.jpg",
+        "ndvi": "2025-07-22_ndvi.jpg",
+        "nbr": "2025-07-22_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-07-24",
+      "cloud": 83.474445,
+      "file": "2025-07-24.jpg",
+      "layers": {
+        "nir": "2025-07-24_nir.jpg",
+        "swir": "2025-07-24_swir.jpg",
+        "ndvi": "2025-07-24_ndvi.jpg",
+        "nbr": "2025-07-24_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-07-27",
+      "cloud": 99.710858,
+      "file": "2025-07-27.jpg",
+      "layers": {
+        "nir": "2025-07-27_nir.jpg",
+        "swir": "2025-07-27_swir.jpg",
+        "ndvi": "2025-07-27_ndvi.jpg",
+        "nbr": "2025-07-27_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2025-06-24",
+      "2025-07-23"
+    ],
+    "post": [
+      "2025-07-25",
+      "2025-08-23"
+    ]
+  },
+  "hls_attempted": true
+}

@@ -1,0 +1,72 @@
+{
+  "incident_id": "DR-CON-2023-LUBUNGA-TOWN-U497878",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    0.4923,
+    25.1872
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    25.178217,
+    0.483256,
+    25.196183,
+    0.501344
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2023-10-10",
+      "cloud": 100.0,
+      "file": "2023-10-10.jpg",
+      "layers": {
+        "nir": "2023-10-10_nir.jpg",
+        "swir": "2023-10-10_swir.jpg",
+        "ndvi": "2023-10-10_ndvi.jpg",
+        "nbr": "2023-10-10_nbr.jpg"
+      }
+    },
+    {
+      "date": "2023-10-15",
+      "cloud": 88.88,
+      "file": "2023-10-15.jpg",
+      "layers": {
+        "nir": "2023-10-15_nir.jpg",
+        "swir": "2023-10-15_swir.jpg",
+        "ndvi": "2023-10-15_ndvi.jpg",
+        "nbr": "2023-10-15_nbr.jpg"
+      }
+    },
+    {
+      "date": "2023-10-20",
+      "cloud": 92.06,
+      "file": "2023-10-20.jpg",
+      "layers": {
+        "nir": "2023-10-20_nir.jpg",
+        "swir": "2023-10-20_swir.jpg",
+        "ndvi": "2023-10-20_ndvi.jpg",
+        "nbr": "2023-10-20_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2023-09-17",
+      "2023-10-16"
+    ],
+    "post": [
+      "2023-10-18",
+      "2023-11-16"
+    ]
+  }
+}

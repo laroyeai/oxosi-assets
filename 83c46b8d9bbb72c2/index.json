@@ -1,0 +1,72 @@
+{
+  "incident_id": "BURKIN-2023-NINDANGOU-VILLAGE-U481329",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    13.090732,
+    -0.173331
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    -0.182554,
+    13.081688,
+    -0.164108,
+    13.099776
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2023-06-30",
+      "cloud": 0.32,
+      "file": "2023-06-30.jpg",
+      "layers": {
+        "nir": "2023-06-30_nir.jpg",
+        "swir": "2023-06-30_swir.jpg",
+        "ndvi": "2023-06-30_ndvi.jpg",
+        "nbr": "2023-06-30_nbr.jpg"
+      }
+    },
+    {
+      "date": "2023-07-05",
+      "cloud": 50.0,
+      "file": "2023-07-05.jpg",
+      "layers": {
+        "nir": "2023-07-05_nir.jpg",
+        "swir": "2023-07-05_swir.jpg",
+        "ndvi": "2023-07-05_ndvi.jpg",
+        "nbr": "2023-07-05_nbr.jpg"
+      }
+    },
+    {
+      "date": "2023-07-10",
+      "cloud": 100.0,
+      "file": "2023-07-10.jpg",
+      "layers": {
+        "nir": "2023-07-10_nir.jpg",
+        "swir": "2023-07-10_swir.jpg",
+        "ndvi": "2023-07-10_ndvi.jpg",
+        "nbr": "2023-07-10_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2023-06-05",
+      "2023-07-04"
+    ],
+    "post": [
+      "2023-07-06",
+      "2023-08-04"
+    ]
+  }
+}

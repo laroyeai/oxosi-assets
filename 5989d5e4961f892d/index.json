@@ -1,0 +1,61 @@
+{
+  "incident_id": "NE-2017-SHAFRAU-VILLAGE-U252367",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    9.46001,
+    11.91665
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    11.907543,
+    9.450966,
+    11.925757,
+    9.469054
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2017-11-28",
+      "cloud": 43.01,
+      "file": "2017-11-28.jpg",
+      "layers": {
+        "nir": "2017-11-28_nir.jpg",
+        "swir": "2017-11-28_swir.jpg",
+        "ndvi": "2017-11-28_ndvi.jpg",
+        "nbr": "2017-11-28_nbr.jpg"
+      }
+    },
+    {
+      "date": "2017-12-08",
+      "cloud": 67.66,
+      "file": "2017-12-08.jpg",
+      "layers": {
+        "nir": "2017-12-08_nir.jpg",
+        "swir": "2017-12-08_swir.jpg",
+        "ndvi": "2017-12-08_ndvi.jpg",
+        "nbr": "2017-12-08_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2017-11-04",
+      "2017-12-03"
+    ],
+    "post": [
+      "2017-12-05",
+      "2018-01-03"
+    ]
+  }
+}

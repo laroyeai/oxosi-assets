@@ -1,0 +1,73 @@
+{
+  "incident_id": "NC-2024-EGWUMA-VILLAGE-U536012",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    7.856119,
+    7.942503
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    7.933435,
+    7.847075,
+    7.951571,
+    7.865163
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2024-07-07",
+      "cloud": 82.84,
+      "file": "2024-07-07.jpg",
+      "layers": {
+        "nir": "2024-07-07_nir.jpg",
+        "swir": "2024-07-07_swir.jpg",
+        "ndvi": "2024-07-07_ndvi.jpg",
+        "nbr": "2024-07-07_nbr.jpg"
+      }
+    },
+    {
+      "date": "2024-07-12",
+      "cloud": 93.85,
+      "file": "2024-07-12.jpg",
+      "layers": {
+        "nir": "2024-07-12_nir.jpg",
+        "swir": "2024-07-12_swir.jpg",
+        "ndvi": "2024-07-12_ndvi.jpg",
+        "nbr": "2024-07-12_nbr.jpg"
+      }
+    },
+    {
+      "date": "2024-07-17",
+      "cloud": 99.86,
+      "file": "2024-07-17.jpg",
+      "layers": {
+        "nir": "2024-07-17_nir.jpg",
+        "swir": "2024-07-17_swir.jpg",
+        "ndvi": "2024-07-17_ndvi.jpg",
+        "nbr": "2024-07-17_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2024-06-14",
+      "2024-07-13"
+    ],
+    "post": [
+      "2024-07-15",
+      "2024-08-13"
+    ]
+  },
+  "hls_attempted": true
+}

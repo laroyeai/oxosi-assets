@@ -1,0 +1,72 @@
+{
+  "incident_id": "MOZAMB-2020-NATUGO-VILLAGE-U348372",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    -12.690278,
+    40.393056
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    40.383848,
+    -12.699322,
+    40.402264,
+    -12.681234
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2020-04-27",
+      "cloud": 12.7,
+      "file": "2020-04-27.jpg",
+      "layers": {
+        "nir": "2020-04-27_nir.jpg",
+        "swir": "2020-04-27_swir.jpg",
+        "ndvi": "2020-04-27_ndvi.jpg",
+        "nbr": "2020-04-27_nbr.jpg"
+      }
+    },
+    {
+      "date": "2020-05-02",
+      "cloud": 33.51,
+      "file": "2020-05-02.jpg",
+      "layers": {
+        "nir": "2020-05-02_nir.jpg",
+        "swir": "2020-05-02_swir.jpg",
+        "ndvi": "2020-05-02_ndvi.jpg",
+        "nbr": "2020-05-02_nbr.jpg"
+      }
+    },
+    {
+      "date": "2020-05-07",
+      "cloud": 0.06,
+      "file": "2020-05-07.jpg",
+      "layers": {
+        "nir": "2020-05-07_nir.jpg",
+        "swir": "2020-05-07_swir.jpg",
+        "ndvi": "2020-05-07_ndvi.jpg",
+        "nbr": "2020-05-07_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2020-04-02",
+      "2020-05-01"
+    ],
+    "post": [
+      "2020-05-03",
+      "2020-06-01"
+    ]
+  }
+}

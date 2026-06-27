@@ -1,0 +1,72 @@
+{
+  "incident_id": "NE-2018-MAIDUGURI-TOWN-U270590",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    11.84644,
+    13.160274
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    13.151095,
+    11.837396,
+    13.169453,
+    11.855484
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2018-03-28",
+      "cloud": 18.89,
+      "file": "2018-03-28.jpg",
+      "layers": {
+        "nir": "2018-03-28_nir.jpg",
+        "swir": "2018-03-28_swir.jpg",
+        "ndvi": "2018-03-28_ndvi.jpg",
+        "nbr": "2018-03-28_nbr.jpg"
+      }
+    },
+    {
+      "date": "2018-04-02",
+      "cloud": 93.59,
+      "file": "2018-04-02.jpg",
+      "layers": {
+        "nir": "2018-04-02_nir.jpg",
+        "swir": "2018-04-02_swir.jpg",
+        "ndvi": "2018-04-02_ndvi.jpg",
+        "nbr": "2018-04-02_nbr.jpg"
+      }
+    },
+    {
+      "date": "2018-04-07",
+      "cloud": 7.04,
+      "file": "2018-04-07.jpg",
+      "layers": {
+        "nir": "2018-04-07_nir.jpg",
+        "swir": "2018-04-07_swir.jpg",
+        "ndvi": "2018-04-07_ndvi.jpg",
+        "nbr": "2018-04-07_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2018-03-02",
+      "2018-03-31"
+    ],
+    "post": [
+      "2018-04-02",
+      "2018-05-01"
+    ]
+  }
+}

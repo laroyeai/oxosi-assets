@@ -1,0 +1,79 @@
+{
+  "incident_id": "MALI-2019-BOGOLO-VILLAGE-U333023",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    14.319,
+    -3.71659
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    -3.725861,
+    14.309956,
+    -3.707319,
+    14.328044
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2019-06-17",
+      "cloud": 99.48,
+      "file": "2019-06-17.jpg",
+      "layers": {
+        "nir": "2019-06-17_nir.jpg",
+        "swir": "2019-06-17_swir.jpg",
+        "ndvi": "2019-06-17_ndvi.jpg",
+        "nbr": "2019-06-17_nbr.jpg"
+      }
+    },
+    {
+      "date": "2019-06-22",
+      "cloud": 99.42,
+      "file": "2019-06-22.jpg",
+      "layers": {
+        "nir": "2019-06-22_nir.jpg",
+        "swir": "2019-06-22_swir.jpg",
+        "ndvi": "2019-06-22_ndvi.jpg",
+        "nbr": "2019-06-22_nbr.jpg"
+      }
+    },
+    {
+      "date": "2019-06-27",
+      "cloud": 72.71,
+      "file": "2019-06-27.jpg",
+      "layers": {
+        "nir": "2019-06-27_nir.jpg",
+        "swir": "2019-06-27_swir.jpg",
+        "ndvi": "2019-06-27_ndvi.jpg",
+        "nbr": "2019-06-27_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2019-05-21",
+      "2019-06-19"
+    ],
+    "post": [
+      "2019-06-21",
+      "2019-07-20"
+    ]
+  },
+  "hls": {
+    "file": "hls.jpg",
+    "date": "2019-06-20",
+    "scene_id": "HLS.L30.T30PVA.2019171T103752.v2.0",
+    "collection": "HLSL30_2.0",
+    "cloud_pct": 4
+  }
+}

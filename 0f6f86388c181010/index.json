@@ -1,0 +1,72 @@
+{
+  "incident_id": "CHAD-2025-MANDAKAO-VILLAGE-U585761",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    8.816516,
+    15.404283
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    15.395192,
+    8.807472,
+    15.413374,
+    8.82556
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2025-06-18",
+      "cloud": 91.46654,
+      "file": "2025-06-18.jpg",
+      "layers": {
+        "nir": "2025-06-18_nir.jpg",
+        "swir": "2025-06-18_swir.jpg",
+        "ndvi": "2025-06-18_ndvi.jpg",
+        "nbr": "2025-06-18_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-06-21",
+      "cloud": 35.749885,
+      "file": "2025-06-21.jpg",
+      "layers": {
+        "nir": "2025-06-21_nir.jpg",
+        "swir": "2025-06-21_swir.jpg",
+        "ndvi": "2025-06-21_ndvi.jpg",
+        "nbr": "2025-06-21_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-06-26",
+      "cloud": 57.433367,
+      "file": "2025-06-26.jpg",
+      "layers": {
+        "nir": "2025-06-26_nir.jpg",
+        "swir": "2025-06-26_swir.jpg",
+        "ndvi": "2025-06-26_ndvi.jpg",
+        "nbr": "2025-06-26_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2025-05-20",
+      "2025-06-18"
+    ],
+    "post": [
+      "2025-06-20",
+      "2025-07-19"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "incident_id": "MALI-2021-MENAKA-TOWN-U403298",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    15.9182,
+    2.4022
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    2.392859,
+    15.909156,
+    2.411541,
+    15.927244
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2021-05-28",
+      "cloud": 89.57,
+      "file": "2021-05-28.jpg",
+      "layers": {
+        "nir": "2021-05-28_nir.jpg",
+        "swir": "2021-05-28_swir.jpg",
+        "ndvi": "2021-05-28_ndvi.jpg",
+        "nbr": "2021-05-28_nbr.jpg"
+      }
+    },
+    {
+      "date": "2021-06-02",
+      "cloud": 0.01,
+      "file": "2021-06-02.jpg",
+      "layers": {
+        "nir": "2021-06-02_nir.jpg",
+        "swir": "2021-06-02_swir.jpg",
+        "ndvi": "2021-06-02_ndvi.jpg",
+        "nbr": "2021-06-02_nbr.jpg"
+      }
+    },
+    {
+      "date": "2021-06-07",
+      "cloud": 3.55,
+      "file": "2021-06-07.jpg",
+      "layers": {
+        "nir": "2021-06-07_nir.jpg",
+        "swir": "2021-06-07_swir.jpg",
+        "ndvi": "2021-06-07_ndvi.jpg",
+        "nbr": "2021-06-07_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2021-05-05",
+      "2021-06-03"
+    ],
+    "post": [
+      "2021-06-05",
+      "2021-07-04"
+    ]
+  }
+}

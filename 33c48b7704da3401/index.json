@@ -1,0 +1,71 @@
+{
+  "incident_id": "DR-CON-2024-BAPAKOMBE-GROUPEMENT-U567445",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    0.45,
+    28.8
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    28.791017,
+    0.440956,
+    28.808983,
+    0.459044
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2024-06-10",
+      "cloud": 13.88,
+      "file": "2024-06-10.jpg",
+      "layers": {
+        "nir": "2024-06-10_nir.jpg",
+        "swir": "2024-06-10_swir.jpg",
+        "ndvi": "2024-06-10_ndvi.jpg",
+        "nbr": "2024-06-10_nbr.jpg"
+      }
+    },
+    {
+      "date": "2024-06-13",
+      "cloud": 56.83,
+      "file": "2024-06-13.jpg",
+      "layers": {
+        "nir": "2024-06-13_nir.jpg",
+        "swir": "2024-06-13_swir.jpg",
+        "ndvi": "2024-06-13_ndvi.jpg",
+        "nbr": "2024-06-13_nbr.jpg"
+      }
+    },
+    {
+      "date": "2024-06-18",
+      "cloud": 9.87,
+      "file": "2024-06-18.jpg",
+      "layers": {
+        "swir": "2024-06-18_swir.jpg",
+        "ndvi": "2024-06-18_ndvi.jpg",
+        "nbr": "2024-06-18_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2024-05-13",
+      "2024-06-11"
+    ],
+    "post": [
+      "2024-06-13",
+      "2024-07-12"
+    ]
+  }
+}

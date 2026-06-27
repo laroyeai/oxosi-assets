@@ -1,0 +1,72 @@
+{
+  "incident_id": "BURKIN-2023-TANKOGONADYE-VILLAGE-U476226",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    13.56203,
+    0.73575
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    0.726509,
+    13.552986,
+    0.744991,
+    13.571074
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2023-05-16",
+      "cloud": 10.73,
+      "file": "2023-05-16.jpg",
+      "layers": {
+        "nir": "2023-05-16_nir.jpg",
+        "swir": "2023-05-16_swir.jpg",
+        "ndvi": "2023-05-16_ndvi.jpg",
+        "nbr": "2023-05-16_nbr.jpg"
+      }
+    },
+    {
+      "date": "2023-05-21",
+      "cloud": 55.78,
+      "file": "2023-05-21.jpg",
+      "layers": {
+        "nir": "2023-05-21_nir.jpg",
+        "swir": "2023-05-21_swir.jpg",
+        "ndvi": "2023-05-21_ndvi.jpg",
+        "nbr": "2023-05-21_nbr.jpg"
+      }
+    },
+    {
+      "date": "2023-05-26",
+      "cloud": 5.85,
+      "file": "2023-05-26.jpg",
+      "layers": {
+        "nir": "2023-05-26_nir.jpg",
+        "swir": "2023-05-26_swir.jpg",
+        "ndvi": "2023-05-26_ndvi.jpg",
+        "nbr": "2023-05-26_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2023-04-21",
+      "2023-05-20"
+    ],
+    "post": [
+      "2023-05-22",
+      "2023-06-20"
+    ]
+  }
+}

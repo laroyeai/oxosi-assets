@@ -1,0 +1,80 @@
+{
+  "incident_id": "MOZAMB-2023-NAQUITENGUE-VILLAGE-U493025",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    -11.528386,
+    40.247555
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    40.238387,
+    -11.53743,
+    40.256723,
+    -11.519342
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2023-09-09",
+      "cloud": 66.7,
+      "file": "2023-09-09.jpg",
+      "layers": {
+        "nir": "2023-09-09_nir.jpg",
+        "swir": "2023-09-09_swir.jpg",
+        "ndvi": "2023-09-09_ndvi.jpg",
+        "nbr": "2023-09-09_nbr.jpg"
+      }
+    },
+    {
+      "date": "2023-09-14",
+      "cloud": 31.19,
+      "file": "2023-09-14.jpg",
+      "layers": {
+        "nir": "2023-09-14_nir.jpg",
+        "swir": "2023-09-14_swir.jpg",
+        "ndvi": "2023-09-14_ndvi.jpg",
+        "nbr": "2023-09-14_nbr.jpg"
+      }
+    },
+    {
+      "date": "2023-09-19",
+      "cloud": 38.38,
+      "file": "2023-09-19.jpg",
+      "layers": {
+        "nir": "2023-09-19_nir.jpg",
+        "swir": "2023-09-19_swir.jpg",
+        "ndvi": "2023-09-19_ndvi.jpg",
+        "nbr": "2023-09-19_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2023-08-15",
+      "2023-09-13"
+    ],
+    "post": [
+      "2023-09-15",
+      "2023-10-14"
+    ]
+  },
+  "hls_attempted": true,
+  "hls": {
+    "file": "hls.jpg",
+    "date": "2023-09-20",
+    "scene_id": "HLS.L30.T37LFH.2023263T072119.v2.0",
+    "collection": "HLSL30_2.0",
+    "cloud_pct": 14
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "incident_id": "NIGER-2025-MANDA-VILLAGE-U584172",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    14.43285,
+    0.48139
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    0.472114,
+    14.423806,
+    0.490666,
+    14.441894
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2025-06-16",
+      "cloud": 30.181977,
+      "file": "2025-06-16.jpg",
+      "layers": {
+        "nir": "2025-06-16_nir.jpg",
+        "swir": "2025-06-16_swir.jpg",
+        "ndvi": "2025-06-16_ndvi.jpg",
+        "nbr": "2025-06-16_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-06-19",
+      "cloud": 12.024668,
+      "file": "2025-06-19.jpg",
+      "layers": {
+        "nir": "2025-06-19_nir.jpg",
+        "swir": "2025-06-19_swir.jpg",
+        "ndvi": "2025-06-19_ndvi.jpg",
+        "nbr": "2025-06-19_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-06-26",
+      "cloud": 16.93714,
+      "file": "2025-06-26.jpg",
+      "layers": {
+        "nir": "2025-06-26_nir.jpg",
+        "swir": "2025-06-26_swir.jpg",
+        "ndvi": "2025-06-26_ndvi.jpg",
+        "nbr": "2025-06-26_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2025-05-21",
+      "2025-06-19"
+    ],
+    "post": [
+      "2025-06-21",
+      "2025-07-20"
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "incident_id": "DR-CON-2022-MUTWEYI-VILLAGE-U427607",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    0.84993,
+    29.4372
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    29.428216,
+    0.840886,
+    29.446184,
+    0.858974
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2022-01-17",
+      "cloud": 99.979818,
+      "file": "2022-01-17.jpg",
+      "layers": {
+        "nir": "2022-01-17_nir.jpg",
+        "swir": "2022-01-17_swir.jpg",
+        "ndvi": "2022-01-17_ndvi.jpg",
+        "nbr": "2022-01-17_nbr.jpg"
+      }
+    },
+    {
+      "date": "2022-01-22",
+      "cloud": 76.960528,
+      "file": "2022-01-22.jpg",
+      "layers": {
+        "nir": "2022-01-22_nir.jpg",
+        "swir": "2022-01-22_swir.jpg",
+        "ndvi": "2022-01-22_ndvi.jpg",
+        "nbr": "2022-01-22_nbr.jpg"
+      }
+    },
+    {
+      "date": "2022-01-27",
+      "cloud": 40.087989,
+      "file": "2022-01-27.jpg",
+      "layers": {
+        "nir": "2022-01-27_nir.jpg",
+        "swir": "2022-01-27_swir.jpg",
+        "ndvi": "2022-01-27_ndvi.jpg",
+        "nbr": "2022-01-27_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2021-12-24",
+      "2022-01-22"
+    ],
+    "post": [
+      "2022-01-24",
+      "2022-02-22"
+    ]
+  },
+  "hls_attempted": true
+}

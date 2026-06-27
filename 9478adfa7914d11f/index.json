@@ -1,0 +1,72 @@
+{
+  "incident_id": "NC-2023-BORIKYO-WARD-U502490",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    7.519329,
+    9.747641
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    9.73858,
+    7.510285,
+    9.756702,
+    7.528373
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2023-10-31",
+      "cloud": 20.12,
+      "file": "2023-10-31.jpg",
+      "layers": {
+        "nir": "2023-10-31_nir.jpg",
+        "swir": "2023-10-31_swir.jpg",
+        "ndvi": "2023-10-31_ndvi.jpg",
+        "nbr": "2023-10-31_nbr.jpg"
+      }
+    },
+    {
+      "date": "2023-11-05",
+      "cloud": 76.28,
+      "file": "2023-11-05.jpg",
+      "layers": {
+        "nir": "2023-11-05_nir.jpg",
+        "swir": "2023-11-05_swir.jpg",
+        "ndvi": "2023-11-05_ndvi.jpg",
+        "nbr": "2023-11-05_nbr.jpg"
+      }
+    },
+    {
+      "date": "2023-11-10",
+      "cloud": 68.15,
+      "file": "2023-11-10.jpg",
+      "layers": {
+        "nir": "2023-11-10_nir.jpg",
+        "swir": "2023-11-10_swir.jpg",
+        "ndvi": "2023-11-10_ndvi.jpg",
+        "nbr": "2023-11-10_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2023-10-07",
+      "2023-11-05"
+    ],
+    "post": [
+      "2023-11-07",
+      "2023-12-06"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "incident_id": "BURKIN-2020-PANSI-VILLAGE-U332045",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    13.23107,
+    0.88128
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    0.872052,
+    13.222026,
+    0.890508,
+    13.240114
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2020-02-11",
+      "cloud": 37.37,
+      "file": "2020-02-11.jpg",
+      "layers": {
+        "nir": "2020-02-11_nir.jpg",
+        "swir": "2020-02-11_swir.jpg",
+        "ndvi": "2020-02-11_ndvi.jpg",
+        "nbr": "2020-02-11_nbr.jpg"
+      }
+    },
+    {
+      "date": "2020-02-16",
+      "cloud": 1.58,
+      "file": "2020-02-16.jpg",
+      "layers": {
+        "nir": "2020-02-16_nir.jpg",
+        "swir": "2020-02-16_swir.jpg",
+        "ndvi": "2020-02-16_ndvi.jpg",
+        "nbr": "2020-02-16_nbr.jpg"
+      }
+    },
+    {
+      "date": "2020-02-21",
+      "cloud": 0.04,
+      "file": "2020-02-21.jpg",
+      "layers": {
+        "nir": "2020-02-21_nir.jpg",
+        "swir": "2020-02-21_swir.jpg",
+        "ndvi": "2020-02-21_ndvi.jpg",
+        "nbr": "2020-02-21_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2020-01-17",
+      "2020-02-15"
+    ],
+    "post": [
+      "2020-02-17",
+      "2020-03-17"
+    ]
+  }
+}

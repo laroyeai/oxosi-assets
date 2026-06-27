@@ -1,0 +1,72 @@
+{
+  "incident_id": "DR-CON-2022-KISHESHE-VILLAGE-U466767",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    -1.020655,
+    29.218845
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    29.20986,
+    -1.029699,
+    29.22783,
+    -1.011611
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2022-11-23",
+      "cloud": 74.298412,
+      "file": "2022-11-23.jpg",
+      "layers": {
+        "nir": "2022-11-23_nir.jpg",
+        "swir": "2022-11-23_swir.jpg",
+        "ndvi": "2022-11-23_ndvi.jpg",
+        "nbr": "2022-11-23_nbr.jpg"
+      }
+    },
+    {
+      "date": "2022-11-28",
+      "cloud": 62.372059,
+      "file": "2022-11-28.jpg",
+      "layers": {
+        "nir": "2022-11-28_nir.jpg",
+        "swir": "2022-11-28_swir.jpg",
+        "ndvi": "2022-11-28_ndvi.jpg",
+        "nbr": "2022-11-28_nbr.jpg"
+      }
+    },
+    {
+      "date": "2022-12-03",
+      "cloud": 51.752943,
+      "file": "2022-12-03.jpg",
+      "layers": {
+        "nir": "2022-12-03_nir.jpg",
+        "swir": "2022-12-03_swir.jpg",
+        "ndvi": "2022-12-03_ndvi.jpg",
+        "nbr": "2022-12-03_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2022-10-30",
+      "2022-11-28"
+    ],
+    "post": [
+      "2022-11-30",
+      "2022-12-29"
+    ]
+  }
+}

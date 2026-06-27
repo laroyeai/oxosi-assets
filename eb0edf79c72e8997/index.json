@@ -1,0 +1,72 @@
+{
+  "incident_id": "MALI-2021-MAREBOUGOU-VILLAGE-U418158",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    14.08,
+    -4.43
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    -4.439261,
+    14.070956,
+    -4.420739,
+    14.089044
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2021-10-14",
+      "cloud": 1.13,
+      "file": "2021-10-14.jpg",
+      "layers": {
+        "nir": "2021-10-14_nir.jpg",
+        "swir": "2021-10-14_swir.jpg",
+        "ndvi": "2021-10-14_ndvi.jpg",
+        "nbr": "2021-10-14_nbr.jpg"
+      }
+    },
+    {
+      "date": "2021-10-19",
+      "cloud": 75.6,
+      "file": "2021-10-19.jpg",
+      "layers": {
+        "nir": "2021-10-19_nir.jpg",
+        "swir": "2021-10-19_swir.jpg",
+        "ndvi": "2021-10-19_ndvi.jpg",
+        "nbr": "2021-10-19_nbr.jpg"
+      }
+    },
+    {
+      "date": "2021-10-24",
+      "cloud": 0.66,
+      "file": "2021-10-24.jpg",
+      "layers": {
+        "nir": "2021-10-24_nir.jpg",
+        "swir": "2021-10-24_swir.jpg",
+        "ndvi": "2021-10-24_ndvi.jpg",
+        "nbr": "2021-10-24_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2021-09-20",
+      "2021-10-19"
+    ],
+    "post": [
+      "2021-10-21",
+      "2021-11-19"
+    ]
+  }
+}

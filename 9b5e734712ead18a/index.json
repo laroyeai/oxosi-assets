@@ -1,0 +1,72 @@
+{
+  "incident_id": "NE-2025-MANGARI-VILLAGE-U601494",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    13.208899,
+    13.691569
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    13.682342,
+    13.199855,
+    13.700796,
+    13.217943
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2025-10-19",
+      "cloud": 0.0,
+      "file": "2025-10-19.jpg",
+      "layers": {
+        "nir": "2025-10-19_nir.jpg",
+        "swir": "2025-10-19_swir.jpg",
+        "ndvi": "2025-10-19_ndvi.jpg",
+        "nbr": "2025-10-19_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-10-22",
+      "cloud": 2.23,
+      "file": "2025-10-22.jpg",
+      "layers": {
+        "nir": "2025-10-22_nir.jpg",
+        "swir": "2025-10-22_swir.jpg",
+        "ndvi": "2025-10-22_ndvi.jpg",
+        "nbr": "2025-10-22_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-10-27",
+      "cloud": 2.67,
+      "file": "2025-10-27.jpg",
+      "layers": {
+        "nir": "2025-10-27_nir.jpg",
+        "swir": "2025-10-27_swir.jpg",
+        "ndvi": "2025-10-27_ndvi.jpg",
+        "nbr": "2025-10-27_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2025-09-26",
+      "2025-10-25"
+    ],
+    "post": [
+      "2025-10-27",
+      "2025-11-25"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "incident_id": "DR-CON-2025-RUZA-VILLAGE-U601326",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    -1.1253,
+    29.241
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    29.232015,
+    -1.134344,
+    29.249985,
+    -1.116256
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2025-10-08",
+      "cloud": 55.47,
+      "file": "2025-10-08.jpg",
+      "layers": {
+        "nir": "2025-10-08_nir.jpg",
+        "swir": "2025-10-08_swir.jpg",
+        "ndvi": "2025-10-08_ndvi.jpg",
+        "nbr": "2025-10-08_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-10-15",
+      "cloud": 61.93,
+      "file": "2025-10-15.jpg",
+      "layers": {
+        "nir": "2025-10-15_nir.jpg",
+        "swir": "2025-10-15_swir.jpg",
+        "ndvi": "2025-10-15_ndvi.jpg",
+        "nbr": "2025-10-15_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-10-18",
+      "cloud": 58.59,
+      "file": "2025-10-18.jpg",
+      "layers": {
+        "nir": "2025-10-18_nir.jpg",
+        "swir": "2025-10-18_swir.jpg",
+        "ndvi": "2025-10-18_ndvi.jpg",
+        "nbr": "2025-10-18_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2025-09-12",
+      "2025-10-11"
+    ],
+    "post": [
+      "2025-10-13",
+      "2025-11-11"
+    ]
+  }
+}

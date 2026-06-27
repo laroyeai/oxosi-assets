@@ -1,0 +1,50 @@
+{
+  "incident_id": "CAMERO-2016-LOGONE-ET-CHARI-DEPA-U226683",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    12.0769,
+    15.0306
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    15.021414,
+    12.067856,
+    15.039786,
+    12.085944
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2016-06-13",
+      "cloud": 15.35,
+      "file": "2016-06-13.jpg",
+      "layers": {
+        "nir": "2016-06-13_nir.jpg",
+        "swir": "2016-06-13_swir.jpg",
+        "ndvi": "2016-06-13_ndvi.jpg",
+        "nbr": "2016-06-13_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2016-05-09",
+      "2016-06-07"
+    ],
+    "post": [
+      "2016-06-09",
+      "2016-07-08"
+    ]
+  }
+}

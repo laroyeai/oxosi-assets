@@ -1,0 +1,72 @@
+{
+  "incident_id": "MALI-2024-KALLALA-PEULH-VILLAG-U507638",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    13.765938,
+    -5.107015
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    -5.116264,
+    13.756894,
+    -5.097766,
+    13.774982
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2024-01-02",
+      "cloud": 33.33,
+      "file": "2024-01-02.jpg",
+      "layers": {
+        "nir": "2024-01-02_nir.jpg",
+        "swir": "2024-01-02_swir.jpg",
+        "ndvi": "2024-01-02_ndvi.jpg",
+        "nbr": "2024-01-02_nbr.jpg"
+      }
+    },
+    {
+      "date": "2024-01-07",
+      "cloud": 76.19,
+      "file": "2024-01-07.jpg",
+      "layers": {
+        "nir": "2024-01-07_nir.jpg",
+        "swir": "2024-01-07_swir.jpg",
+        "ndvi": "2024-01-07_ndvi.jpg",
+        "nbr": "2024-01-07_nbr.jpg"
+      }
+    },
+    {
+      "date": "2024-01-12",
+      "cloud": 7.61,
+      "file": "2024-01-12.jpg",
+      "layers": {
+        "nir": "2024-01-12_nir.jpg",
+        "swir": "2024-01-12_swir.jpg",
+        "ndvi": "2024-01-12_ndvi.jpg",
+        "nbr": "2024-01-12_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2023-12-07",
+      "2024-01-05"
+    ],
+    "post": [
+      "2024-01-07",
+      "2024-02-05"
+    ]
+  }
+}

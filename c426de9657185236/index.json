@@ -1,0 +1,88 @@
+{
+  "incident_id": "NE-2023-BULABULIN-VILLAGE-U501770",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    11.848375,
+    13.293896
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    13.284717,
+    11.839331,
+    13.303075,
+    11.857419
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2023-11-02",
+      "cloud": 7.11,
+      "file": "2023-11-02.jpg",
+      "layers": {
+        "nir": "2023-11-02_nir.jpg",
+        "swir": "2023-11-02_swir.jpg",
+        "ndvi": "2023-11-02_ndvi.jpg",
+        "nbr": "2023-11-02_nbr.jpg"
+      }
+    },
+    {
+      "date": "2023-11-07",
+      "cloud": 32.39,
+      "file": "2023-11-07.jpg",
+      "layers": {
+        "nir": "2023-11-07_nir.jpg",
+        "swir": "2023-11-07_swir.jpg",
+        "ndvi": "2023-11-07_ndvi.jpg",
+        "nbr": "2023-11-07_nbr.jpg"
+      }
+    },
+    {
+      "date": "2023-11-12",
+      "cloud": 25.01,
+      "file": "2023-11-12.jpg",
+      "layers": {
+        "nir": "2023-11-12_nir.jpg",
+        "swir": "2023-11-12_swir.jpg",
+        "ndvi": "2023-11-12_ndvi.jpg",
+        "nbr": "2023-11-12_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2023-10-07",
+      "2023-11-05"
+    ],
+    "post": [
+      "2023-11-07",
+      "2023-12-06"
+    ]
+  },
+  "superres": {
+    "file": "superres.jpg",
+    "frames": 8,
+    "scale": 3,
+    "eff_m_px": 3.3,
+    "dates": [
+      "2023-12-07",
+      "2023-12-17",
+      "2023-12-02",
+      "2023-10-23",
+      "2024-01-01",
+      "2023-11-27",
+      "2023-10-28",
+      "2023-12-22"
+    ]
+  }
+}

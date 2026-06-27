@@ -1,0 +1,72 @@
+{
+  "incident_id": "MALI-2025-DIAFARABE-TOWN-U579575",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    14.13814,
+    -5.01781
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    -5.027074,
+    14.129096,
+    -5.008546,
+    14.147184
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2025-05-06",
+      "cloud": 30.439052,
+      "file": "2025-05-06.jpg",
+      "layers": {
+        "nir": "2025-05-06_nir.jpg",
+        "swir": "2025-05-06_swir.jpg",
+        "ndvi": "2025-05-06_ndvi.jpg",
+        "nbr": "2025-05-06_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-05-11",
+      "cloud": 3.327112,
+      "file": "2025-05-11.jpg",
+      "layers": {
+        "nir": "2025-05-11_nir.jpg",
+        "swir": "2025-05-11_swir.jpg",
+        "ndvi": "2025-05-11_ndvi.jpg",
+        "nbr": "2025-05-11_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-05-16",
+      "cloud": 94.407147,
+      "file": "2025-05-16.jpg",
+      "layers": {
+        "nir": "2025-05-16_nir.jpg",
+        "swir": "2025-05-16_swir.jpg",
+        "ndvi": "2025-05-16_ndvi.jpg",
+        "nbr": "2025-05-16_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2025-04-12",
+      "2025-05-11"
+    ],
+    "post": [
+      "2025-05-13",
+      "2025-06-11"
+    ]
+  }
+}

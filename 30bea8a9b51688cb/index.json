@@ -1,0 +1,73 @@
+{
+  "incident_id": "NC-2025-OTOBI-VILLAGE-U577273",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    7.10989,
+    8.09243
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    8.083377,
+    7.100846,
+    8.101483,
+    7.118934
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2025-04-13",
+      "cloud": 56.441063,
+      "file": "2025-04-13.jpg",
+      "layers": {
+        "nir": "2025-04-13_nir.jpg",
+        "swir": "2025-04-13_swir.jpg",
+        "ndvi": "2025-04-13_ndvi.jpg",
+        "nbr": "2025-04-13_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-04-15",
+      "cloud": 67.646658,
+      "file": "2025-04-15.jpg",
+      "layers": {
+        "nir": "2025-04-15_nir.jpg",
+        "swir": "2025-04-15_swir.jpg",
+        "ndvi": "2025-04-15_ndvi.jpg",
+        "nbr": "2025-04-15_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-04-18",
+      "cloud": 32.442465,
+      "file": "2025-04-18.jpg",
+      "layers": {
+        "nir": "2025-04-18_nir.jpg",
+        "swir": "2025-04-18_swir.jpg",
+        "ndvi": "2025-04-18_ndvi.jpg",
+        "nbr": "2025-04-18_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2025-03-16",
+      "2025-04-14"
+    ],
+    "post": [
+      "2025-04-16",
+      "2025-05-15"
+    ]
+  },
+  "hls_attempted": true
+}

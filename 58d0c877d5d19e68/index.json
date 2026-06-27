@@ -1,0 +1,80 @@
+{
+  "incident_id": "MOZAMB-2021-PALMA-TOWN-U389998",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    -10.772012,
+    40.475349
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    40.466205,
+    -10.781056,
+    40.484493,
+    -10.762968
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2021-03-23",
+      "cloud": 34.79,
+      "file": "2021-03-23.jpg",
+      "layers": {
+        "nir": "2021-03-23_nir.jpg",
+        "swir": "2021-03-23_swir.jpg",
+        "ndvi": "2021-03-23_ndvi.jpg",
+        "nbr": "2021-03-23_nbr.jpg"
+      }
+    },
+    {
+      "date": "2021-03-28",
+      "cloud": 87.61,
+      "file": "2021-03-28.jpg",
+      "layers": {
+        "nir": "2021-03-28_nir.jpg",
+        "swir": "2021-03-28_swir.jpg",
+        "ndvi": "2021-03-28_ndvi.jpg",
+        "nbr": "2021-03-28_nbr.jpg"
+      }
+    },
+    {
+      "date": "2021-04-02",
+      "cloud": 96.31,
+      "file": "2021-04-02.jpg",
+      "layers": {
+        "nir": "2021-04-02_nir.jpg",
+        "swir": "2021-04-02_swir.jpg",
+        "ndvi": "2021-04-02_ndvi.jpg",
+        "nbr": "2021-04-02_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2021-02-26",
+      "2021-03-27"
+    ],
+    "post": [
+      "2021-03-29",
+      "2021-04-27"
+    ]
+  },
+  "hls_attempted": true,
+  "hls": {
+    "file": "hls.jpg",
+    "date": "2021-04-07",
+    "scene_id": "HLS.S30.T37LFJ.2021097T071619.v2.0",
+    "collection": "HLSS30_2.0",
+    "cloud_pct": 18
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "incident_id": "NC-2024-GANAWURI-VILLAGE-U559009",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    9.680926,
+    8.635579
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    8.626466,
+    9.671882,
+    8.644692,
+    9.68997
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2024-12-19",
+      "cloud": 0.0,
+      "file": "2024-12-19.jpg",
+      "layers": {
+        "nir": "2024-12-19_nir.jpg",
+        "swir": "2024-12-19_swir.jpg",
+        "ndvi": "2024-12-19_ndvi.jpg",
+        "nbr": "2024-12-19_nbr.jpg"
+      }
+    },
+    {
+      "date": "2024-12-24",
+      "cloud": 0.0,
+      "file": "2024-12-24.jpg",
+      "layers": {
+        "nir": "2024-12-24_nir.jpg",
+        "swir": "2024-12-24_swir.jpg",
+        "ndvi": "2024-12-24_ndvi.jpg",
+        "nbr": "2024-12-24_nbr.jpg"
+      }
+    },
+    {
+      "date": "2024-12-29",
+      "cloud": 11.57,
+      "file": "2024-12-29.jpg",
+      "layers": {
+        "nir": "2024-12-29_nir.jpg",
+        "swir": "2024-12-29_swir.jpg",
+        "ndvi": "2024-12-29_ndvi.jpg",
+        "nbr": "2024-12-29_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2024-11-22",
+      "2024-12-21"
+    ],
+    "post": [
+      "2024-12-23",
+      "2025-01-21"
+    ]
+  }
+}

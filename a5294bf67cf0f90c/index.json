@@ -1,0 +1,72 @@
+{
+  "incident_id": "DR-CON-2024-MAKANGA-VILLAGE-BAND-U514171",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    1.10018,
+    29.85142
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    29.842435,
+    1.091136,
+    29.860405,
+    1.109224
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2024-02-11",
+      "cloud": 80.45,
+      "file": "2024-02-11.jpg",
+      "layers": {
+        "nir": "2024-02-11_nir.jpg",
+        "swir": "2024-02-11_swir.jpg",
+        "ndvi": "2024-02-11_ndvi.jpg",
+        "nbr": "2024-02-11_nbr.jpg"
+      }
+    },
+    {
+      "date": "2024-02-16",
+      "cloud": 36.55,
+      "file": "2024-02-16.jpg",
+      "layers": {
+        "nir": "2024-02-16_nir.jpg",
+        "swir": "2024-02-16_swir.jpg",
+        "ndvi": "2024-02-16_ndvi.jpg",
+        "nbr": "2024-02-16_nbr.jpg"
+      }
+    },
+    {
+      "date": "2024-02-21",
+      "cloud": 82.99,
+      "file": "2024-02-21.jpg",
+      "layers": {
+        "nir": "2024-02-21_nir.jpg",
+        "swir": "2024-02-21_swir.jpg",
+        "ndvi": "2024-02-21_ndvi.jpg",
+        "nbr": "2024-02-21_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2024-01-19",
+      "2024-02-17"
+    ],
+    "post": [
+      "2024-02-19",
+      "2024-03-19"
+    ]
+  }
+}

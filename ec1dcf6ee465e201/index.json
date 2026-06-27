@@ -1,0 +1,72 @@
+{
+  "incident_id": "MALI-2019-GANGAFANI-VILLAGE-U305637",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    14.38204,
+    -2.39648
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    -2.405754,
+    14.372996,
+    -2.387206,
+    14.391084
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2019-06-14",
+      "cloud": 73.45,
+      "file": "2019-06-14.jpg",
+      "layers": {
+        "nir": "2019-06-14_nir.jpg",
+        "swir": "2019-06-14_swir.jpg",
+        "ndvi": "2019-06-14_ndvi.jpg",
+        "nbr": "2019-06-14_nbr.jpg"
+      }
+    },
+    {
+      "date": "2019-06-19",
+      "cloud": 34.85,
+      "file": "2019-06-19.jpg",
+      "layers": {
+        "nir": "2019-06-19_nir.jpg",
+        "swir": "2019-06-19_swir.jpg",
+        "ndvi": "2019-06-19_ndvi.jpg",
+        "nbr": "2019-06-19_nbr.jpg"
+      }
+    },
+    {
+      "date": "2019-06-24",
+      "cloud": 10.26,
+      "file": "2019-06-24.jpg",
+      "layers": {
+        "nir": "2019-06-24_nir.jpg",
+        "swir": "2019-06-24_swir.jpg",
+        "ndvi": "2019-06-24_ndvi.jpg",
+        "nbr": "2019-06-24_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2019-05-18",
+      "2019-06-16"
+    ],
+    "post": [
+      "2019-06-18",
+      "2019-07-17"
+    ]
+  }
+}

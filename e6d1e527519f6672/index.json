@@ -1,0 +1,72 @@
+{
+  "incident_id": "DR-CON-2022-BEU-MANYAMA-VILLAGE-U438730",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    0.81643,
+    29.5416
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    29.532616,
+    0.807386,
+    29.550584,
+    0.825474
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2022-05-22",
+      "cloud": 62.138927,
+      "file": "2022-05-22.jpg",
+      "layers": {
+        "nir": "2022-05-22_nir.jpg",
+        "swir": "2022-05-22_swir.jpg",
+        "ndvi": "2022-05-22_ndvi.jpg",
+        "nbr": "2022-05-22_nbr.jpg"
+      }
+    },
+    {
+      "date": "2022-05-27",
+      "cloud": 37.37,
+      "file": "2022-05-27.jpg",
+      "layers": {
+        "nir": "2022-05-27_nir.jpg",
+        "swir": "2022-05-27_swir.jpg",
+        "ndvi": "2022-05-27_ndvi.jpg",
+        "nbr": "2022-05-27_nbr.jpg"
+      }
+    },
+    {
+      "date": "2022-06-01",
+      "cloud": 28.420252,
+      "file": "2022-06-01.jpg",
+      "layers": {
+        "nir": "2022-06-01_nir.jpg",
+        "swir": "2022-06-01_swir.jpg",
+        "ndvi": "2022-06-01_ndvi.jpg",
+        "nbr": "2022-06-01_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2022-04-27",
+      "2022-05-26"
+    ],
+    "post": [
+      "2022-05-28",
+      "2022-06-26"
+    ]
+  }
+}

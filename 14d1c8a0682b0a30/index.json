@@ -1,0 +1,79 @@
+{
+  "incident_id": "DR-CON-2018-DJO-VILLAGE-U254943",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    2.18867,
+    30.572
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    30.56301,
+    2.179626,
+    30.58099,
+    2.197714
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2018-03-09",
+      "cloud": 89.22,
+      "file": "2018-03-09.jpg",
+      "layers": {
+        "nir": "2018-03-09_nir.jpg",
+        "swir": "2018-03-09_swir.jpg",
+        "ndvi": "2018-03-09_ndvi.jpg",
+        "nbr": "2018-03-09_nbr.jpg"
+      }
+    },
+    {
+      "date": "2018-03-14",
+      "cloud": 34.51,
+      "file": "2018-03-14.jpg",
+      "layers": {
+        "nir": "2018-03-14_nir.jpg",
+        "swir": "2018-03-14_swir.jpg",
+        "ndvi": "2018-03-14_ndvi.jpg",
+        "nbr": "2018-03-14_nbr.jpg"
+      }
+    },
+    {
+      "date": "2018-03-19",
+      "cloud": 87.07,
+      "file": "2018-03-19.jpg",
+      "layers": {
+        "nir": "2018-03-19_nir.jpg",
+        "swir": "2018-03-19_swir.jpg",
+        "ndvi": "2018-03-19_ndvi.jpg",
+        "nbr": "2018-03-19_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2018-02-10",
+      "2018-03-11"
+    ],
+    "post": [
+      "2018-03-13",
+      "2018-04-11"
+    ]
+  },
+  "hls": {
+    "file": "hls.jpg",
+    "date": "2018-03-05",
+    "scene_id": "HLS.L30.T36NTH.2018064T081233.v2.0",
+    "collection": "HLSL30_2.0",
+    "cloud_pct": 25
+  }
+}

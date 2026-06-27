@@ -1,0 +1,80 @@
+{
+  "incident_id": "MALI-2024-TOUNKARI-VILLAGE-U550172",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    14.5902,
+    -3.73789
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    -3.747172,
+    14.581156,
+    -3.728608,
+    14.599244
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2024-10-18",
+      "cloud": 34.42,
+      "file": "2024-10-18.jpg",
+      "layers": {
+        "nir": "2024-10-18_nir.jpg",
+        "swir": "2024-10-18_swir.jpg",
+        "ndvi": "2024-10-18_ndvi.jpg",
+        "nbr": "2024-10-18_nbr.jpg"
+      }
+    },
+    {
+      "date": "2024-10-23",
+      "cloud": 97.56,
+      "file": "2024-10-23.jpg",
+      "layers": {
+        "nir": "2024-10-23_nir.jpg",
+        "swir": "2024-10-23_swir.jpg",
+        "ndvi": "2024-10-23_ndvi.jpg",
+        "nbr": "2024-10-23_nbr.jpg"
+      }
+    },
+    {
+      "date": "2024-10-28",
+      "cloud": 43.25,
+      "file": "2024-10-28.jpg",
+      "layers": {
+        "nir": "2024-10-28_nir.jpg",
+        "swir": "2024-10-28_swir.jpg",
+        "ndvi": "2024-10-28_ndvi.jpg",
+        "nbr": "2024-10-28_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2024-09-25",
+      "2024-10-24"
+    ],
+    "post": [
+      "2024-10-26",
+      "2024-11-24"
+    ]
+  },
+  "hls_attempted": true,
+  "hls": {
+    "file": "hls.jpg",
+    "date": "2024-10-15",
+    "scene_id": "HLS.L30.T30PVB.2024289T103739.v2.0",
+    "collection": "HLSL30_2.0",
+    "cloud_pct": 0
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "incident_id": "DR-CON-2026-KIGURWE-VILLAGE-U629542",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    -3.042083,
+    29.178218
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    29.169222,
+    -3.051127,
+    29.187214,
+    -3.033039
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2026-05-03",
+      "cloud": 52.93,
+      "file": "2026-05-03.jpg",
+      "layers": {
+        "nir": "2026-05-03_nir.jpg",
+        "swir": "2026-05-03_swir.jpg",
+        "ndvi": "2026-05-03_ndvi.jpg",
+        "nbr": "2026-05-03_nbr.jpg"
+      }
+    },
+    {
+      "date": "2026-05-11",
+      "cloud": 23.73,
+      "file": "2026-05-11.jpg",
+      "layers": {
+        "nir": "2026-05-11_nir.jpg",
+        "swir": "2026-05-11_swir.jpg",
+        "ndvi": "2026-05-11_ndvi.jpg",
+        "nbr": "2026-05-11_nbr.jpg"
+      }
+    },
+    {
+      "date": "2026-05-13",
+      "cloud": 21.38,
+      "file": "2026-05-13.jpg",
+      "layers": {
+        "nir": "2026-05-13_nir.jpg",
+        "swir": "2026-05-13_swir.jpg",
+        "ndvi": "2026-05-13_ndvi.jpg",
+        "nbr": "2026-05-13_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2026-04-06",
+      "2026-05-05"
+    ],
+    "post": [
+      "2026-05-07",
+      "2026-06-05"
+    ]
+  }
+}

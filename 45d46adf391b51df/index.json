@@ -1,0 +1,72 @@
+{
+  "incident_id": "NE-2017-DALORI-VILLAGE-U238808",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    11.76002,
+    13.26606
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    13.256884,
+    11.750976,
+    13.275236,
+    11.769064
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2017-06-16",
+      "cloud": 72.58,
+      "file": "2017-06-16.jpg",
+      "layers": {
+        "nir": "2017-06-16_nir.jpg",
+        "swir": "2017-06-16_swir.jpg",
+        "ndvi": "2017-06-16_ndvi.jpg",
+        "nbr": "2017-06-16_nbr.jpg"
+      }
+    },
+    {
+      "date": "2017-06-21",
+      "cloud": 100.0,
+      "file": "2017-06-21.jpg",
+      "layers": {
+        "nir": "2017-06-21_nir.jpg",
+        "swir": "2017-06-21_swir.jpg",
+        "ndvi": "2017-06-21_ndvi.jpg",
+        "nbr": "2017-06-21_nbr.jpg"
+      }
+    },
+    {
+      "date": "2017-06-26",
+      "cloud": 0.17,
+      "file": "2017-06-26.jpg",
+      "layers": {
+        "nir": "2017-06-26_nir.jpg",
+        "swir": "2017-06-26_swir.jpg",
+        "ndvi": "2017-06-26_ndvi.jpg",
+        "nbr": "2017-06-26_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2017-05-20",
+      "2017-06-18"
+    ],
+    "post": [
+      "2017-06-20",
+      "2017-07-19"
+    ]
+  }
+}

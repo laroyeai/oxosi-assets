@@ -1,0 +1,62 @@
+{
+  "incident_id": "DR-CON-2025-GOMA-TOWN-U584220",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    -1.693333,
+    29.233889
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    29.224902,
+    -1.702377,
+    29.242876,
+    -1.684289
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2025-02-15",
+      "cloud": 34.441739,
+      "file": "2025-02-15.jpg",
+      "layers": {
+        "nir": "2025-02-15_nir.jpg",
+        "swir": "2025-02-15_swir.jpg",
+        "ndvi": "2025-02-15_ndvi.jpg",
+        "nbr": "2025-02-15_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-02-20",
+      "cloud": 13.35,
+      "file": "2025-02-20.jpg",
+      "layers": {
+        "nir": "2025-02-20_nir.jpg",
+        "swir": "2025-02-20_swir.jpg",
+        "ndvi": "2025-02-20_ndvi.jpg",
+        "nbr": "2025-02-20_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-02-25",
+      "cloud": 46.354514,
+      "file": "2025-02-25.jpg",
+      "layers": {
+        "nir": "2025-02-25_nir.jpg",
+        "swir": "2025-02-25_swir.jpg",
+        "ndvi": "2025-02-25_ndvi.jpg",
+        "nbr": "2025-02-25_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": null
+}

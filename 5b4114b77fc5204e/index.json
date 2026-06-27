@@ -1,0 +1,72 @@
+{
+  "incident_id": "NE-2020-RUMIRGO-VILLAGE-U332228",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    10.60371,
+    13.03029
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    13.021151,
+    10.594666,
+    13.039429,
+    10.612754
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2020-02-26",
+      "cloud": 0.02,
+      "file": "2020-02-26.jpg",
+      "layers": {
+        "nir": "2020-02-26_nir.jpg",
+        "swir": "2020-02-26_swir.jpg",
+        "ndvi": "2020-02-26_ndvi.jpg",
+        "nbr": "2020-02-26_nbr.jpg"
+      }
+    },
+    {
+      "date": "2020-03-02",
+      "cloud": 27.09,
+      "file": "2020-03-02.jpg",
+      "layers": {
+        "nir": "2020-03-02_nir.jpg",
+        "swir": "2020-03-02_swir.jpg",
+        "ndvi": "2020-03-02_ndvi.jpg",
+        "nbr": "2020-03-02_nbr.jpg"
+      }
+    },
+    {
+      "date": "2020-03-07",
+      "cloud": 46.2,
+      "file": "2020-03-07.jpg",
+      "layers": {
+        "nir": "2020-03-07_nir.jpg",
+        "swir": "2020-03-07_swir.jpg",
+        "ndvi": "2020-03-07_ndvi.jpg",
+        "nbr": "2020-03-07_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2020-01-30",
+      "2020-02-28"
+    ],
+    "post": [
+      "2020-03-01",
+      "2020-03-30"
+    ]
+  }
+}

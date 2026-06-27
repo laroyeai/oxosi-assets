@@ -1,0 +1,72 @@
+{
+  "incident_id": "DR-CON-2022-MBIDJO-VILLAGE-U449666",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    1.99496,
+    30.03679
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    30.027801,
+    1.985916,
+    30.045779,
+    2.004004
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2022-09-04",
+      "cloud": 77.049738,
+      "file": "2022-09-04.jpg",
+      "layers": {
+        "nir": "2022-09-04_nir.jpg",
+        "swir": "2022-09-04_swir.jpg",
+        "ndvi": "2022-09-04_ndvi.jpg",
+        "nbr": "2022-09-04_nbr.jpg"
+      }
+    },
+    {
+      "date": "2022-09-09",
+      "cloud": 96.901929,
+      "file": "2022-09-09.jpg",
+      "layers": {
+        "nir": "2022-09-09_nir.jpg",
+        "swir": "2022-09-09_swir.jpg",
+        "ndvi": "2022-09-09_ndvi.jpg",
+        "nbr": "2022-09-09_nbr.jpg"
+      }
+    },
+    {
+      "date": "2022-09-14",
+      "cloud": 18.638077,
+      "file": "2022-09-14.jpg",
+      "layers": {
+        "nir": "2022-09-14_nir.jpg",
+        "swir": "2022-09-14_swir.jpg",
+        "ndvi": "2022-09-14_ndvi.jpg",
+        "nbr": "2022-09-14_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2022-08-10",
+      "2022-09-08"
+    ],
+    "post": [
+      "2022-09-10",
+      "2022-10-09"
+    ]
+  }
+}

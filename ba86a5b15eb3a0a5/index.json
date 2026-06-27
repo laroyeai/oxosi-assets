@@ -1,0 +1,72 @@
+{
+  "incident_id": "DR-CON-2024-BALOBE-VILLAGE-U529353",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    -0.083333,
+    27.666667
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    27.657684,
+    -0.092377,
+    27.67565,
+    -0.074289
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2024-06-08",
+      "cloud": 95.51,
+      "file": "2024-06-08.jpg",
+      "layers": {
+        "nir": "2024-06-08_nir.jpg",
+        "swir": "2024-06-08_swir.jpg",
+        "ndvi": "2024-06-08_ndvi.jpg",
+        "nbr": "2024-06-08_nbr.jpg"
+      }
+    },
+    {
+      "date": "2024-06-13",
+      "cloud": 30.74,
+      "file": "2024-06-13.jpg",
+      "layers": {
+        "nir": "2024-06-13_nir.jpg",
+        "swir": "2024-06-13_swir.jpg",
+        "ndvi": "2024-06-13_ndvi.jpg",
+        "nbr": "2024-06-13_nbr.jpg"
+      }
+    },
+    {
+      "date": "2024-06-18",
+      "cloud": 10.22,
+      "file": "2024-06-18.jpg",
+      "layers": {
+        "nir": "2024-06-18_nir.jpg",
+        "swir": "2024-06-18_swir.jpg",
+        "ndvi": "2024-06-18_ndvi.jpg",
+        "nbr": "2024-06-18_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2024-05-14",
+      "2024-06-12"
+    ],
+    "post": [
+      "2024-06-14",
+      "2024-07-13"
+    ]
+  }
+}

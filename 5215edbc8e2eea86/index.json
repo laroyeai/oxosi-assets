@@ -1,0 +1,80 @@
+{
+  "incident_id": "BURKIN-2024-SINNDO-VILLAGE-U541911",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    11.54491,
+    -5.18704
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    -5.196209,
+    11.535866,
+    -5.177871,
+    11.553954
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2024-06-05",
+      "cloud": 44.31,
+      "file": "2024-06-05.jpg",
+      "layers": {
+        "nir": "2024-06-05_nir.jpg",
+        "swir": "2024-06-05_swir.jpg",
+        "ndvi": "2024-06-05_ndvi.jpg",
+        "nbr": "2024-06-05_nbr.jpg"
+      }
+    },
+    {
+      "date": "2024-06-10",
+      "cloud": 86.74,
+      "file": "2024-06-10.jpg",
+      "layers": {
+        "nir": "2024-06-10_nir.jpg",
+        "swir": "2024-06-10_swir.jpg",
+        "ndvi": "2024-06-10_ndvi.jpg",
+        "nbr": "2024-06-10_nbr.jpg"
+      }
+    },
+    {
+      "date": "2024-06-15",
+      "cloud": 100.0,
+      "file": "2024-06-15.jpg",
+      "layers": {
+        "nir": "2024-06-15_nir.jpg",
+        "swir": "2024-06-15_swir.jpg",
+        "ndvi": "2024-06-15_ndvi.jpg",
+        "nbr": "2024-06-15_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2024-05-12",
+      "2024-06-10"
+    ],
+    "post": [
+      "2024-06-12",
+      "2024-07-11"
+    ]
+  },
+  "hls_attempted": true,
+  "hls": {
+    "file": "hls.jpg",
+    "date": "2024-06-09",
+    "scene_id": "HLS.L30.T30PTT.2024161T103809.v2.0",
+    "collection": "HLSL30_2.0",
+    "cloud_pct": 1
+  }
+}

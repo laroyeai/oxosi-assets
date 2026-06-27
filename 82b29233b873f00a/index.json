@@ -1,0 +1,72 @@
+{
+  "incident_id": "DR-CON-2023-NYAMAMBA-VILLAGE-U462668",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    1.525278,
+    30.519444
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    30.510458,
+    1.516234,
+    30.52843,
+    1.534322
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2023-01-07",
+      "cloud": 3.94,
+      "file": "2023-01-07.jpg",
+      "layers": {
+        "nir": "2023-01-07_nir.jpg",
+        "swir": "2023-01-07_swir.jpg",
+        "ndvi": "2023-01-07_ndvi.jpg",
+        "nbr": "2023-01-07_nbr.jpg"
+      }
+    },
+    {
+      "date": "2023-01-12",
+      "cloud": 48.61,
+      "file": "2023-01-12.jpg",
+      "layers": {
+        "nir": "2023-01-12_nir.jpg",
+        "swir": "2023-01-12_swir.jpg",
+        "ndvi": "2023-01-12_ndvi.jpg",
+        "nbr": "2023-01-12_nbr.jpg"
+      }
+    },
+    {
+      "date": "2023-01-17",
+      "cloud": 1.45,
+      "file": "2023-01-17.jpg",
+      "layers": {
+        "nir": "2023-01-17_nir.jpg",
+        "swir": "2023-01-17_swir.jpg",
+        "ndvi": "2023-01-17_ndvi.jpg",
+        "nbr": "2023-01-17_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2022-12-14",
+      "2023-01-12"
+    ],
+    "post": [
+      "2023-01-14",
+      "2023-02-12"
+    ]
+  }
+}

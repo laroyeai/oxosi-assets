@@ -1,0 +1,62 @@
+{
+  "incident_id": "NE-2025-KWAPLE-VILLAGE-U577962",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    10.9087,
+    12.8035
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    12.794352,
+    10.899656,
+    12.812648,
+    10.917744
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2025-04-22",
+      "cloud": 5.609003,
+      "file": "2025-04-22.jpg",
+      "layers": {
+        "nir": "2025-04-22_nir.jpg",
+        "swir": "2025-04-22_swir.jpg",
+        "ndvi": "2025-04-22_ndvi.jpg",
+        "nbr": "2025-04-22_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-04-30",
+      "cloud": 3.275142,
+      "file": "2025-04-30.jpg",
+      "layers": {
+        "nir": "2025-04-30_nir.jpg",
+        "swir": "2025-04-30_swir.jpg",
+        "ndvi": "2025-04-30_ndvi.jpg",
+        "nbr": "2025-04-30_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-05-05",
+      "cloud": 0.389591,
+      "file": "2025-05-05.jpg",
+      "layers": {
+        "nir": "2025-05-05_nir.jpg",
+        "swir": "2025-05-05_swir.jpg",
+        "ndvi": "2025-05-05_ndvi.jpg",
+        "nbr": "2025-05-05_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": null
+}

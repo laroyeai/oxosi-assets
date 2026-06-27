@@ -1,0 +1,80 @@
+{
+  "incident_id": "NE-2019-MOBBAR-LGA-U290450",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    13.1091,
+    12.5251
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    12.515877,
+    13.100056,
+    12.534323,
+    13.118144
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2019-06-21",
+      "cloud": 65.81,
+      "file": "2019-06-21.jpg",
+      "layers": {
+        "nir": "2019-06-21_nir.jpg",
+        "swir": "2019-06-21_swir.jpg",
+        "ndvi": "2019-06-21_ndvi.jpg",
+        "nbr": "2019-06-21_nbr.jpg"
+      }
+    },
+    {
+      "date": "2019-06-26",
+      "cloud": 86.8,
+      "file": "2019-06-26.jpg",
+      "layers": {
+        "nir": "2019-06-26_nir.jpg",
+        "swir": "2019-06-26_swir.jpg",
+        "ndvi": "2019-06-26_ndvi.jpg",
+        "nbr": "2019-06-26_nbr.jpg"
+      }
+    },
+    {
+      "date": "2019-07-01",
+      "cloud": 99.86,
+      "file": "2019-07-01.jpg",
+      "layers": {
+        "nir": "2019-07-01_nir.jpg",
+        "swir": "2019-07-01_swir.jpg",
+        "ndvi": "2019-07-01_ndvi.jpg",
+        "nbr": "2019-07-01_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2019-05-25",
+      "2019-06-23"
+    ],
+    "post": [
+      "2019-06-25",
+      "2019-07-24"
+    ]
+  },
+  "hls_attempted": true,
+  "hls": {
+    "file": "hls.jpg",
+    "date": "2019-06-16",
+    "scene_id": "HLS.S30.T33PTQ.2019167T093039.v2.0",
+    "collection": "HLSS30_2.0",
+    "cloud_pct": 0
+  }
+}

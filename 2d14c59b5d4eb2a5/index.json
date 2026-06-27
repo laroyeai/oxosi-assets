@@ -1,0 +1,50 @@
+{
+  "incident_id": "NW-2016-GODOGODO-VILLAGE-U231899",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    9.43251,
+    8.35371
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    8.344604,
+    9.423466,
+    8.362816,
+    9.441554
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2016-10-17",
+      "cloud": 3.87,
+      "file": "2016-10-17.jpg",
+      "layers": {
+        "nir": "2016-10-17_nir.jpg",
+        "swir": "2016-10-17_swir.jpg",
+        "ndvi": "2016-10-17_ndvi.jpg",
+        "nbr": "2016-10-17_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2016-09-17",
+      "2016-10-16"
+    ],
+    "post": [
+      "2016-10-18",
+      "2016-11-16"
+    ]
+  }
+}

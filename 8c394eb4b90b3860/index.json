@@ -1,0 +1,72 @@
+{
+  "incident_id": "NW-2021-AFAKA",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    10.5816,
+    7.3697
+  ],
+  "precise": true,
+  "bbox_west_south_east_north": [
+    7.360561,
+    10.572556,
+    7.378839,
+    10.590644
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2021-03-08",
+      "cloud": 16.04,
+      "file": "2021-03-08.jpg",
+      "layers": {
+        "nir": "2021-03-08_nir.jpg",
+        "swir": "2021-03-08_swir.jpg",
+        "ndvi": "2021-03-08_ndvi.jpg",
+        "nbr": "2021-03-08_nbr.jpg"
+      }
+    },
+    {
+      "date": "2021-03-13",
+      "cloud": 24.68,
+      "file": "2021-03-13.jpg",
+      "layers": {
+        "nir": "2021-03-13_nir.jpg",
+        "swir": "2021-03-13_swir.jpg",
+        "ndvi": "2021-03-13_ndvi.jpg",
+        "nbr": "2021-03-13_nbr.jpg"
+      }
+    },
+    {
+      "date": "2021-03-18",
+      "cloud": 100.0,
+      "file": "2021-03-18.jpg",
+      "layers": {
+        "nir": "2021-03-18_nir.jpg",
+        "swir": "2021-03-18_swir.jpg",
+        "ndvi": "2021-03-18_ndvi.jpg",
+        "nbr": "2021-03-18_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2021-02-09",
+      "2021-03-10"
+    ],
+    "post": [
+      "2021-03-12",
+      "2021-04-10"
+    ]
+  }
+}

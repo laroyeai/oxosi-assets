@@ -1,0 +1,72 @@
+{
+  "incident_id": "BURKIN-2023-GANTA-TOWN-U496815",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    13.538923,
+    -0.040455
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    -0.049695,
+    13.529879,
+    -0.031215,
+    13.547967
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2023-10-18",
+      "cloud": 18.8,
+      "file": "2023-10-18.jpg",
+      "layers": {
+        "nir": "2023-10-18_nir.jpg",
+        "swir": "2023-10-18_swir.jpg",
+        "ndvi": "2023-10-18_ndvi.jpg",
+        "nbr": "2023-10-18_nbr.jpg"
+      }
+    },
+    {
+      "date": "2023-10-23",
+      "cloud": 0.0,
+      "file": "2023-10-23.jpg",
+      "layers": {
+        "nir": "2023-10-23_nir.jpg",
+        "swir": "2023-10-23_swir.jpg",
+        "ndvi": "2023-10-23_ndvi.jpg",
+        "nbr": "2023-10-23_nbr.jpg"
+      }
+    },
+    {
+      "date": "2023-10-28",
+      "cloud": 5.85,
+      "file": "2023-10-28.jpg",
+      "layers": {
+        "nir": "2023-10-28_nir.jpg",
+        "swir": "2023-10-28_swir.jpg",
+        "ndvi": "2023-10-28_ndvi.jpg",
+        "nbr": "2023-10-28_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2023-09-24",
+      "2023-10-23"
+    ],
+    "post": [
+      "2023-10-25",
+      "2023-11-23"
+    ]
+  }
+}

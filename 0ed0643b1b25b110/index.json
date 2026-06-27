@@ -1,0 +1,72 @@
+{
+  "incident_id": "DR-CON-2020-FIZI-TERRITORY-U377169",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    -4.3022,
+    28.9419
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    28.932892,
+    -4.311244,
+    28.950908,
+    -4.293156
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2020-01-03",
+      "cloud": 49.38,
+      "file": "2020-01-03.jpg",
+      "layers": {
+        "nir": "2020-01-03_nir.jpg",
+        "swir": "2020-01-03_swir.jpg",
+        "ndvi": "2020-01-03_ndvi.jpg",
+        "nbr": "2020-01-03_nbr.jpg"
+      }
+    },
+    {
+      "date": "2020-01-08",
+      "cloud": 99.99,
+      "file": "2020-01-08.jpg",
+      "layers": {
+        "nir": "2020-01-08_nir.jpg",
+        "swir": "2020-01-08_swir.jpg",
+        "ndvi": "2020-01-08_ndvi.jpg",
+        "nbr": "2020-01-08_nbr.jpg"
+      }
+    },
+    {
+      "date": "2020-01-13",
+      "cloud": 42.17,
+      "file": "2020-01-13.jpg",
+      "layers": {
+        "nir": "2020-01-13_nir.jpg",
+        "swir": "2020-01-13_swir.jpg",
+        "ndvi": "2020-01-13_ndvi.jpg",
+        "nbr": "2020-01-13_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2019-12-11",
+      "2020-01-09"
+    ],
+    "post": [
+      "2020-01-11",
+      "2020-02-09"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "incident_id": "DR-CON-2025-NDALYA-LOCALITY-U562968",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    0.983333,
+    29.65
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    29.641016,
+    0.974289,
+    29.658984,
+    0.992377
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2025-01-26",
+      "cloud": 57.97,
+      "file": "2025-01-26.jpg",
+      "layers": {
+        "nir": "2025-01-26_nir.jpg",
+        "swir": "2025-01-26_swir.jpg",
+        "ndvi": "2025-01-26_ndvi.jpg",
+        "nbr": "2025-01-26_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-01-31",
+      "cloud": 0.01,
+      "file": "2025-01-31.jpg",
+      "layers": {
+        "nir": "2025-01-31_nir.jpg",
+        "swir": "2025-01-31_swir.jpg",
+        "ndvi": "2025-01-31_ndvi.jpg",
+        "nbr": "2025-01-31_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-02-05",
+      "cloud": 37.706831,
+      "file": "2025-02-05.jpg",
+      "layers": {
+        "nir": "2025-02-05_nir.jpg",
+        "swir": "2025-02-05_swir.jpg",
+        "ndvi": "2025-02-05_ndvi.jpg",
+        "nbr": "2025-02-05_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2024-12-31",
+      "2025-01-29"
+    ],
+    "post": [
+      "2025-01-31",
+      "2025-03-01"
+    ]
+  }
+}

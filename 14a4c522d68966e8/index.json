@@ -1,0 +1,72 @@
+{
+  "incident_id": "NC-2021-TA-AGBE-VILLAGE-U423327",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    9.884911,
+    8.665564
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    8.656446,
+    9.875867,
+    8.674682,
+    9.893955
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2021-11-20",
+      "cloud": 6.65,
+      "file": "2021-11-20.jpg",
+      "layers": {
+        "nir": "2021-11-20_nir.jpg",
+        "swir": "2021-11-20_swir.jpg",
+        "ndvi": "2021-11-20_ndvi.jpg",
+        "nbr": "2021-11-20_nbr.jpg"
+      }
+    },
+    {
+      "date": "2021-11-25",
+      "cloud": 0.0,
+      "file": "2021-11-25.jpg",
+      "layers": {
+        "nir": "2021-11-25_nir.jpg",
+        "swir": "2021-11-25_swir.jpg",
+        "ndvi": "2021-11-25_ndvi.jpg",
+        "nbr": "2021-11-25_nbr.jpg"
+      }
+    },
+    {
+      "date": "2021-11-30",
+      "cloud": 57.23,
+      "file": "2021-11-30.jpg",
+      "layers": {
+        "nir": "2021-11-30_nir.jpg",
+        "swir": "2021-11-30_swir.jpg",
+        "ndvi": "2021-11-30_ndvi.jpg",
+        "nbr": "2021-11-30_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2021-10-27",
+      "2021-11-25"
+    ],
+    "post": [
+      "2021-11-27",
+      "2021-12-26"
+    ]
+  }
+}

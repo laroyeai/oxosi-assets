@@ -1,0 +1,72 @@
+{
+  "incident_id": "NW-2020-KURMIN-MASARA-VILLAG-U386049",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    9.84333,
+    8.4407
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    8.431583,
+    9.834286,
+    8.449817,
+    9.852374
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2020-08-02",
+      "cloud": 97.1,
+      "file": "2020-08-02.jpg",
+      "layers": {
+        "nir": "2020-08-02_nir.jpg",
+        "swir": "2020-08-02_swir.jpg",
+        "ndvi": "2020-08-02_ndvi.jpg",
+        "nbr": "2020-08-02_nbr.jpg"
+      }
+    },
+    {
+      "date": "2020-08-07",
+      "cloud": 98.63,
+      "file": "2020-08-07.jpg",
+      "layers": {
+        "nir": "2020-08-07_nir.jpg",
+        "swir": "2020-08-07_swir.jpg",
+        "ndvi": "2020-08-07_ndvi.jpg",
+        "nbr": "2020-08-07_nbr.jpg"
+      }
+    },
+    {
+      "date": "2020-08-12",
+      "cloud": 35.76,
+      "file": "2020-08-12.jpg",
+      "layers": {
+        "nir": "2020-08-12_nir.jpg",
+        "swir": "2020-08-12_swir.jpg",
+        "ndvi": "2020-08-12_ndvi.jpg",
+        "nbr": "2020-08-12_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2020-07-06",
+      "2020-08-04"
+    ],
+    "post": [
+      "2020-08-06",
+      "2020-09-04"
+    ]
+  }
+}

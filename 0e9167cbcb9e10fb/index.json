@@ -1,0 +1,72 @@
+{
+  "incident_id": "DR-CON-2025-LUKE-TOWN-U588633",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    -1.5,
+    28.75
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    28.741014,
+    -1.509044,
+    28.758986,
+    -1.490956
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2025-07-20",
+      "cloud": 40.529087,
+      "file": "2025-07-20.jpg",
+      "layers": {
+        "nir": "2025-07-20_nir.jpg",
+        "swir": "2025-07-20_swir.jpg",
+        "ndvi": "2025-07-20_ndvi.jpg",
+        "nbr": "2025-07-20_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-07-25",
+      "cloud": 69.154304,
+      "file": "2025-07-25.jpg",
+      "layers": {
+        "nir": "2025-07-25_nir.jpg",
+        "swir": "2025-07-25_swir.jpg",
+        "ndvi": "2025-07-25_ndvi.jpg",
+        "nbr": "2025-07-25_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-07-30",
+      "cloud": 0.282182,
+      "file": "2025-07-30.jpg",
+      "layers": {
+        "nir": "2025-07-30_nir.jpg",
+        "swir": "2025-07-30_swir.jpg",
+        "ndvi": "2025-07-30_ndvi.jpg",
+        "nbr": "2025-07-30_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2025-06-24",
+      "2025-07-23"
+    ],
+    "post": [
+      "2025-07-25",
+      "2025-08-23"
+    ]
+  }
+}

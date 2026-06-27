@@ -1,0 +1,72 @@
+{
+  "incident_id": "BURKIN-2022-ANKOUMA-VILLAGE-U427839",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    13.739053,
+    -0.754359
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    -0.763607,
+    13.730009,
+    -0.745111,
+    13.748097
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2022-01-01",
+      "cloud": 46.089303,
+      "file": "2022-01-01.jpg",
+      "layers": {
+        "nir": "2022-01-01_nir.jpg",
+        "swir": "2022-01-01_swir.jpg",
+        "ndvi": "2022-01-01_ndvi.jpg",
+        "nbr": "2022-01-01_nbr.jpg"
+      }
+    },
+    {
+      "date": "2022-01-06",
+      "cloud": 3.123095,
+      "file": "2022-01-06.jpg",
+      "layers": {
+        "nir": "2022-01-06_nir.jpg",
+        "swir": "2022-01-06_swir.jpg",
+        "ndvi": "2022-01-06_ndvi.jpg",
+        "nbr": "2022-01-06_nbr.jpg"
+      }
+    },
+    {
+      "date": "2022-01-11",
+      "cloud": 71.745217,
+      "file": "2022-01-11.jpg",
+      "layers": {
+        "nir": "2022-01-11_nir.jpg",
+        "swir": "2022-01-11_swir.jpg",
+        "ndvi": "2022-01-11_ndvi.jpg",
+        "nbr": "2022-01-11_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2021-12-06",
+      "2022-01-04"
+    ],
+    "post": [
+      "2022-01-06",
+      "2022-02-04"
+    ]
+  }
+}

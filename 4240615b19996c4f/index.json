@@ -1,0 +1,72 @@
+{
+  "incident_id": "DR-CON-2022-KOKONYANGI-VILLAGE-U427541",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    1.65799,
+    30.25114
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    30.242153,
+    1.648946,
+    30.260127,
+    1.667034
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2022-01-12",
+      "cloud": 7.214926,
+      "file": "2022-01-12.jpg",
+      "layers": {
+        "nir": "2022-01-12_nir.jpg",
+        "swir": "2022-01-12_swir.jpg",
+        "ndvi": "2022-01-12_ndvi.jpg",
+        "nbr": "2022-01-12_nbr.jpg"
+      }
+    },
+    {
+      "date": "2022-01-17",
+      "cloud": 100.0,
+      "file": "2022-01-17.jpg",
+      "layers": {
+        "nir": "2022-01-17_nir.jpg",
+        "swir": "2022-01-17_swir.jpg",
+        "ndvi": "2022-01-17_ndvi.jpg",
+        "nbr": "2022-01-17_nbr.jpg"
+      }
+    },
+    {
+      "date": "2022-01-22",
+      "cloud": 85.839808,
+      "file": "2022-01-22.jpg",
+      "layers": {
+        "nir": "2022-01-22_nir.jpg",
+        "swir": "2022-01-22_swir.jpg",
+        "ndvi": "2022-01-22_ndvi.jpg",
+        "nbr": "2022-01-22_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2021-12-16",
+      "2022-01-14"
+    ],
+    "post": [
+      "2022-01-16",
+      "2022-02-14"
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "incident_id": "MALI-2023-BODIO-VILLAGE-U484449",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    14.2482,
+    -3.68829
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    -3.697558,
+    14.239156,
+    -3.679022,
+    14.257244
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2023-07-31",
+      "cloud": 63.35,
+      "file": "2023-07-31.jpg",
+      "layers": {
+        "nir": "2023-07-31_nir.jpg",
+        "swir": "2023-07-31_swir.jpg",
+        "ndvi": "2023-07-31_ndvi.jpg",
+        "nbr": "2023-07-31_nbr.jpg"
+      }
+    },
+    {
+      "date": "2023-08-05",
+      "cloud": 44.31,
+      "file": "2023-08-05.jpg",
+      "layers": {
+        "nir": "2023-08-05_nir.jpg",
+        "swir": "2023-08-05_swir.jpg",
+        "ndvi": "2023-08-05_ndvi.jpg",
+        "nbr": "2023-08-05_nbr.jpg"
+      }
+    },
+    {
+      "date": "2023-08-10",
+      "cloud": 74.33,
+      "file": "2023-08-10.jpg",
+      "layers": {
+        "nir": "2023-08-10_nir.jpg",
+        "swir": "2023-08-10_swir.jpg",
+        "ndvi": "2023-08-10_ndvi.jpg",
+        "nbr": "2023-08-10_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2023-07-06",
+      "2023-08-04"
+    ],
+    "post": [
+      "2023-08-06",
+      "2023-09-04"
+    ]
+  },
+  "hls_attempted": true,
+  "hls": {
+    "file": "hls.jpg",
+    "date": "2023-07-26",
+    "scene_id": "HLS.S30.T30PVA.2023207T103629.v2.0",
+    "collection": "HLSS30_2.0",
+    "cloud_pct": 0
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "incident_id": "BURKIN-2019-ARIBINDA-TOWN-U282148",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    14.22963,
+    -0.86537
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    -0.874637,
+    14.220586,
+    -0.856103,
+    14.238674
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2019-03-26",
+      "cloud": 28.59,
+      "file": "2019-03-26.jpg",
+      "layers": {
+        "nir": "2019-03-26_nir.jpg",
+        "swir": "2019-03-26_swir.jpg",
+        "ndvi": "2019-03-26_ndvi.jpg",
+        "nbr": "2019-03-26_nbr.jpg"
+      }
+    },
+    {
+      "date": "2019-04-05",
+      "cloud": 17.81,
+      "file": "2019-04-05.jpg",
+      "layers": {
+        "nir": "2019-04-05_nir.jpg",
+        "swir": "2019-04-05_swir.jpg",
+        "ndvi": "2019-04-05_ndvi.jpg",
+        "nbr": "2019-04-05_nbr.jpg"
+      }
+    },
+    {
+      "date": "2019-04-07",
+      "cloud": 9.88,
+      "file": "2019-04-07.jpg",
+      "layers": {
+        "nir": "2019-04-07_nir.jpg",
+        "swir": "2019-04-07_swir.jpg",
+        "ndvi": "2019-04-07_ndvi.jpg",
+        "nbr": "2019-04-07_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2019-03-02",
+      "2019-03-31"
+    ],
+    "post": [
+      "2019-04-02",
+      "2019-05-01"
+    ]
+  }
+}

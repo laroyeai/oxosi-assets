@@ -1,0 +1,72 @@
+{
+  "incident_id": "NW-2020-SABON-KAURA-VILLAGE-U348498",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    10.044564,
+    8.012767
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    8.003644,
+    10.03552,
+    8.02189,
+    10.053608
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2020-07-06",
+      "cloud": 65.14,
+      "file": "2020-07-06.jpg",
+      "layers": {
+        "nir": "2020-07-06_nir.jpg",
+        "swir": "2020-07-06_swir.jpg",
+        "ndvi": "2020-07-06_ndvi.jpg",
+        "nbr": "2020-07-06_nbr.jpg"
+      }
+    },
+    {
+      "date": "2020-07-11",
+      "cloud": 43.16,
+      "file": "2020-07-11.jpg",
+      "layers": {
+        "nir": "2020-07-11_nir.jpg",
+        "swir": "2020-07-11_swir.jpg",
+        "ndvi": "2020-07-11_ndvi.jpg",
+        "nbr": "2020-07-11_nbr.jpg"
+      }
+    },
+    {
+      "date": "2020-07-16",
+      "cloud": 98.55,
+      "file": "2020-07-16.jpg",
+      "layers": {
+        "nir": "2020-07-16_nir.jpg",
+        "swir": "2020-07-16_swir.jpg",
+        "ndvi": "2020-07-16_ndvi.jpg",
+        "nbr": "2020-07-16_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2020-06-10",
+      "2020-07-09"
+    ],
+    "post": [
+      "2020-07-11",
+      "2020-08-09"
+    ]
+  }
+}

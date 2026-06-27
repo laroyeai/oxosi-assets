@@ -1,0 +1,72 @@
+{
+  "incident_id": "DR-CON-2025-NDJANGI-VILLAGE-U585060",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    1.75893,
+    30.55536
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    30.546373,
+    1.749886,
+    30.564347,
+    1.767974
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2025-06-20",
+      "cloud": 6.180016,
+      "file": "2025-06-20.jpg",
+      "layers": {
+        "nir": "2025-06-20_nir.jpg",
+        "swir": "2025-06-20_swir.jpg",
+        "ndvi": "2025-06-20_ndvi.jpg",
+        "nbr": "2025-06-20_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-06-25",
+      "cloud": 0.662191,
+      "file": "2025-06-25.jpg",
+      "layers": {
+        "nir": "2025-06-25_nir.jpg",
+        "swir": "2025-06-25_swir.jpg",
+        "ndvi": "2025-06-25_ndvi.jpg",
+        "nbr": "2025-06-25_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-06-27",
+      "cloud": 12.354381,
+      "file": "2025-06-27.jpg",
+      "layers": {
+        "nir": "2025-06-27_nir.jpg",
+        "swir": "2025-06-27_swir.jpg",
+        "ndvi": "2025-06-27_ndvi.jpg",
+        "nbr": "2025-06-27_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2025-05-28",
+      "2025-06-26"
+    ],
+    "post": [
+      "2025-06-28",
+      "2025-07-27"
+    ]
+  }
+}

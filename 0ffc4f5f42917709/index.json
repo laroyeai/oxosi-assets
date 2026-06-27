@@ -1,0 +1,73 @@
+{
+  "incident_id": "NE-2018-WUKARI-LGA-U255433",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    7.87139,
+    9.77786
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    9.768791,
+    7.862346,
+    9.786929,
+    7.880434
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2018-04-05",
+      "cloud": 88.81,
+      "file": "2018-04-05.jpg",
+      "layers": {
+        "nir": "2018-04-05_nir.jpg",
+        "swir": "2018-04-05_swir.jpg",
+        "ndvi": "2018-04-05_ndvi.jpg",
+        "nbr": "2018-04-05_nbr.jpg"
+      }
+    },
+    {
+      "date": "2018-04-10",
+      "cloud": 99.36,
+      "file": "2018-04-10.jpg",
+      "layers": {
+        "nir": "2018-04-10_nir.jpg",
+        "swir": "2018-04-10_swir.jpg",
+        "ndvi": "2018-04-10_ndvi.jpg",
+        "nbr": "2018-04-10_nbr.jpg"
+      }
+    },
+    {
+      "date": "2018-04-15",
+      "cloud": 96.67,
+      "file": "2018-04-15.jpg",
+      "layers": {
+        "nir": "2018-04-15_nir.jpg",
+        "swir": "2018-04-15_swir.jpg",
+        "ndvi": "2018-04-15_ndvi.jpg",
+        "nbr": "2018-04-15_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2018-03-12",
+      "2018-04-10"
+    ],
+    "post": [
+      "2018-04-12",
+      "2018-05-11"
+    ]
+  },
+  "hls_attempted": true
+}

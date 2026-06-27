@@ -1,0 +1,72 @@
+{
+  "incident_id": "DR-CON-2022-KILO-MISSION-PARISH-U433997",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    1.85,
+    30.15
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    30.141012,
+    1.840956,
+    30.158988,
+    1.859044
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2022-03-03",
+      "cloud": 10.10132,
+      "file": "2022-03-03.jpg",
+      "layers": {
+        "nir": "2022-03-03_nir.jpg",
+        "swir": "2022-03-03_swir.jpg",
+        "ndvi": "2022-03-03_ndvi.jpg",
+        "nbr": "2022-03-03_nbr.jpg"
+      }
+    },
+    {
+      "date": "2022-03-08",
+      "cloud": 67.53,
+      "file": "2022-03-08.jpg",
+      "layers": {
+        "nir": "2022-03-08_nir.jpg",
+        "swir": "2022-03-08_swir.jpg",
+        "ndvi": "2022-03-08_ndvi.jpg",
+        "nbr": "2022-03-08_nbr.jpg"
+      }
+    },
+    {
+      "date": "2022-03-13",
+      "cloud": 30.410275,
+      "file": "2022-03-13.jpg",
+      "layers": {
+        "nir": "2022-03-13_nir.jpg",
+        "swir": "2022-03-13_swir.jpg",
+        "ndvi": "2022-03-13_ndvi.jpg",
+        "nbr": "2022-03-13_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2022-02-06",
+      "2022-03-07"
+    ],
+    "post": [
+      "2022-03-09",
+      "2022-04-07"
+    ]
+  }
+}

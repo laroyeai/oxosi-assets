@@ -1,0 +1,72 @@
+{
+  "incident_id": "MALI-2020-OGOSSOGOU-VILLAGE-U331998",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    14.0664,
+    -3.45379
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    -3.463051,
+    14.057356,
+    -3.444529,
+    14.075444
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2020-02-07",
+      "cloud": 0.0,
+      "file": "2020-02-07.jpg",
+      "layers": {
+        "nir": "2020-02-07_nir.jpg",
+        "swir": "2020-02-07_swir.jpg",
+        "ndvi": "2020-02-07_ndvi.jpg",
+        "nbr": "2020-02-07_nbr.jpg"
+      }
+    },
+    {
+      "date": "2020-02-14",
+      "cloud": 0.0,
+      "file": "2020-02-14.jpg",
+      "layers": {
+        "nir": "2020-02-14_nir.jpg",
+        "swir": "2020-02-14_swir.jpg",
+        "ndvi": "2020-02-14_ndvi.jpg",
+        "nbr": "2020-02-14_nbr.jpg"
+      }
+    },
+    {
+      "date": "2020-02-17",
+      "cloud": 0.62,
+      "file": "2020-02-17.jpg",
+      "layers": {
+        "nir": "2020-02-17_nir.jpg",
+        "swir": "2020-02-17_swir.jpg",
+        "ndvi": "2020-02-17_ndvi.jpg",
+        "nbr": "2020-02-17_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2020-01-15",
+      "2020-02-13"
+    ],
+    "post": [
+      "2020-02-15",
+      "2020-03-15"
+    ]
+  }
+}

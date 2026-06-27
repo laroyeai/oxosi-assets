@@ -1,0 +1,72 @@
+{
+  "incident_id": "NE-2021-KIRTA-WULGO-VILLAGE-U416469",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    12.79305,
+    14.12087
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    14.111658,
+    12.784006,
+    14.130082,
+    12.802094
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2021-09-20",
+      "cloud": 33.34,
+      "file": "2021-09-20.jpg",
+      "layers": {
+        "nir": "2021-09-20_nir.jpg",
+        "swir": "2021-09-20_swir.jpg",
+        "ndvi": "2021-09-20_ndvi.jpg",
+        "nbr": "2021-09-20_nbr.jpg"
+      }
+    },
+    {
+      "date": "2021-09-25",
+      "cloud": 0.0,
+      "file": "2021-09-25.jpg",
+      "layers": {
+        "nir": "2021-09-25_nir.jpg",
+        "swir": "2021-09-25_swir.jpg",
+        "ndvi": "2021-09-25_ndvi.jpg",
+        "nbr": "2021-09-25_nbr.jpg"
+      }
+    },
+    {
+      "date": "2021-09-30",
+      "cloud": 11.24,
+      "file": "2021-09-30.jpg",
+      "layers": {
+        "nir": "2021-09-30_nir.jpg",
+        "swir": "2021-09-30_swir.jpg",
+        "ndvi": "2021-09-30_ndvi.jpg",
+        "nbr": "2021-09-30_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2021-08-28",
+      "2021-09-26"
+    ],
+    "post": [
+      "2021-09-28",
+      "2021-10-27"
+    ]
+  }
+}

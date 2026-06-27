@@ -1,0 +1,80 @@
+{
+  "incident_id": "NC-2021-GUMA-LGA-U396854",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    7.8233,
+    8.86324
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    8.854172,
+    7.814256,
+    8.872308,
+    7.832344
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2021-04-19",
+      "cloud": 99.99,
+      "file": "2021-04-19.jpg",
+      "layers": {
+        "nir": "2021-04-19_nir.jpg",
+        "swir": "2021-04-19_swir.jpg",
+        "ndvi": "2021-04-19_ndvi.jpg",
+        "nbr": "2021-04-19_nbr.jpg"
+      }
+    },
+    {
+      "date": "2021-04-24",
+      "cloud": 99.53,
+      "file": "2021-04-24.jpg",
+      "layers": {
+        "nir": "2021-04-24_nir.jpg",
+        "swir": "2021-04-24_swir.jpg",
+        "ndvi": "2021-04-24_ndvi.jpg",
+        "nbr": "2021-04-24_nbr.jpg"
+      }
+    },
+    {
+      "date": "2021-04-29",
+      "cloud": 53.2,
+      "file": "2021-04-29.jpg",
+      "layers": {
+        "nir": "2021-04-29_nir.jpg",
+        "swir": "2021-04-29_swir.jpg",
+        "ndvi": "2021-04-29_ndvi.jpg",
+        "nbr": "2021-04-29_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2021-03-24",
+      "2021-04-22"
+    ],
+    "post": [
+      "2021-04-24",
+      "2021-05-23"
+    ]
+  },
+  "hls_attempted": true,
+  "hls": {
+    "file": "hls.jpg",
+    "date": "2021-04-19",
+    "scene_id": "HLS.S30.T32NMP.2021109T094029.v2.0",
+    "collection": "HLSS30_2.0",
+    "cloud_pct": 4
+  }
+}

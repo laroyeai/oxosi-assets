@@ -1,0 +1,73 @@
+{
+  "incident_id": "DR-CON-2022-MAKAKWA-VILLAGE-U444214",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    0.81853,
+    29.48885
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    29.479866,
+    0.809486,
+    29.497834,
+    0.827574
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2022-07-21",
+      "cloud": 62.717545,
+      "file": "2022-07-21.jpg",
+      "layers": {
+        "nir": "2022-07-21_nir.jpg",
+        "swir": "2022-07-21_swir.jpg",
+        "ndvi": "2022-07-21_ndvi.jpg",
+        "nbr": "2022-07-21_nbr.jpg"
+      }
+    },
+    {
+      "date": "2022-07-26",
+      "cloud": 58.78,
+      "file": "2022-07-26.jpg",
+      "layers": {
+        "nir": "2022-07-26_nir.jpg",
+        "swir": "2022-07-26_swir.jpg",
+        "ndvi": "2022-07-26_ndvi.jpg",
+        "nbr": "2022-07-26_nbr.jpg"
+      }
+    },
+    {
+      "date": "2022-07-31",
+      "cloud": 78.077817,
+      "file": "2022-07-31.jpg",
+      "layers": {
+        "nir": "2022-07-31_nir.jpg",
+        "swir": "2022-07-31_swir.jpg",
+        "ndvi": "2022-07-31_ndvi.jpg",
+        "nbr": "2022-07-31_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2022-06-26",
+      "2022-07-25"
+    ],
+    "post": [
+      "2022-07-27",
+      "2022-08-25"
+    ]
+  },
+  "hls_attempted": true
+}

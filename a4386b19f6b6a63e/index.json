@@ -1,0 +1,72 @@
+{
+  "incident_id": "MALI-2023-KANI-BONZON-VILLAGE-U467738",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    14.13548,
+    -3.63044
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    -3.639704,
+    14.126436,
+    -3.621176,
+    14.144524
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2023-02-16",
+      "cloud": 15.08,
+      "file": "2023-02-16.jpg",
+      "layers": {
+        "nir": "2023-02-16_nir.jpg",
+        "swir": "2023-02-16_swir.jpg",
+        "ndvi": "2023-02-16_ndvi.jpg",
+        "nbr": "2023-02-16_nbr.jpg"
+      }
+    },
+    {
+      "date": "2023-02-21",
+      "cloud": 3.33,
+      "file": "2023-02-21.jpg",
+      "layers": {
+        "nir": "2023-02-21_nir.jpg",
+        "swir": "2023-02-21_swir.jpg",
+        "ndvi": "2023-02-21_ndvi.jpg",
+        "nbr": "2023-02-21_nbr.jpg"
+      }
+    },
+    {
+      "date": "2023-02-26",
+      "cloud": 0.0,
+      "file": "2023-02-26.jpg",
+      "layers": {
+        "nir": "2023-02-26_nir.jpg",
+        "swir": "2023-02-26_swir.jpg",
+        "ndvi": "2023-02-26_ndvi.jpg",
+        "nbr": "2023-02-26_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2023-01-24",
+      "2023-02-22"
+    ],
+    "post": [
+      "2023-02-24",
+      "2023-03-25"
+    ]
+  }
+}

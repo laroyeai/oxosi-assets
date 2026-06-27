@@ -1,0 +1,79 @@
+{
+  "incident_id": "DR-CON-2025-MAYALA-VILLAGE-U576613",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    -4.5433,
+    18.76254
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    18.753529,
+    -4.552344,
+    18.771551,
+    -4.534256
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2025-03-29",
+      "cloud": 88.173866,
+      "file": "2025-03-29.jpg",
+      "layers": {
+        "nir": "2025-03-29_nir.jpg",
+        "swir": "2025-03-29_swir.jpg",
+        "ndvi": "2025-03-29_ndvi.jpg",
+        "nbr": "2025-03-29_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-04-03",
+      "cloud": 72.452539,
+      "file": "2025-04-03.jpg",
+      "layers": {
+        "nir": "2025-04-03_nir.jpg",
+        "swir": "2025-04-03_swir.jpg",
+        "ndvi": "2025-04-03_ndvi.jpg",
+        "nbr": "2025-04-03_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-04-08",
+      "cloud": 29.559171,
+      "file": "2025-04-08.jpg",
+      "layers": {
+        "nir": "2025-04-08_nir.jpg",
+        "swir": "2025-04-08_swir.jpg",
+        "ndvi": "2025-04-08_ndvi.jpg",
+        "nbr": "2025-04-08_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2025-03-02",
+      "2025-03-31"
+    ],
+    "post": [
+      "2025-04-02",
+      "2025-05-01"
+    ]
+  },
+  "hls": {
+    "file": "hls.jpg",
+    "date": "2025-03-26",
+    "scene_id": "HLS.L30.T34MBA.2025085T085150.v2.0",
+    "collection": "HLSL30_2.0",
+    "cloud_pct": 11
+  }
+}

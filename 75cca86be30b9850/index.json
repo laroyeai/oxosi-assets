@@ -1,0 +1,80 @@
+{
+  "incident_id": "DR-CON-2025-TAMBI-VILLAGE-U572357",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    -1.272446,
+    28.910586
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    28.901601,
+    -1.28149,
+    28.919571,
+    -1.263402
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2025-02-25",
+      "cloud": 46.354514,
+      "file": "2025-02-25.jpg",
+      "layers": {
+        "nir": "2025-02-25_nir.jpg",
+        "swir": "2025-02-25_swir.jpg",
+        "ndvi": "2025-02-25_ndvi.jpg",
+        "nbr": "2025-02-25_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-03-02",
+      "cloud": 76.91,
+      "file": "2025-03-02.jpg",
+      "layers": {
+        "nir": "2025-03-02_nir.jpg",
+        "swir": "2025-03-02_swir.jpg",
+        "ndvi": "2025-03-02_ndvi.jpg",
+        "nbr": "2025-03-02_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-03-07",
+      "cloud": 47.415826,
+      "file": "2025-03-07.jpg",
+      "layers": {
+        "nir": "2025-03-07_nir.jpg",
+        "swir": "2025-03-07_swir.jpg",
+        "ndvi": "2025-03-07_ndvi.jpg",
+        "nbr": "2025-03-07_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2025-02-02",
+      "2025-03-03"
+    ],
+    "post": [
+      "2025-03-05",
+      "2025-04-03"
+    ]
+  },
+  "hls_attempted": true,
+  "hls": {
+    "file": "hls.jpg",
+    "date": "2025-02-28",
+    "scene_id": "HLS.L30.T35MQU.2025059T081408.v2.0",
+    "collection": "HLSL30_2.0",
+    "cloud_pct": 12
+  }
+}

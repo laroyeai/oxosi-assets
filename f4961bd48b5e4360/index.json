@@ -1,0 +1,72 @@
+{
+  "incident_id": "SW-2026-OYO-NPS",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    8.35,
+    4.42
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    4.410921,
+    8.340956,
+    4.429079,
+    8.359044
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2025-12-30",
+      "cloud": 15.46,
+      "file": "2025-12-30.jpg",
+      "layers": {
+        "nir": "2025-12-30_nir.jpg",
+        "swir": "2025-12-30_swir.jpg",
+        "ndvi": "2025-12-30_ndvi.jpg",
+        "nbr": "2025-12-30_nbr.jpg"
+      }
+    },
+    {
+      "date": "2026-01-04",
+      "cloud": 12.94,
+      "file": "2026-01-04.jpg",
+      "layers": {
+        "nir": "2026-01-04_nir.jpg",
+        "swir": "2026-01-04_swir.jpg",
+        "ndvi": "2026-01-04_ndvi.jpg",
+        "nbr": "2026-01-04_nbr.jpg"
+      }
+    },
+    {
+      "date": "2026-01-06",
+      "cloud": 0.0,
+      "file": "2026-01-06.jpg",
+      "layers": {
+        "nir": "2026-01-06_nir.jpg",
+        "swir": "2026-01-06_swir.jpg",
+        "ndvi": "2026-01-06_ndvi.jpg",
+        "nbr": "2026-01-06_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2025-12-07",
+      "2026-01-05"
+    ],
+    "post": [
+      "2026-01-07",
+      "2026-02-05"
+    ]
+  }
+}

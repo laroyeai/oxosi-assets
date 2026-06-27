@@ -1,0 +1,72 @@
+{
+  "incident_id": "DR-CON-2024-LODJO-VILLAGE-U529408",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    2.066667,
+    30.016667
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    30.007678,
+    2.057623,
+    30.025656,
+    2.075711
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2024-06-15",
+      "cloud": 36.25,
+      "file": "2024-06-15.jpg",
+      "layers": {
+        "nir": "2024-06-15_nir.jpg",
+        "swir": "2024-06-15_swir.jpg",
+        "ndvi": "2024-06-15_ndvi.jpg",
+        "nbr": "2024-06-15_nbr.jpg"
+      }
+    },
+    {
+      "date": "2024-06-20",
+      "cloud": 10.96,
+      "file": "2024-06-20.jpg",
+      "layers": {
+        "nir": "2024-06-20_nir.jpg",
+        "swir": "2024-06-20_swir.jpg",
+        "ndvi": "2024-06-20_ndvi.jpg",
+        "nbr": "2024-06-20_nbr.jpg"
+      }
+    },
+    {
+      "date": "2024-06-25",
+      "cloud": 0.06,
+      "file": "2024-06-25.jpg",
+      "layers": {
+        "nir": "2024-06-25_nir.jpg",
+        "swir": "2024-06-25_swir.jpg",
+        "ndvi": "2024-06-25_ndvi.jpg",
+        "nbr": "2024-06-25_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2024-05-21",
+      "2024-06-19"
+    ],
+    "post": [
+      "2024-06-21",
+      "2024-07-20"
+    ]
+  }
+}

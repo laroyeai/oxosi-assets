@@ -1,0 +1,61 @@
+{
+  "incident_id": "NC-2024-GBAGIR-VILLAGE-U518147",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    7.646266,
+    9.528889
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    9.519825,
+    7.637222,
+    9.537953,
+    7.65531
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2024-03-04",
+      "cloud": 1.39,
+      "file": "2024-03-04.jpg",
+      "layers": {
+        "nir": "2024-03-04_nir.jpg",
+        "swir": "2024-03-04_swir.jpg",
+        "ndvi": "2024-03-04_ndvi.jpg",
+        "nbr": "2024-03-04_nbr.jpg"
+      }
+    },
+    {
+      "date": "2024-03-09",
+      "cloud": 85.36,
+      "file": "2024-03-09.jpg",
+      "layers": {
+        "nir": "2024-03-09_nir.jpg",
+        "swir": "2024-03-09_swir.jpg",
+        "ndvi": "2024-03-09_ndvi.jpg",
+        "nbr": "2024-03-09_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2024-02-04",
+      "2024-03-04"
+    ],
+    "post": [
+      "2024-03-06",
+      "2024-04-04"
+    ]
+  }
+}

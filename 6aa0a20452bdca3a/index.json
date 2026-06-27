@@ -1,0 +1,72 @@
+{
+  "incident_id": "DR-CON-2025-KAMISIMBI-VILLAGE-U588319",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    -2.580887,
+    28.810035
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    28.801043,
+    -2.589931,
+    28.819027,
+    -2.571843
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2025-07-15",
+      "cloud": 99.798572,
+      "file": "2025-07-15.jpg",
+      "layers": {
+        "nir": "2025-07-15_nir.jpg",
+        "swir": "2025-07-15_swir.jpg",
+        "ndvi": "2025-07-15_ndvi.jpg",
+        "nbr": "2025-07-15_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-07-17",
+      "cloud": 93.307966,
+      "file": "2025-07-17.jpg",
+      "layers": {
+        "nir": "2025-07-17_nir.jpg",
+        "swir": "2025-07-17_swir.jpg",
+        "ndvi": "2025-07-17_ndvi.jpg",
+        "nbr": "2025-07-17_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-07-20",
+      "cloud": 39.221194,
+      "file": "2025-07-20.jpg",
+      "layers": {
+        "nir": "2025-07-20_nir.jpg",
+        "swir": "2025-07-20_swir.jpg",
+        "ndvi": "2025-07-20_ndvi.jpg",
+        "nbr": "2025-07-20_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2025-06-17",
+      "2025-07-16"
+    ],
+    "post": [
+      "2025-07-18",
+      "2025-08-16"
+    ]
+  }
+}

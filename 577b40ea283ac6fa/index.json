@@ -1,0 +1,88 @@
+{
+  "incident_id": "CHAD-2019-KAIGA-TOWN-U321732",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    13.377031,
+    14.530923
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    14.521689,
+    13.367987,
+    14.540157,
+    13.386075
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2019-12-10",
+      "cloud": 10.11,
+      "file": "2019-12-10.jpg",
+      "layers": {
+        "nir": "2019-12-10_nir.jpg",
+        "swir": "2019-12-10_swir.jpg",
+        "ndvi": "2019-12-10_ndvi.jpg",
+        "nbr": "2019-12-10_nbr.jpg"
+      }
+    },
+    {
+      "date": "2019-12-15",
+      "cloud": 4.41,
+      "file": "2019-12-15.jpg",
+      "layers": {
+        "nir": "2019-12-15_nir.jpg",
+        "swir": "2019-12-15_swir.jpg",
+        "ndvi": "2019-12-15_ndvi.jpg",
+        "nbr": "2019-12-15_nbr.jpg"
+      }
+    },
+    {
+      "date": "2019-12-20",
+      "cloud": 0.01,
+      "file": "2019-12-20.jpg",
+      "layers": {
+        "nir": "2019-12-20_nir.jpg",
+        "swir": "2019-12-20_swir.jpg",
+        "ndvi": "2019-12-20_ndvi.jpg",
+        "nbr": "2019-12-20_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2019-11-17",
+      "2019-12-16"
+    ],
+    "post": [
+      "2019-12-18",
+      "2020-01-16"
+    ]
+  },
+  "superres": {
+    "file": "superres.jpg",
+    "frames": 8,
+    "scale": 3,
+    "eff_m_px": 3.3,
+    "dates": [
+      "2019-11-30",
+      "2020-01-09",
+      "2020-01-14",
+      "2020-01-19",
+      "2019-12-20",
+      "2020-02-03",
+      "2019-12-10",
+      "2019-12-25"
+    ]
+  }
+}

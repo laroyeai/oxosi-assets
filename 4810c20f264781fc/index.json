@@ -1,0 +1,72 @@
+{
+  "incident_id": "DR-CON-2018-MANGOLIKENE-VILLAGE-U274250",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    0.47172,
+    29.501853
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    29.49287,
+    0.462676,
+    29.510836,
+    0.480764
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2018-11-29",
+      "cloud": 46.73,
+      "file": "2018-11-29.jpg",
+      "layers": {
+        "nir": "2018-11-29_nir.jpg",
+        "swir": "2018-11-29_swir.jpg",
+        "ndvi": "2018-11-29_ndvi.jpg",
+        "nbr": "2018-11-29_nbr.jpg"
+      }
+    },
+    {
+      "date": "2018-12-04",
+      "cloud": 97.45,
+      "file": "2018-12-04.jpg",
+      "layers": {
+        "nir": "2018-12-04_nir.jpg",
+        "swir": "2018-12-04_swir.jpg",
+        "ndvi": "2018-12-04_ndvi.jpg",
+        "nbr": "2018-12-04_nbr.jpg"
+      }
+    },
+    {
+      "date": "2018-12-09",
+      "cloud": 99.91,
+      "file": "2018-12-09.jpg",
+      "layers": {
+        "nir": "2018-12-09_nir.jpg",
+        "swir": "2018-12-09_swir.jpg",
+        "ndvi": "2018-12-09_ndvi.jpg",
+        "nbr": "2018-12-09_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2018-11-06",
+      "2018-12-05"
+    ],
+    "post": [
+      "2018-12-07",
+      "2019-01-05"
+    ]
+  }
+}

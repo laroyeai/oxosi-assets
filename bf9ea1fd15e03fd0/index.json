@@ -1,0 +1,72 @@
+{
+  "incident_id": "NC-2022-BASSA-LGA-U427681",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    9.93333,
+    8.73333
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    8.72421,
+    9.924286,
+    8.74245,
+    9.942374
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2022-01-04",
+      "cloud": 64.010167,
+      "file": "2022-01-04.jpg",
+      "layers": {
+        "nir": "2022-01-04_nir.jpg",
+        "swir": "2022-01-04_swir.jpg",
+        "ndvi": "2022-01-04_ndvi.jpg",
+        "nbr": "2022-01-04_nbr.jpg"
+      }
+    },
+    {
+      "date": "2022-01-09",
+      "cloud": 0.022037,
+      "file": "2022-01-09.jpg",
+      "layers": {
+        "nir": "2022-01-09_nir.jpg",
+        "swir": "2022-01-09_swir.jpg",
+        "ndvi": "2022-01-09_ndvi.jpg",
+        "nbr": "2022-01-09_nbr.jpg"
+      }
+    },
+    {
+      "date": "2022-01-14",
+      "cloud": 65.58401,
+      "file": "2022-01-14.jpg",
+      "layers": {
+        "nir": "2022-01-14_nir.jpg",
+        "swir": "2022-01-14_swir.jpg",
+        "ndvi": "2022-01-14_ndvi.jpg",
+        "nbr": "2022-01-14_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2021-12-12",
+      "2022-01-10"
+    ],
+    "post": [
+      "2022-01-12",
+      "2022-02-10"
+    ]
+  }
+}

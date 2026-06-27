@@ -1,0 +1,72 @@
+{
+  "incident_id": "NC-2025-TIM-VILLAGE-U590792",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    9.096034,
+    9.168809
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    9.159711,
+    9.08699,
+    9.177907,
+    9.105078
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2025-08-16",
+      "cloud": 70.768142,
+      "file": "2025-08-16.jpg",
+      "layers": {
+        "nir": "2025-08-16_nir.jpg",
+        "swir": "2025-08-16_swir.jpg",
+        "ndvi": "2025-08-16_ndvi.jpg",
+        "nbr": "2025-08-16_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-08-21",
+      "cloud": 60.25359,
+      "file": "2025-08-21.jpg",
+      "layers": {
+        "nir": "2025-08-21_nir.jpg",
+        "swir": "2025-08-21_swir.jpg",
+        "ndvi": "2025-08-21_ndvi.jpg",
+        "nbr": "2025-08-21_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-08-23",
+      "cloud": 65.904838,
+      "file": "2025-08-23.jpg",
+      "layers": {
+        "nir": "2025-08-23_nir.jpg",
+        "swir": "2025-08-23_swir.jpg",
+        "ndvi": "2025-08-23_ndvi.jpg",
+        "nbr": "2025-08-23_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2025-07-20",
+      "2025-08-18"
+    ],
+    "post": [
+      "2025-08-20",
+      "2025-09-18"
+    ]
+  }
+}

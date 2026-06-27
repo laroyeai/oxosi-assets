@@ -1,0 +1,72 @@
+{
+  "incident_id": "SW-2021-IGANGAN",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    7.71,
+    3.27
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    3.260935,
+    7.700956,
+    3.279065,
+    7.719044
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2021-05-30",
+      "cloud": 93.15,
+      "file": "2021-05-30.jpg",
+      "layers": {
+        "nir": "2021-05-30_nir.jpg",
+        "swir": "2021-05-30_swir.jpg",
+        "ndvi": "2021-05-30_ndvi.jpg",
+        "nbr": "2021-05-30_nbr.jpg"
+      }
+    },
+    {
+      "date": "2021-06-04",
+      "cloud": 95.88,
+      "file": "2021-06-04.jpg",
+      "layers": {
+        "nir": "2021-06-04_nir.jpg",
+        "swir": "2021-06-04_swir.jpg",
+        "ndvi": "2021-06-04_ndvi.jpg",
+        "nbr": "2021-06-04_nbr.jpg"
+      }
+    },
+    {
+      "date": "2021-06-09",
+      "cloud": 69.42,
+      "file": "2021-06-09.jpg",
+      "layers": {
+        "nir": "2021-06-09_nir.jpg",
+        "swir": "2021-06-09_swir.jpg",
+        "ndvi": "2021-06-09_ndvi.jpg",
+        "nbr": "2021-06-09_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2021-05-06",
+      "2021-06-04"
+    ],
+    "post": [
+      "2021-06-06",
+      "2021-07-05"
+    ]
+  }
+}

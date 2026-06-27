@@ -1,0 +1,72 @@
+{
+  "incident_id": "NE-2024-KUKAWA-LGA-U529894",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    12.9163,
+    13.5667
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    13.557484,
+    12.907256,
+    13.575916,
+    12.925344
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2024-06-29",
+      "cloud": 29.0,
+      "file": "2024-06-29.jpg",
+      "layers": {
+        "nir": "2024-06-29_nir.jpg",
+        "swir": "2024-06-29_swir.jpg",
+        "ndvi": "2024-06-29_ndvi.jpg",
+        "nbr": "2024-06-29_nbr.jpg"
+      }
+    },
+    {
+      "date": "2024-07-04",
+      "cloud": 93.99,
+      "file": "2024-07-04.jpg",
+      "layers": {
+        "nir": "2024-07-04_nir.jpg",
+        "swir": "2024-07-04_swir.jpg",
+        "ndvi": "2024-07-04_ndvi.jpg",
+        "nbr": "2024-07-04_nbr.jpg"
+      }
+    },
+    {
+      "date": "2024-07-09",
+      "cloud": 62.25,
+      "file": "2024-07-09.jpg",
+      "layers": {
+        "nir": "2024-07-09_nir.jpg",
+        "swir": "2024-07-09_swir.jpg",
+        "ndvi": "2024-07-09_ndvi.jpg",
+        "nbr": "2024-07-09_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2024-06-06",
+      "2024-07-05"
+    ],
+    "post": [
+      "2024-07-07",
+      "2024-08-05"
+    ]
+  }
+}

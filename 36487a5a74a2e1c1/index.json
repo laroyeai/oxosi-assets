@@ -1,0 +1,80 @@
+{
+  "incident_id": "DR-CON-2020-RWAMPARA-VILLAGE-U370459",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    1.54351,
+    30.17539
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    30.166404,
+    1.534466,
+    30.184376,
+    1.552554
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2020-11-28",
+      "cloud": 65.04,
+      "file": "2020-11-28.jpg",
+      "layers": {
+        "nir": "2020-11-28_nir.jpg",
+        "swir": "2020-11-28_swir.jpg",
+        "ndvi": "2020-11-28_ndvi.jpg",
+        "nbr": "2020-11-28_nbr.jpg"
+      }
+    },
+    {
+      "date": "2020-12-03",
+      "cloud": 99.22,
+      "file": "2020-12-03.jpg",
+      "layers": {
+        "nir": "2020-12-03_nir.jpg",
+        "swir": "2020-12-03_swir.jpg",
+        "ndvi": "2020-12-03_ndvi.jpg",
+        "nbr": "2020-12-03_nbr.jpg"
+      }
+    },
+    {
+      "date": "2020-12-08",
+      "cloud": 78.85,
+      "file": "2020-12-08.jpg",
+      "layers": {
+        "nir": "2020-12-08_nir.jpg",
+        "swir": "2020-12-08_swir.jpg",
+        "ndvi": "2020-12-08_ndvi.jpg",
+        "nbr": "2020-12-08_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2020-11-04",
+      "2020-12-03"
+    ],
+    "post": [
+      "2020-12-05",
+      "2021-01-03"
+    ]
+  },
+  "hls_attempted": true,
+  "hls": {
+    "file": "hls.jpg",
+    "date": "2020-12-13",
+    "scene_id": "HLS.S30.T35NRB.2020348T081239.v2.0",
+    "collection": "HLSS30_2.0",
+    "cloud_pct": 10
+  }
+}

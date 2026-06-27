@@ -1,0 +1,72 @@
+{
+  "incident_id": "DR-CON-2022-BOKU-VILLAGE-U456111",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    -3.9,
+    16.95
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    16.940996,
+    -3.909044,
+    16.959004,
+    -3.890956
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2022-11-03",
+      "cloud": 66.112548,
+      "file": "2022-11-03.jpg",
+      "layers": {
+        "nir": "2022-11-03_nir.jpg",
+        "swir": "2022-11-03_swir.jpg",
+        "ndvi": "2022-11-03_ndvi.jpg",
+        "nbr": "2022-11-03_nbr.jpg"
+      }
+    },
+    {
+      "date": "2022-11-08",
+      "cloud": 44.363678,
+      "file": "2022-11-08.jpg",
+      "layers": {
+        "nir": "2022-11-08_nir.jpg",
+        "swir": "2022-11-08_swir.jpg",
+        "ndvi": "2022-11-08_ndvi.jpg",
+        "nbr": "2022-11-08_nbr.jpg"
+      }
+    },
+    {
+      "date": "2022-11-13",
+      "cloud": 78.46418000000001,
+      "file": "2022-11-13.jpg",
+      "layers": {
+        "nir": "2022-11-13_nir.jpg",
+        "swir": "2022-11-13_swir.jpg",
+        "ndvi": "2022-11-13_ndvi.jpg",
+        "nbr": "2022-11-13_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2022-10-08",
+      "2022-11-06"
+    ],
+    "post": [
+      "2022-11-08",
+      "2022-12-07"
+    ]
+  }
+}

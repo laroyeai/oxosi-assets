@@ -1,0 +1,72 @@
+{
+  "incident_id": "NE-2025-DARUL-JAMEL-VILLAGE-U595782",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    11.32643,
+    13.96658
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    13.957418,
+    11.317386,
+    13.975742,
+    11.335474
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2025-08-30",
+      "cloud": 99.744374,
+      "file": "2025-08-30.jpg",
+      "layers": {
+        "nir": "2025-08-30_nir.jpg",
+        "swir": "2025-08-30_swir.jpg",
+        "ndvi": "2025-08-30_ndvi.jpg",
+        "nbr": "2025-08-30_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-09-04",
+      "cloud": 72.604018,
+      "file": "2025-09-04.jpg",
+      "layers": {
+        "nir": "2025-09-04_nir.jpg",
+        "swir": "2025-09-04_swir.jpg",
+        "ndvi": "2025-09-04_ndvi.jpg",
+        "nbr": "2025-09-04_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-09-06",
+      "cloud": 7.338012,
+      "file": "2025-09-06.jpg",
+      "layers": {
+        "nir": "2025-09-06_nir.jpg",
+        "swir": "2025-09-06_swir.jpg",
+        "ndvi": "2025-09-06_ndvi.jpg",
+        "nbr": "2025-09-06_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2025-08-06",
+      "2025-09-04"
+    ],
+    "post": [
+      "2025-09-06",
+      "2025-10-05"
+    ]
+  }
+}

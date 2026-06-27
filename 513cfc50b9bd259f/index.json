@@ -1,0 +1,72 @@
+{
+  "incident_id": "MOZAMB-2020-24-DE-MARCO-VILLAGE-U364595",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    -11.780846,
+    39.828563
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    39.819387,
+    -11.78989,
+    39.837739,
+    -11.771802
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2020-10-24",
+      "cloud": 40.72,
+      "file": "2020-10-24.jpg",
+      "layers": {
+        "nir": "2020-10-24_nir.jpg",
+        "swir": "2020-10-24_swir.jpg",
+        "ndvi": "2020-10-24_ndvi.jpg",
+        "nbr": "2020-10-24_nbr.jpg"
+      }
+    },
+    {
+      "date": "2020-10-29",
+      "cloud": 21.77,
+      "file": "2020-10-29.jpg",
+      "layers": {
+        "nir": "2020-10-29_nir.jpg",
+        "swir": "2020-10-29_swir.jpg",
+        "ndvi": "2020-10-29_ndvi.jpg",
+        "nbr": "2020-10-29_nbr.jpg"
+      }
+    },
+    {
+      "date": "2020-11-03",
+      "cloud": 30.96,
+      "file": "2020-11-03.jpg",
+      "layers": {
+        "nir": "2020-11-03_nir.jpg",
+        "swir": "2020-11-03_swir.jpg",
+        "ndvi": "2020-11-03_ndvi.jpg",
+        "nbr": "2020-11-03_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2020-10-01",
+      "2020-10-30"
+    ],
+    "post": [
+      "2020-11-01",
+      "2020-11-30"
+    ]
+  }
+}

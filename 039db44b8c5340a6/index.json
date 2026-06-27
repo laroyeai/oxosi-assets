@@ -1,0 +1,72 @@
+{
+  "incident_id": "BURKIN-2020-DINGUILA-VILLAGE-U335252",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    13.87097,
+    -2.27047
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    -2.279723,
+    13.861926,
+    -2.261217,
+    13.880014
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2020-03-05",
+      "cloud": 0.0,
+      "file": "2020-03-05.jpg",
+      "layers": {
+        "nir": "2020-03-05_nir.jpg",
+        "swir": "2020-03-05_swir.jpg",
+        "ndvi": "2020-03-05_ndvi.jpg",
+        "nbr": "2020-03-05_nbr.jpg"
+      }
+    },
+    {
+      "date": "2020-03-10",
+      "cloud": 78.23,
+      "file": "2020-03-10.jpg",
+      "layers": {
+        "nir": "2020-03-10_nir.jpg",
+        "swir": "2020-03-10_swir.jpg",
+        "ndvi": "2020-03-10_ndvi.jpg",
+        "nbr": "2020-03-10_nbr.jpg"
+      }
+    },
+    {
+      "date": "2020-03-15",
+      "cloud": 92.53,
+      "file": "2020-03-15.jpg",
+      "layers": {
+        "nir": "2020-03-15_nir.jpg",
+        "swir": "2020-03-15_swir.jpg",
+        "ndvi": "2020-03-15_ndvi.jpg",
+        "nbr": "2020-03-15_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2020-02-07",
+      "2020-03-07"
+    ],
+    "post": [
+      "2020-03-09",
+      "2020-04-07"
+    ]
+  }
+}

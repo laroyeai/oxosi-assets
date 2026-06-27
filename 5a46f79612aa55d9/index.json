@@ -1,0 +1,72 @@
+{
+  "incident_id": "DR-CON-2025-BINZA-GROUPEMENT-U591405",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    -0.85,
+    29.55
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    29.541016,
+    -0.859044,
+    29.558984,
+    -0.840956
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2025-07-30",
+      "cloud": 0.147246,
+      "file": "2025-07-30.jpg",
+      "layers": {
+        "nir": "2025-07-30_nir.jpg",
+        "swir": "2025-07-30_swir.jpg",
+        "ndvi": "2025-07-30_ndvi.jpg",
+        "nbr": "2025-07-30_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-08-04",
+      "cloud": 39.541358,
+      "file": "2025-08-04.jpg",
+      "layers": {
+        "nir": "2025-08-04_nir.jpg",
+        "swir": "2025-08-04_swir.jpg",
+        "ndvi": "2025-08-04_ndvi.jpg",
+        "nbr": "2025-08-04_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-08-06",
+      "cloud": 42.340404,
+      "file": "2025-08-06.jpg",
+      "layers": {
+        "nir": "2025-08-06_nir.jpg",
+        "swir": "2025-08-06_swir.jpg",
+        "ndvi": "2025-08-06_ndvi.jpg",
+        "nbr": "2025-08-06_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2025-06-30",
+      "2025-07-29"
+    ],
+    "post": [
+      "2025-07-31",
+      "2025-08-29"
+    ]
+  }
+}

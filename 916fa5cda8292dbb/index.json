@@ -1,0 +1,72 @@
+{
+  "incident_id": "BURKIN-2023-KOMPIENGA-TOWN-U476450",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    11.082188,
+    0.723855
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    0.714701,
+    11.073144,
+    0.733009,
+    11.091232
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2023-05-16",
+      "cloud": 40.88,
+      "file": "2023-05-16.jpg",
+      "layers": {
+        "nir": "2023-05-16_nir.jpg",
+        "swir": "2023-05-16_swir.jpg",
+        "ndvi": "2023-05-16_ndvi.jpg",
+        "nbr": "2023-05-16_nbr.jpg"
+      }
+    },
+    {
+      "date": "2023-05-21",
+      "cloud": 98.37,
+      "file": "2023-05-21.jpg",
+      "layers": {
+        "nir": "2023-05-21_nir.jpg",
+        "swir": "2023-05-21_swir.jpg",
+        "ndvi": "2023-05-21_ndvi.jpg",
+        "nbr": "2023-05-21_nbr.jpg"
+      }
+    },
+    {
+      "date": "2023-05-26",
+      "cloud": 5.18,
+      "file": "2023-05-26.jpg",
+      "layers": {
+        "nir": "2023-05-26_nir.jpg",
+        "swir": "2023-05-26_swir.jpg",
+        "ndvi": "2023-05-26_ndvi.jpg",
+        "nbr": "2023-05-26_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2023-04-21",
+      "2023-05-20"
+    ],
+    "post": [
+      "2023-05-22",
+      "2023-06-20"
+    ]
+  }
+}

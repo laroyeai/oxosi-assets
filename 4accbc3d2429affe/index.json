@@ -1,0 +1,72 @@
+{
+  "incident_id": "MOZAMB-2018-CHICUAIA-VILLAGE-U272020",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    -11.251389,
+    39.625
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    39.615841,
+    -11.260433,
+    39.634159,
+    -11.242345
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2018-11-19",
+      "cloud": 62.1,
+      "file": "2018-11-19.jpg",
+      "layers": {
+        "nir": "2018-11-19_nir.jpg",
+        "swir": "2018-11-19_swir.jpg",
+        "ndvi": "2018-11-19_ndvi.jpg",
+        "nbr": "2018-11-19_nbr.jpg"
+      }
+    },
+    {
+      "date": "2018-11-24",
+      "cloud": 61.81,
+      "file": "2018-11-24.jpg",
+      "layers": {
+        "nir": "2018-11-24_nir.jpg",
+        "swir": "2018-11-24_swir.jpg",
+        "ndvi": "2018-11-24_ndvi.jpg",
+        "nbr": "2018-11-24_nbr.jpg"
+      }
+    },
+    {
+      "date": "2018-11-29",
+      "cloud": 46.37,
+      "file": "2018-11-29.jpg",
+      "layers": {
+        "nir": "2018-11-29_nir.jpg",
+        "swir": "2018-11-29_swir.jpg",
+        "ndvi": "2018-11-29_ndvi.jpg",
+        "nbr": "2018-11-29_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2018-10-24",
+      "2018-11-22"
+    ],
+    "post": [
+      "2018-11-24",
+      "2018-12-23"
+    ]
+  }
+}

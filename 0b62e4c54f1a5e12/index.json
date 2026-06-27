@@ -1,0 +1,61 @@
+{
+  "incident_id": "NE-2016-DAMBOA-LGA-U218896",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    11.1554,
+    12.7555
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    12.746344,
+    11.146356,
+    12.764656,
+    11.164444
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2016-02-07",
+      "cloud": 19.98,
+      "file": "2016-02-07.jpg",
+      "layers": {
+        "nir": "2016-02-07_nir.jpg",
+        "swir": "2016-02-07_swir.jpg",
+        "ndvi": "2016-02-07_ndvi.jpg",
+        "nbr": "2016-02-07_nbr.jpg"
+      }
+    },
+    {
+      "date": "2016-02-17",
+      "cloud": 51.05,
+      "file": "2016-02-17.jpg",
+      "layers": {
+        "nir": "2016-02-17_nir.jpg",
+        "swir": "2016-02-17_swir.jpg",
+        "ndvi": "2016-02-17_ndvi.jpg",
+        "nbr": "2016-02-17_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2016-01-14",
+      "2016-02-12"
+    ],
+    "post": [
+      "2016-02-14",
+      "2016-03-14"
+    ]
+  }
+}

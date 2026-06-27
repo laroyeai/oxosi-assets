@@ -1,0 +1,72 @@
+{
+  "incident_id": "MALI-2018-IN-JAGALANE-LOCALITY-U260108",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    15.83638,
+    1.90217
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    1.892832,
+    15.827336,
+    1.911508,
+    15.845424
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2018-07-11",
+      "cloud": 0.03,
+      "file": "2018-07-11.jpg",
+      "layers": {
+        "nir": "2018-07-11_nir.jpg",
+        "swir": "2018-07-11_swir.jpg",
+        "ndvi": "2018-07-11_ndvi.jpg",
+        "nbr": "2018-07-11_nbr.jpg"
+      }
+    },
+    {
+      "date": "2018-07-16",
+      "cloud": 39.44,
+      "file": "2018-07-16.jpg",
+      "layers": {
+        "nir": "2018-07-16_nir.jpg",
+        "swir": "2018-07-16_swir.jpg",
+        "ndvi": "2018-07-16_ndvi.jpg",
+        "nbr": "2018-07-16_nbr.jpg"
+      }
+    },
+    {
+      "date": "2018-07-21",
+      "cloud": 2.01,
+      "file": "2018-07-21.jpg",
+      "layers": {
+        "nir": "2018-07-21_nir.jpg",
+        "swir": "2018-07-21_swir.jpg",
+        "ndvi": "2018-07-21_ndvi.jpg",
+        "nbr": "2018-07-21_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2018-06-15",
+      "2018-07-14"
+    ],
+    "post": [
+      "2018-07-16",
+      "2018-08-14"
+    ]
+  }
+}

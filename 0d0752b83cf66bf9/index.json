@@ -1,0 +1,69 @@
+{
+  "incident_id": "MALI-2022-TABONKORT-VILLAGE-U436922",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    15.3826,
+    2.1009
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    2.091583,
+    15.373556,
+    2.110217,
+    15.391644
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2022-03-09",
+      "cloud": 60.532713,
+      "file": "2022-03-09.jpg",
+      "layers": {
+        "nir": "2022-03-09_nir.jpg",
+        "swir": "2022-03-09_swir.jpg",
+        "ndvi": "2022-03-09_ndvi.jpg",
+        "nbr": "2022-03-09_nbr.jpg"
+      }
+    },
+    {
+      "date": "2022-03-14",
+      "cloud": 44.135788,
+      "file": "2022-03-14.jpg",
+      "layers": {
+        "nir": "2022-03-14_nir.jpg",
+        "swir": "2022-03-14_swir.jpg",
+        "ndvi": "2022-03-14_ndvi.jpg",
+        "nbr": "2022-03-14_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2022-02-13",
+      "2022-03-14"
+    ],
+    "post": [
+      "2022-03-16",
+      "2022-04-14"
+    ]
+  },
+  "hls_attempted": true,
+  "hls": {
+    "file": "hls.jpg",
+    "date": "2022-03-24",
+    "scene_id": "HLS.S30.T31PDT.2022083T100649.v2.0",
+    "collection": "HLSS30_2.0",
+    "cloud_pct": 0
+  }
+}

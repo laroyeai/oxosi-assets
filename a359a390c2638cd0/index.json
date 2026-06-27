@@ -1,0 +1,80 @@
+{
+  "incident_id": "NE-2019-VAASE-VILLAGE-U284637",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    7.8878,
+    9.55641
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    9.547341,
+    7.878756,
+    9.565479,
+    7.896844
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2019-03-31",
+      "cloud": 26.87,
+      "file": "2019-03-31.jpg",
+      "layers": {
+        "nir": "2019-03-31_nir.jpg",
+        "swir": "2019-03-31_swir.jpg",
+        "ndvi": "2019-03-31_ndvi.jpg",
+        "nbr": "2019-03-31_nbr.jpg"
+      }
+    },
+    {
+      "date": "2019-04-05",
+      "cloud": 86.82,
+      "file": "2019-04-05.jpg",
+      "layers": {
+        "nir": "2019-04-05_nir.jpg",
+        "swir": "2019-04-05_swir.jpg",
+        "ndvi": "2019-04-05_ndvi.jpg",
+        "nbr": "2019-04-05_nbr.jpg"
+      }
+    },
+    {
+      "date": "2019-04-10",
+      "cloud": 99.0,
+      "file": "2019-04-10.jpg",
+      "layers": {
+        "nir": "2019-04-10_nir.jpg",
+        "swir": "2019-04-10_swir.jpg",
+        "ndvi": "2019-04-10_ndvi.jpg",
+        "nbr": "2019-04-10_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2019-03-06",
+      "2019-04-04"
+    ],
+    "post": [
+      "2019-04-06",
+      "2019-05-05"
+    ]
+  },
+  "hls_attempted": true,
+  "hls": {
+    "file": "hls.jpg",
+    "date": "2019-03-31",
+    "scene_id": "HLS.S30.T32NNP.2019090T094039.v2.0",
+    "collection": "HLSS30_2.0",
+    "cloud_pct": 22
+  }
+}

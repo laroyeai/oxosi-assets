@@ -1,0 +1,72 @@
+{
+  "incident_id": "NW-2026-DUTSIN-MA-LGA-U631832",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    12.4539,
+    7.4972
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    7.488,
+    12.444856,
+    7.5064,
+    12.462944
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2026-05-31",
+      "cloud": 25.63,
+      "file": "2026-05-31.jpg",
+      "layers": {
+        "nir": "2026-05-31_nir.jpg",
+        "swir": "2026-05-31_swir.jpg",
+        "ndvi": "2026-05-31_ndvi.jpg",
+        "nbr": "2026-05-31_nbr.jpg"
+      }
+    },
+    {
+      "date": "2026-06-02",
+      "cloud": 12.12,
+      "file": "2026-06-02.jpg",
+      "layers": {
+        "nir": "2026-06-02_nir.jpg",
+        "swir": "2026-06-02_swir.jpg",
+        "ndvi": "2026-06-02_ndvi.jpg",
+        "nbr": "2026-06-02_nbr.jpg"
+      }
+    },
+    {
+      "date": "2026-06-05",
+      "cloud": 6.17,
+      "file": "2026-06-05.jpg",
+      "layers": {
+        "nir": "2026-06-05_nir.jpg",
+        "swir": "2026-06-05_swir.jpg",
+        "ndvi": "2026-06-05_ndvi.jpg",
+        "nbr": "2026-06-05_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2026-04-29",
+      "2026-05-28"
+    ],
+    "post": [
+      "2026-05-30",
+      "2026-06-28"
+    ]
+  }
+}

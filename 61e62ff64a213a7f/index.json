@@ -1,0 +1,72 @@
+{
+  "incident_id": "NC-2025-YELWATA",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    7.95,
+    8.55
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    8.54093,
+    7.940956,
+    8.55907,
+    7.959044
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2025-06-07",
+      "cloud": 62.933636,
+      "file": "2025-06-07.jpg",
+      "layers": {
+        "nir": "2025-06-07_nir.jpg",
+        "swir": "2025-06-07_swir.jpg",
+        "ndvi": "2025-06-07_ndvi.jpg",
+        "nbr": "2025-06-07_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-06-12",
+      "cloud": 65.884173,
+      "file": "2025-06-12.jpg",
+      "layers": {
+        "nir": "2025-06-12_nir.jpg",
+        "swir": "2025-06-12_swir.jpg",
+        "ndvi": "2025-06-12_ndvi.jpg",
+        "nbr": "2025-06-12_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-06-17",
+      "cloud": 56.235272,
+      "file": "2025-06-17.jpg",
+      "layers": {
+        "nir": "2025-06-17_nir.jpg",
+        "swir": "2025-06-17_swir.jpg",
+        "ndvi": "2025-06-17_ndvi.jpg",
+        "nbr": "2025-06-17_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2025-05-14",
+      "2025-06-12"
+    ],
+    "post": [
+      "2025-06-14",
+      "2025-07-13"
+    ]
+  }
+}

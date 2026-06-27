@@ -1,0 +1,72 @@
+{
+  "incident_id": "cm_farNorth_2021",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    10.93,
+    13.62
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    13.610851,
+    10.920956,
+    13.629149,
+    10.939044
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2020-11-27",
+      "cloud": 0.0,
+      "file": "2020-11-27.jpg",
+      "layers": {
+        "nir": "2020-11-27_nir.jpg",
+        "swir": "2020-11-27_swir.jpg",
+        "ndvi": "2020-11-27_ndvi.jpg",
+        "nbr": "2020-11-27_nbr.jpg"
+      }
+    },
+    {
+      "date": "2020-12-02",
+      "cloud": 0.01,
+      "file": "2020-12-02.jpg",
+      "layers": {
+        "nir": "2020-12-02_nir.jpg",
+        "swir": "2020-12-02_swir.jpg",
+        "ndvi": "2020-12-02_ndvi.jpg",
+        "nbr": "2020-12-02_nbr.jpg"
+      }
+    },
+    {
+      "date": "2020-12-07",
+      "cloud": 0.0,
+      "file": "2020-12-07.jpg",
+      "layers": {
+        "nir": "2020-12-07_nir.jpg",
+        "swir": "2020-12-07_swir.jpg",
+        "ndvi": "2020-12-07_ndvi.jpg",
+        "nbr": "2020-12-07_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2020-11-01",
+      "2020-11-30"
+    ],
+    "post": [
+      "2020-12-02",
+      "2020-12-31"
+    ]
+  }
+}

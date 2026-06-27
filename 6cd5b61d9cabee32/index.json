@@ -1,0 +1,72 @@
+{
+  "incident_id": "DR-CON-2021-IDOHU-VILLAGE-U410588",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    1.1382,
+    29.6582
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    29.649215,
+    1.129156,
+    29.667185,
+    1.147244
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2021-07-26",
+      "cloud": 97.95,
+      "file": "2021-07-26.jpg",
+      "layers": {
+        "nir": "2021-07-26_nir.jpg",
+        "swir": "2021-07-26_swir.jpg",
+        "ndvi": "2021-07-26_ndvi.jpg",
+        "nbr": "2021-07-26_nbr.jpg"
+      }
+    },
+    {
+      "date": "2021-07-31",
+      "cloud": 86.26,
+      "file": "2021-07-31.jpg",
+      "layers": {
+        "nir": "2021-07-31_nir.jpg",
+        "swir": "2021-07-31_swir.jpg",
+        "ndvi": "2021-07-31_ndvi.jpg",
+        "nbr": "2021-07-31_nbr.jpg"
+      }
+    },
+    {
+      "date": "2021-08-05",
+      "cloud": 69.9,
+      "file": "2021-08-05.jpg",
+      "layers": {
+        "nir": "2021-08-05_nir.jpg",
+        "swir": "2021-08-05_swir.jpg",
+        "ndvi": "2021-08-05_ndvi.jpg",
+        "nbr": "2021-08-05_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2021-07-03",
+      "2021-08-01"
+    ],
+    "post": [
+      "2021-08-03",
+      "2021-09-01"
+    ]
+  }
+}

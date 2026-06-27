@@ -1,0 +1,72 @@
+{
+  "incident_id": "NE-2025-BAGA-VILLAGE-U561620",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    13.09466,
+    13.82343
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    13.814207,
+    13.085616,
+    13.832653,
+    13.103704
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2025-01-05",
+      "cloud": 3.56,
+      "file": "2025-01-05.jpg",
+      "layers": {
+        "nir": "2025-01-05_nir.jpg",
+        "swir": "2025-01-05_swir.jpg",
+        "ndvi": "2025-01-05_ndvi.jpg",
+        "nbr": "2025-01-05_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-01-10",
+      "cloud": 0.0,
+      "file": "2025-01-10.jpg",
+      "layers": {
+        "nir": "2025-01-10_nir.jpg",
+        "swir": "2025-01-10_swir.jpg",
+        "ndvi": "2025-01-10_ndvi.jpg",
+        "nbr": "2025-01-10_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-01-15",
+      "cloud": 1.08,
+      "file": "2025-01-15.jpg",
+      "layers": {
+        "nir": "2025-01-15_nir.jpg",
+        "swir": "2025-01-15_swir.jpg",
+        "ndvi": "2025-01-15_ndvi.jpg",
+        "nbr": "2025-01-15_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2024-12-13",
+      "2025-01-11"
+    ],
+    "post": [
+      "2025-01-13",
+      "2025-02-11"
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "incident_id": "NE-2019-RANN-TOWN-U276441",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    12.28295,
+    14.47243
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    14.463236,
+    12.273906,
+    14.481624,
+    12.291994
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2019-01-24",
+      "cloud": 26.11,
+      "file": "2019-01-24.jpg",
+      "layers": {
+        "nir": "2019-01-24_nir.jpg",
+        "swir": "2019-01-24_swir.jpg",
+        "ndvi": "2019-01-24_ndvi.jpg",
+        "nbr": "2019-01-24_nbr.jpg"
+      }
+    },
+    {
+      "date": "2019-01-29",
+      "cloud": 43.21,
+      "file": "2019-01-29.jpg",
+      "layers": {
+        "nir": "2019-01-29_nir.jpg",
+        "swir": "2019-01-29_swir.jpg",
+        "ndvi": "2019-01-29_ndvi.jpg",
+        "nbr": "2019-01-29_nbr.jpg"
+      }
+    },
+    {
+      "date": "2019-02-03",
+      "cloud": 23.81,
+      "file": "2019-02-03.jpg",
+      "layers": {
+        "nir": "2019-02-03_nir.jpg",
+        "swir": "2019-02-03_swir.jpg",
+        "ndvi": "2019-02-03_ndvi.jpg",
+        "nbr": "2019-02-03_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2018-12-29",
+      "2019-01-27"
+    ],
+    "post": [
+      "2019-01-29",
+      "2019-02-27"
+    ]
+  },
+  "hls": {
+    "file": "hls.jpg",
+    "date": "2019-01-23",
+    "scene_id": "HLS.L30.T33PVP.2019023T092403.v2.0",
+    "collection": "HLSL30_2.0",
+    "cloud_pct": 0
+  }
+}

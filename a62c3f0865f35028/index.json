@@ -1,0 +1,73 @@
+{
+  "incident_id": "DR-CON-2019-MINEMBWE-TOWN-U312311",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    -3.9346,
+    28.7303
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    28.721296,
+    -3.943644,
+    28.739304,
+    -3.925556
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2019-08-26",
+      "cloud": 82.97,
+      "file": "2019-08-26.jpg",
+      "layers": {
+        "nir": "2019-08-26_nir.jpg",
+        "swir": "2019-08-26_swir.jpg",
+        "ndvi": "2019-08-26_ndvi.jpg",
+        "nbr": "2019-08-26_nbr.jpg"
+      }
+    },
+    {
+      "date": "2019-08-31",
+      "cloud": 20.91,
+      "file": "2019-08-31.jpg",
+      "layers": {
+        "nir": "2019-08-31_nir.jpg",
+        "swir": "2019-08-31_swir.jpg",
+        "ndvi": "2019-08-31_ndvi.jpg",
+        "nbr": "2019-08-31_nbr.jpg"
+      }
+    },
+    {
+      "date": "2019-09-05",
+      "cloud": 44.51,
+      "file": "2019-09-05.jpg",
+      "layers": {
+        "nir": "2019-09-05_nir.jpg",
+        "swir": "2019-09-05_swir.jpg",
+        "ndvi": "2019-09-05_ndvi.jpg",
+        "nbr": "2019-09-05_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2019-08-02",
+      "2019-08-31"
+    ],
+    "post": [
+      "2019-09-02",
+      "2019-10-01"
+    ]
+  },
+  "hls_attempted": true
+}

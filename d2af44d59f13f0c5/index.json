@@ -1,0 +1,72 @@
+{
+  "incident_id": "DR-CON-2025-TONGO-GROUPEMENT-U609549",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    -1.08,
+    29.29
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    29.281015,
+    -1.089044,
+    29.298985,
+    -1.070956
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2025-12-12",
+      "cloud": 96.02,
+      "file": "2025-12-12.jpg",
+      "layers": {
+        "nir": "2025-12-12_nir.jpg",
+        "swir": "2025-12-12_swir.jpg",
+        "ndvi": "2025-12-12_ndvi.jpg",
+        "nbr": "2025-12-12_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-12-22",
+      "cloud": 52.44,
+      "file": "2025-12-22.jpg",
+      "layers": {
+        "nir": "2025-12-22_nir.jpg",
+        "swir": "2025-12-22_swir.jpg",
+        "ndvi": "2025-12-22_ndvi.jpg",
+        "nbr": "2025-12-22_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-12-24",
+      "cloud": 56.27,
+      "file": "2025-12-24.jpg",
+      "layers": {
+        "nir": "2025-12-24_nir.jpg",
+        "swir": "2025-12-24_swir.jpg",
+        "ndvi": "2025-12-24_ndvi.jpg",
+        "nbr": "2025-12-24_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2025-11-18",
+      "2025-12-17"
+    ],
+    "post": [
+      "2025-12-19",
+      "2026-01-17"
+    ]
+  }
+}

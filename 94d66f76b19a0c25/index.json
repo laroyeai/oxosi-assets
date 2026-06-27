@@ -1,0 +1,84 @@
+{
+  "incident_id": "NE-2022-GWOZA-TOWN-U456870",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    11.103593,
+    13.712982
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    13.703828,
+    11.094549,
+    13.722136,
+    11.112637
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2022-11-04",
+      "cloud": 9.668713,
+      "file": "2022-11-04.jpg",
+      "layers": {
+        "nir": "2022-11-04_nir.jpg",
+        "swir": "2022-11-04_swir.jpg",
+        "ndvi": "2022-11-04_ndvi.jpg",
+        "nbr": "2022-11-04_nbr.jpg"
+      }
+    },
+    {
+      "date": "2022-11-09",
+      "cloud": 12.722024,
+      "file": "2022-11-09.jpg",
+      "layers": {
+        "nir": "2022-11-09_nir.jpg",
+        "swir": "2022-11-09_swir.jpg",
+        "ndvi": "2022-11-09_ndvi.jpg",
+        "nbr": "2022-11-09_nbr.jpg"
+      }
+    },
+    {
+      "date": "2022-11-14",
+      "cloud": 0.03605,
+      "file": "2022-11-14.jpg",
+      "layers": {
+        "nir": "2022-11-14_nir.jpg",
+        "swir": "2022-11-14_swir.jpg",
+        "ndvi": "2022-11-14_ndvi.jpg",
+        "nbr": "2022-11-14_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2022-10-11",
+      "2022-11-09"
+    ],
+    "post": [
+      "2022-11-11",
+      "2022-12-10"
+    ]
+  },
+  "superres": {
+    "file": "superres.jpg",
+    "frames": 4,
+    "scale": 3,
+    "eff_m_px": 3.3,
+    "dates": [
+      "2023-01-03",
+      "2022-12-29",
+      "2022-11-29",
+      "2022-12-09"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "incident_id": "DR-CON-2023-LULA-LUMENE-SECTEUR-U493414",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    -5.25,
+    16.07
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    16.060979,
+    -5.259044,
+    16.079021,
+    -5.240956
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2023-09-04",
+      "cloud": 0.29,
+      "file": "2023-09-04.jpg",
+      "layers": {
+        "nir": "2023-09-04_nir.jpg",
+        "swir": "2023-09-04_swir.jpg",
+        "ndvi": "2023-09-04_ndvi.jpg",
+        "nbr": "2023-09-04_nbr.jpg"
+      }
+    },
+    {
+      "date": "2023-09-09",
+      "cloud": 99.14,
+      "file": "2023-09-09.jpg",
+      "layers": {
+        "nir": "2023-09-09_nir.jpg",
+        "swir": "2023-09-09_swir.jpg",
+        "ndvi": "2023-09-09_ndvi.jpg",
+        "nbr": "2023-09-09_nbr.jpg"
+      }
+    },
+    {
+      "date": "2023-09-14",
+      "cloud": 82.12,
+      "file": "2023-09-14.jpg",
+      "layers": {
+        "nir": "2023-09-14_nir.jpg",
+        "swir": "2023-09-14_swir.jpg",
+        "ndvi": "2023-09-14_ndvi.jpg",
+        "nbr": "2023-09-14_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2023-08-12",
+      "2023-09-10"
+    ],
+    "post": [
+      "2023-09-12",
+      "2023-10-11"
+    ]
+  }
+}

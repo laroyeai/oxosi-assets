@@ -1,0 +1,72 @@
+{
+  "incident_id": "td_lacChad_2024",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    13.55,
+    13.6
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    13.59076,
+    13.540956,
+    13.60924,
+    13.559044
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2024-10-12",
+      "cloud": 37.81,
+      "file": "2024-10-12.jpg",
+      "layers": {
+        "nir": "2024-10-12_nir.jpg",
+        "swir": "2024-10-12_swir.jpg",
+        "ndvi": "2024-10-12_ndvi.jpg",
+        "nbr": "2024-10-12_nbr.jpg"
+      }
+    },
+    {
+      "date": "2024-10-17",
+      "cloud": 44.44,
+      "file": "2024-10-17.jpg",
+      "layers": {
+        "nir": "2024-10-17_nir.jpg",
+        "swir": "2024-10-17_swir.jpg",
+        "ndvi": "2024-10-17_ndvi.jpg",
+        "nbr": "2024-10-17_nbr.jpg"
+      }
+    },
+    {
+      "date": "2024-10-22",
+      "cloud": 1.27,
+      "file": "2024-10-22.jpg",
+      "layers": {
+        "nir": "2024-10-22_nir.jpg",
+        "swir": "2024-10-22_swir.jpg",
+        "ndvi": "2024-10-22_ndvi.jpg",
+        "nbr": "2024-10-22_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2024-09-15",
+      "2024-10-14"
+    ],
+    "post": [
+      "2024-10-16",
+      "2024-11-14"
+    ]
+  }
+}

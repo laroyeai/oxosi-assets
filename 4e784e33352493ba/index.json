@@ -1,0 +1,72 @@
+{
+  "incident_id": "MALI-2026-DOUGARA-VILLAGE-U629673",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    13.951709,
+    -3.473751
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    -3.483007,
+    13.942665,
+    -3.464495,
+    13.960753
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2026-05-06",
+      "cloud": 0.2,
+      "file": "2026-05-06.jpg",
+      "layers": {
+        "nir": "2026-05-06_nir.jpg",
+        "swir": "2026-05-06_swir.jpg",
+        "ndvi": "2026-05-06_ndvi.jpg",
+        "nbr": "2026-05-06_nbr.jpg"
+      }
+    },
+    {
+      "date": "2026-05-11",
+      "cloud": 0.0,
+      "file": "2026-05-11.jpg",
+      "layers": {
+        "nir": "2026-05-11_nir.jpg",
+        "swir": "2026-05-11_swir.jpg",
+        "ndvi": "2026-05-11_ndvi.jpg",
+        "nbr": "2026-05-11_nbr.jpg"
+      }
+    },
+    {
+      "date": "2026-05-13",
+      "cloud": 0.0,
+      "file": "2026-05-13.jpg",
+      "layers": {
+        "nir": "2026-05-13_nir.jpg",
+        "swir": "2026-05-13_swir.jpg",
+        "ndvi": "2026-05-13_ndvi.jpg",
+        "nbr": "2026-05-13_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2026-04-08",
+      "2026-05-07"
+    ],
+    "post": [
+      "2026-05-09",
+      "2026-06-07"
+    ]
+  }
+}

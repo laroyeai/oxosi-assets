@@ -1,0 +1,72 @@
+{
+  "incident_id": "DR-CON-2022-DADA-VILLAGE-LINGO-D-U460329",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    1.698634,
+    30.304539
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    30.295552,
+    1.68959,
+    30.313526,
+    1.707678
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2022-12-28",
+      "cloud": 13.528883,
+      "file": "2022-12-28.jpg",
+      "layers": {
+        "nir": "2022-12-28_nir.jpg",
+        "swir": "2022-12-28_swir.jpg",
+        "ndvi": "2022-12-28_ndvi.jpg",
+        "nbr": "2022-12-28_nbr.jpg"
+      }
+    },
+    {
+      "date": "2023-01-02",
+      "cloud": 6.87,
+      "file": "2023-01-02.jpg",
+      "layers": {
+        "nir": "2023-01-02_nir.jpg",
+        "swir": "2023-01-02_swir.jpg",
+        "ndvi": "2023-01-02_ndvi.jpg",
+        "nbr": "2023-01-02_nbr.jpg"
+      }
+    },
+    {
+      "date": "2023-01-07",
+      "cloud": 3.94,
+      "file": "2023-01-07.jpg",
+      "layers": {
+        "nir": "2023-01-07_nir.jpg",
+        "swir": "2023-01-07_swir.jpg",
+        "ndvi": "2023-01-07_ndvi.jpg",
+        "nbr": "2023-01-07_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2022-12-01",
+      "2022-12-30"
+    ],
+    "post": [
+      "2023-01-01",
+      "2023-01-30"
+    ]
+  }
+}

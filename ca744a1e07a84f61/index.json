@@ -1,0 +1,72 @@
+{
+  "incident_id": "DR-CON-2024-BANDIBONGI-GROUPMENT-U513825",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    1.09896,
+    29.857421
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    29.848436,
+    1.089916,
+    29.866406,
+    1.108004
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2024-02-11",
+      "cloud": 80.45,
+      "file": "2024-02-11.jpg",
+      "layers": {
+        "nir": "2024-02-11_nir.jpg",
+        "swir": "2024-02-11_swir.jpg",
+        "ndvi": "2024-02-11_ndvi.jpg",
+        "nbr": "2024-02-11_nbr.jpg"
+      }
+    },
+    {
+      "date": "2024-02-16",
+      "cloud": 36.55,
+      "file": "2024-02-16.jpg",
+      "layers": {
+        "nir": "2024-02-16_nir.jpg",
+        "swir": "2024-02-16_swir.jpg",
+        "ndvi": "2024-02-16_ndvi.jpg",
+        "nbr": "2024-02-16_nbr.jpg"
+      }
+    },
+    {
+      "date": "2024-02-21",
+      "cloud": 82.99,
+      "file": "2024-02-21.jpg",
+      "layers": {
+        "nir": "2024-02-21_nir.jpg",
+        "swir": "2024-02-21_swir.jpg",
+        "ndvi": "2024-02-21_ndvi.jpg",
+        "nbr": "2024-02-21_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2024-01-18",
+      "2024-02-16"
+    ],
+    "post": [
+      "2024-02-18",
+      "2024-03-18"
+    ]
+  }
+}

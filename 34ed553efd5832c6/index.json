@@ -1,0 +1,72 @@
+{
+  "incident_id": "DR-CON-2024-ROBINET-VILLAGE-U559462",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    0.135078,
+    28.629608
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    28.620625,
+    0.126034,
+    28.638591,
+    0.144122
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2024-12-15",
+      "cloud": 97.66,
+      "file": "2024-12-15.jpg",
+      "layers": {
+        "nir": "2024-12-15_nir.jpg",
+        "swir": "2024-12-15_swir.jpg",
+        "ndvi": "2024-12-15_ndvi.jpg",
+        "nbr": "2024-12-15_nbr.jpg"
+      }
+    },
+    {
+      "date": "2024-12-20",
+      "cloud": 91.57,
+      "file": "2024-12-20.jpg",
+      "layers": {
+        "nir": "2024-12-20_nir.jpg",
+        "swir": "2024-12-20_swir.jpg",
+        "ndvi": "2024-12-20_ndvi.jpg",
+        "nbr": "2024-12-20_nbr.jpg"
+      }
+    },
+    {
+      "date": "2024-12-25",
+      "cloud": 29.08,
+      "file": "2024-12-25.jpg",
+      "layers": {
+        "nir": "2024-12-25_nir.jpg",
+        "swir": "2024-12-25_swir.jpg",
+        "ndvi": "2024-12-25_ndvi.jpg",
+        "nbr": "2024-12-25_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2024-11-21",
+      "2024-12-20"
+    ],
+    "post": [
+      "2024-12-22",
+      "2025-01-20"
+    ]
+  }
+}

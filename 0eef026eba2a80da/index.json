@@ -1,0 +1,72 @@
+{
+  "incident_id": "DR-CON-2025-AVEYI-VILLAGE-U593602",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    0.702972,
+    29.448194
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    29.43921,
+    0.693928,
+    29.457178,
+    0.712016
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2025-09-03",
+      "cloud": 88.109756,
+      "file": "2025-09-03.jpg",
+      "layers": {
+        "nir": "2025-09-03_nir.jpg",
+        "swir": "2025-09-03_swir.jpg",
+        "ndvi": "2025-09-03_ndvi.jpg",
+        "nbr": "2025-09-03_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-09-08",
+      "cloud": 90.456569,
+      "file": "2025-09-08.jpg",
+      "layers": {
+        "nir": "2025-09-08_nir.jpg",
+        "swir": "2025-09-08_swir.jpg",
+        "ndvi": "2025-09-08_ndvi.jpg",
+        "nbr": "2025-09-08_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-09-13",
+      "cloud": 86.352032,
+      "file": "2025-09-13.jpg",
+      "layers": {
+        "nir": "2025-09-13_nir.jpg",
+        "swir": "2025-09-13_swir.jpg",
+        "ndvi": "2025-09-13_ndvi.jpg",
+        "nbr": "2025-09-13_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2025-08-09",
+      "2025-09-07"
+    ],
+    "post": [
+      "2025-09-09",
+      "2025-10-08"
+    ]
+  }
+}

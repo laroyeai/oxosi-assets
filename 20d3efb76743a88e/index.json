@@ -1,0 +1,80 @@
+{
+  "incident_id": "NE-2023-GUDUMBALI-TOWN-U483504",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    12.94284,
+    13.17831
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    13.169093,
+    12.933796,
+    13.187527,
+    12.951884
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2023-07-20",
+      "cloud": 98.22,
+      "file": "2023-07-20.jpg",
+      "layers": {
+        "nir": "2023-07-20_nir.jpg",
+        "swir": "2023-07-20_swir.jpg",
+        "ndvi": "2023-07-20_ndvi.jpg",
+        "nbr": "2023-07-20_nbr.jpg"
+      }
+    },
+    {
+      "date": "2023-07-25",
+      "cloud": 52.99,
+      "file": "2023-07-25.jpg",
+      "layers": {
+        "nir": "2023-07-25_nir.jpg",
+        "swir": "2023-07-25_swir.jpg",
+        "ndvi": "2023-07-25_ndvi.jpg",
+        "nbr": "2023-07-25_nbr.jpg"
+      }
+    },
+    {
+      "date": "2023-07-30",
+      "cloud": 34.95,
+      "file": "2023-07-30.jpg",
+      "layers": {
+        "nir": "2023-07-30_nir.jpg",
+        "swir": "2023-07-30_swir.jpg",
+        "ndvi": "2023-07-30_ndvi.jpg",
+        "nbr": "2023-07-30_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2023-06-25",
+      "2023-07-24"
+    ],
+    "post": [
+      "2023-07-26",
+      "2023-08-24"
+    ]
+  },
+  "hls_attempted": true,
+  "hls": {
+    "file": "hls.jpg",
+    "date": "2023-07-15",
+    "scene_id": "HLS.S30.T33PUQ.2023196T092559.v2.0",
+    "collection": "HLSS30_2.0",
+    "cloud_pct": 2
+  }
+}

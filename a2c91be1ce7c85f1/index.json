@@ -1,0 +1,73 @@
+{
+  "incident_id": "NE-2025-MUNGA-DOSSO-VILLAGE-U616177",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    9.360046,
+    11.278458
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    11.269354,
+    9.351002,
+    11.287562,
+    9.36909
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2025-05-22",
+      "cloud": 30.317602,
+      "file": "2025-05-22.jpg",
+      "layers": {
+        "nir": "2025-05-22_nir.jpg",
+        "swir": "2025-05-22_swir.jpg",
+        "ndvi": "2025-05-22_ndvi.jpg",
+        "nbr": "2025-05-22_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-05-25",
+      "cloud": 56.873506,
+      "file": "2025-05-25.jpg",
+      "layers": {
+        "nir": "2025-05-25_nir.jpg",
+        "swir": "2025-05-25_swir.jpg",
+        "ndvi": "2025-05-25_ndvi.jpg",
+        "nbr": "2025-05-25_nbr.jpg"
+      }
+    },
+    {
+      "date": "2025-05-30",
+      "cloud": 52.127975,
+      "file": "2025-05-30.jpg",
+      "layers": {
+        "nir": "2025-05-30_nir.jpg",
+        "swir": "2025-05-30_swir.jpg",
+        "ndvi": "2025-05-30_ndvi.jpg",
+        "nbr": "2025-05-30_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2025-04-23",
+      "2025-05-22"
+    ],
+    "post": [
+      "2025-05-24",
+      "2025-06-22"
+    ]
+  },
+  "hls_attempted": true
+}

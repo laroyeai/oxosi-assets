@@ -1,0 +1,72 @@
+{
+  "incident_id": "NE-2021-DABNA-VILLAGE-U409832",
+  "retrospective_context_only": true,
+  "note": "Retrospective Sentinel-2 chips (true-color + derived NIR / SWIR-burn / NDVI / NBR layers, plus a pre/post dNBR burn-severity change) for a documented PAST incident. Landscape context for human pattern analysis only — NOT current-location inference, movement, or targeting (CLAUDE.md bright line).",
+  "generated_utc": "2026-06-25T17:12:39Z",
+  "center_lat_lon": [
+    10.38396,
+    12.82425
+  ],
+  "precise": false,
+  "bbox_west_south_east_north": [
+    12.815117,
+    10.374916,
+    12.833383,
+    10.393004
+  ],
+  "box_km": 2.0,
+  "layers": [
+    "tc",
+    "nir",
+    "swir",
+    "ndvi",
+    "nbr"
+  ],
+  "dates": [
+    {
+      "date": "2021-06-30",
+      "cloud": 38.82,
+      "file": "2021-06-30.jpg",
+      "layers": {
+        "nir": "2021-06-30_nir.jpg",
+        "swir": "2021-06-30_swir.jpg",
+        "ndvi": "2021-06-30_ndvi.jpg",
+        "nbr": "2021-06-30_nbr.jpg"
+      }
+    },
+    {
+      "date": "2021-07-05",
+      "cloud": 58.88,
+      "file": "2021-07-05.jpg",
+      "layers": {
+        "nir": "2021-07-05_nir.jpg",
+        "swir": "2021-07-05_swir.jpg",
+        "ndvi": "2021-07-05_ndvi.jpg",
+        "nbr": "2021-07-05_nbr.jpg"
+      }
+    },
+    {
+      "date": "2021-07-10",
+      "cloud": 83.16,
+      "file": "2021-07-10.jpg",
+      "layers": {
+        "nir": "2021-07-10_nir.jpg",
+        "swir": "2021-07-10_swir.jpg",
+        "ndvi": "2021-07-10_ndvi.jpg",
+        "nbr": "2021-07-10_nbr.jpg"
+      }
+    }
+  ],
+  "dnbr_attempted": true,
+  "dnbr": {
+    "file": "dnbr.jpg",
+    "pre": [
+      "2021-06-07",
+      "2021-07-06"
+    ],
+    "post": [
+      "2021-07-08",
+      "2021-08-06"
+    ]
+  }
+}
